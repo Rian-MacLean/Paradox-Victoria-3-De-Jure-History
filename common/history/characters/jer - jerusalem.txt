@@ -1,0 +1,40 @@
+﻿CHARACTERS = {
+	c:JER = {
+		create_character = {
+			first_name = "Hugh"
+			last_name = "de_Lusignan"
+			ruler = yes
+			ig_leader = yes
+			birth_date = 1803.9.3
+			interest_group = ig_landowners
+			ideology = ideology_jingoist_leader
+			traits = {
+				bigoted
+				brave
+			}
+		}
+		create_character = {
+			first_name = "Philippe"
+			last_name = "Pasteur"
+			age = 46
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			traits = {
+				meticulous
+			}
+		}
+		create_character = {
+			first_name = "Stephane"
+			last_name = "la_Noir"
+			age = 63
+			ig_leader = yes
+			interest_group = ig_devout
+			ideology = ideology_royalist
+			traits = {
+				pious
+				persistent
+			}
+		}
+	}
+}

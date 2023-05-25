@@ -1,0 +1,46 @@
+﻿l_english:
+ RELIGIOUS_SCHOOLS_1:0 "Has law Religious Schools intitution level #variable 1#!"
+ RELIGIOUS_SCHOOLS_2:0 "Has law Religious Schools intitution level #variable 1#!"
+ RELIGIOUS_SCHOOLS_3:0 "Has law Religious Schools intitution level #variable 1#!"
+ RELIGIOUS_SCHOOLS_4:0 "Has law Religious Schools intitution level #variable 1#!"
+ RELIGIOUS_SCHOOLS_5:0 "Has law Religious Schools intitution level #variable 1#!"
+ ai_strategy_patriotic_agenda:0 "Patriotic Agenda"
+ ai_strategy_patriotic_agenda_desc:0 "[COUNTRY.GetName] seeks to promote the power and reform agenda of nationalists, the church, and the military."
+ ai_strategy_absolutist_agenda:0 "Absolutist Agenda"
+ ai_strategy_absolutist_agenda_desc:0 "[COUNTRY.GetName] bold absolutist agend enacting the will of its ruler by the Grace of God."
+ 
+ party_america_party:0 "America Party"
+ 
+ ideology_american_moralist:0 "American Moralist"
+ ideology_american_moralist_desc:0 "#lore This group has a strong belief in a religious moral order and views diversity of opinion and cultures as a threat to this order.#!"
+ 
+ ideology_american_patriotic:0 "American Patriotic"
+ ideology_american_patriotic_desc:0 "#lore This group is fiercely devoted to its country and the freedoms it guarantees.#!"
+ 
+ ideology_american_populist:0 "American Populist"
+ ideology_american_populist_desc:0 "#lore This group believes in governance by common folk and seeks to oppose the elites.#!"
+ 
+ ideology_american_paternalist:0 "American Paternalist"
+ ideology_american_paternalist_desc:0 "#lore This group believes in caring for the lower orders of socitiey.#!"
+ 
+ swedish:0 "Scandinavian"
+ 
+ JER: "Jerusalem"
+ JER_ADJ: "Jerusalemite"
+ 
+ jerusalemite:0 "Jerusalemite"
+ Hugh:0 "Hugh"
+ de_Lusignan:0 "de Lusignan"
+ Philippe:0 "Philippe"
+ Pasteur:0 "Pasteur"
+ Stephane:0 "Stephane"
+ la_Noir:0 "la Noir"
+ 
+ jer_the_start_of_a_legacy:0 "Legacy of The Holy Land"
+ jer_the_start_of_a_legacy_reason:0 "Our staunch defense of tradition is causing new ideas to pop up, those who seek to undermine it and with such ideas comes reaction..."
+ jer_humanist_movements:0 "Movements of Humanism"
+ jer_humanist_movements_reason:0 "Our staunch defense of tradition has been meet by fierce resistance recently as idea of basic human rights are spreading throughout the nation. It's just a matter of time until someone exploits this."
+ 
+ ideology_holy_legacy:0 "Holy Legacy"
+ ideology_holy_legacy_desc:0 "#lore This group believes in the traditions set down from the Crusaders of the days of old. Where the religious and political elite have political authority.#!"
+ 

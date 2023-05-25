@@ -1,0 +1,10 @@
+catholic = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		christian
+	}
+	taboos = {
+		services paper glass sugar fabric wood opium tobacco #liquor
+	} 
+	color = { 0.8 0.6 0.4 }
+}

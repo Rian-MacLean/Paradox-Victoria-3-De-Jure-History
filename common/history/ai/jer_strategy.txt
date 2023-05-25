@@ -1,0 +1,18 @@
+﻿AI = {
+	c:JER = {
+		random_list = {	
+			60 = { set_strategy = ai_strategy_agricultural_expansion }
+			20 = { set_strategy = ai_strategy_resource_expansion }
+			20 = { set_strategy = ai_strategy_industrial_expansion }
+		}
+		random_list = {
+			80 = { set_strategy = ai_strategy_maintain_power_balance }
+			20 = { set_strategy = ai_strategy_territorial_expansion }
+		}
+		set_strategy = ai_strategy_conservative_agenda
+	}	
+}	
+
+
+
+

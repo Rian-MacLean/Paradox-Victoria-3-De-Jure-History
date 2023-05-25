@@ -1,0 +1,232 @@
+ai_strategy_patriotic_agenda = {
+	icon = "gfx/interface/icons/ai_strategy_icons/nationalist_agenda.dds"
+	
+	type = political
+	
+	revolution_aversion = 2.5 # Chance each day that the AI will stop enacting a law that is going to spark a civil war (1 aversion should translate into ~50% chance of avoiding a civil war) - also influences how flexible the AI is willing to be about its max progressiveness/regressiveness to avoid a revolution
+	min_law_chance_to_pass = 20 # If base chance for law to pass is below this, don't enact it
+	max_progressiveness = 50 # How progressive is the AI willing to be when passing laws
+	max_regressiveness = 100 # How regressive is the AI willing to be when passing laws
+	
+	# Chance each update that the AI is willing to start changing a law (1 = 1%)
+	change_law_chance = { 
+		value = 5	
+		
+		if = {
+			limit = { any_interest_group = { is_insurrectionary = yes } }
+			add = 2.5
+		}			
+	}	
+	
+	pro_interest_groups = {
+		ig_devout
+		ig_armed_forces
+		ig_petty_bourgeoisie
+		ig_rural_folk
+	}
+	
+	anti_interest_groups = {
+		ig_intelligentsia
+		ig_landowners
+	}
+	
+	institution_scores = {
+		institution_colonial_affairs = {	
+			value = 50			
+		}				
+		institution_social_security = {	
+			value = 100	
+		}
+		institution_workplace_safety = {	
+			value = 100		
+		}		
+		institution_schools = {	
+			value = 200			
+		}		
+		institution_police = {	
+			value = 150			
+		}		
+		institution_health_system = {	
+			value = 200			
+		}		
+		institution_home_affairs = {	
+			value = 150			
+		}				
+	}	
+
+	possible = {
+		OR = {
+			has_technology_researched = nationalism
+			AND = {
+				exists = c:USA
+				this = c:USA
+			}
+		}
+		OR = {
+			AND = {
+				exists = ig:ig_devout
+				ig:ig_devout = { is_marginal = no }
+			}
+			AND = {
+				exists = ig:ig_armed_forces
+				ig:ig_armed_forces = { is_marginal = no }
+			}
+			AND = {			
+				exists = ig:ig_petty_bourgeoisie
+				ig:ig_petty_bourgeoisie = { is_marginal = no }
+			}
+			AND = {
+				exists = ig:ig_rural_folk
+				ig:ig_rural_folk = { is_marginal = no }
+			}
+		}			
+	}
+	
+	weight = {
+		value = 7.5
+		
+		if = {
+			limit = {
+				exists = ruler
+				ruler = {
+					OR = {
+						has_ideology = ideology_jingoist_leader
+						has_ideology = ideology_fascist
+						has_ideology = ideology_ethno_nationalist
+					}
+				}
+			}
+			
+			add = 30
+		}				
+		
+		if = {
+			limit = {
+				exists = ig:ig_devout
+				ig:ig_devout = { is_powerful = yes }
+			}
+			
+			add = 10
+		}			
+		
+		if = {
+			limit = {
+				exists = ig:ig_armed_forces
+				ig:ig_armed_forces = { is_powerful = yes }
+			}
+			
+			add = 10
+		}	
+		
+		if = {
+			limit = {
+				exists = ig:ig_petty_bourgeoisie
+				ig:ig_petty_bourgeoisie = { is_powerful = yes }
+			}
+			
+			add = 10
+		}			
+		
+		if = {
+			limit = {
+				exists = ig:ig_rural_folk
+				ig:ig_rural_folk = { is_powerful = yes }
+			}
+			
+			add = 10
+		}	
+		
+		if = {
+			limit = {
+				exists = c:USA
+				this = c:USA
+			}
+			multiply = 100
+		}		
+	}
+}
+
+ai_strategy_absolutist_agenda = {
+	icon = "gfx/interface/icons/ai_strategy_icons/conservative_agenda.dds"
+	
+	type = political
+	
+	revolution_aversion = 0.0 # Chance each day that the AI will stop enacting a law that is going to spark a civil war (1 aversion should translate into ~50% chance of avoiding a civil war) - also influences how flexible the AI is willing to be about its max progressiveness/regressiveness to avoid a revolution
+	min_law_chance_to_pass = 1 # If base chance for law to pass is below this, don't enact it
+	max_progressiveness = 50 # How progressive is the AI willing to be when passing laws
+	max_regressiveness = 100 # How regressive is the AI willing to be when passing laws
+	
+	# Chance each update that the AI is willing to start changing a law (1 = 1%)
+	change_law_chance = { 
+		value = 10			
+	}	
+	
+	pro_interest_groups = {
+		ig_devout
+		ig_armed_forces
+	}
+	
+	anti_interest_groups = {
+		ig_intelligentsia
+		ig_landowners
+	}
+	
+	institution_scores = {
+		institution_colonial_affairs = {	
+			value = 50			
+		}				
+		institution_social_security = {	
+			value = 100	
+		}
+		institution_workplace_safety = {	
+			value = 100		
+		}		
+		institution_schools = {	
+			value = 200			
+		}		
+		institution_police = {	
+			value = 150			
+		}		
+		institution_health_system = {	
+			value = 150			
+		}		
+		institution_home_affairs = {	
+			value = 200			
+		}				
+	}	
+
+	possible = {
+		always = yes			
+	}
+	
+	weight = {
+		value = 10
+		
+		if = {
+			limit = {
+				exists = ig:ig_devout
+				ig:ig_devout = { is_powerful = yes }
+			}
+			
+			add = 10
+		}			
+		
+		if = {
+			limit = {
+				exists = ig:ig_armed_forces
+				ig:ig_armed_forces = { is_powerful = yes }
+			}
+			
+			add = 10
+		}	
+		
+		if = {
+			limit = {
+				exists = ig:ig_landowners
+				ig:ig_landowners = { is_powerful = yes }
+			}
+			
+			add = -10
+		}			
+	}
+}

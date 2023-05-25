@@ -1,0 +1,31 @@
+USA = {
+	color = { 66  94  193 }
+	
+	country_type = colonial
+	
+	tier = empire
+	
+	cultures = { yankee }
+	capital = STATE_DISTRICT_OF_COLUMBIA
+}
+
+JAP = {
+	color = { 194 53 60 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { japanese }
+	capital = STATE_KANSAI
+}
+
+MGL = {
+	color = { 255  224  124 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { mongol }
+	capital = STATE_URGA
+}

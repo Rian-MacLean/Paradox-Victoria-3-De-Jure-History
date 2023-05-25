@@ -4,18 +4,15 @@
 			
 			first_name = Andrew
 			last_name = Jackson
-			historical = yes
-			culture = cu:dixie
+			culture = cu:yankee
 			ruler = yes
 			ig_leader = yes
 			interest_group = ig_rural_folk
-			ideology = ideology_jacksonian_democrat
+			ideology = ideology_radical
 			birth_date = 1767.3.15
 			dna = dna_andrew_jackson
 			traits = {
-				bigoted
-				demagogue
-				expert_political_operator
+				charismatic
 			}
 			on_created = {
 				set_variable = {
@@ -27,30 +24,26 @@
 		create_character = {
 			first_name = John
 			last_name = Calhoun
-			historical = yes
-			culture = cu:dixie
+			culture = cu:yankee
 			birth_date = 1782.3.18
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_slaver
 			traits = {
 				bigoted
-				experienced_political_operator
 			}
 		}
 
 		create_character = {
 			first_name = Henry
 			last_name = Clay
-			historical = yes
-			culture = cu:dixie
+			culture = cu:yankee
 			birth_date = 1777.4.12
 			ig_leader = yes
 			interest_group = ig_intelligentsia
-			ideology = ideology_pacifist
+			ideology = ideology_moderate
 			traits = {
-				meticulous
-				experienced_political_operator
+				pious
 			}
 		}
 
@@ -58,56 +51,42 @@
 			
 			first_name = Daniel
 			last_name = Webster
-			historical = yes
-			culture = cu:yankee
 			birth_date = 1782.1.18
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
 			traits = {
 				arrogant
-				inspirational_orator
-				experienced_political_operator
 			}
 		}
 
 		create_character = {
 			first_name = Charles
 			last_name = Finney
-			historical = yes
-			culture = cu:yankee
 			birth_date = 1792.8.29
 			ig_leader = yes
 			interest_group = ig_devout
-			ideology = ideology_abolitionist
+			ideology = ideology_traditionalist
 			traits = {
-				pious
 				cautious
-				basic_political_operator
 			}
 		}
 
 		create_character = {
 			first_name = Robert
 			last_name = Rantoul
-			historical = yes
-			culture = cu:yankee
 			birth_date = 1805.8.13
 			ig_leader = yes
 			interest_group = ig_trade_unions
 			ideology = ideology_moderate
 			traits = {
 				meticulous
-				basic_political_operator
-				erudite
 			}
 		}
 
 		create_character = {
 			first_name = Winfield
 			last_name = Scott
-			historical = yes
-			culture = cu:dixie
 			birth_date = 1786.6.13
 			is_general = yes
 			ig_leader = yes
@@ -116,8 +95,6 @@
 			hq = region_new_england
 			commander_rank = commander_rank_2
 			traits = {
-				traditionalist_commander
-				basic_diplomat
 				cautious
 			}
 		}
@@ -125,15 +102,11 @@
 		create_character = {
 			first_name = Cornelius
 			last_name = Vanderbilt
-			historical = yes
-			culture = cu:yankee
 			birth_date = 1794.5.27
 			ig_leader = yes
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
 			traits = {
-				basic_political_operator
-				expensive_tastes
 				meticulous
 			}
 		}
@@ -142,15 +115,9 @@
 			is_general = yes
 			first_name = Zachary
 			last_name = Taylor
-			historical = yes
-			culture = cu:dixie
 			birth_date = 1784.11.24
-			interest_group = ig_landowners
-			ideology = ideology_moderate
 			hq = region_the_midwest
 			traits = {
-				experienced_offensive_planner
-				direct
 				innovative
 			}
 		}
@@ -183,17 +150,11 @@
 			is_admiral = yes
 			first_name = Isaac
 			last_name = Hull
-			historical = yes
-			culture = cu:yankee
 			birth_date = 1773.3.9
-			interest_group = ig_industrialists
-			ideology = ideology_moderate
 			hq = region_new_england
 			commander_rank = commander_rank_2
 			traits = {
 				expert_naval_commander
-				dockyard_master
-				arrogant
 			}
 		}
 		
@@ -219,8 +180,7 @@
 			is_admiral = yes
 			first_name = Elie_Augustus_Frederick
 			last_name = Lavallette
-			historical = yes
-			culture = cu:dixie
+			culture = cu:yankee
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			birth_date = 1776.2.9

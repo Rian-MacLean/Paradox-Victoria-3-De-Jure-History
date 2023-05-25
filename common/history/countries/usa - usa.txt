@@ -2,68 +2,163 @@
 	c:USA = {
 		set_next_election_date = 1836.12.7
 
-		set_tax_level = low
+		set_tax_level = very_low
+		set_tariff_level = very_high
 		
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_0_tech = yes
 		
 		set_market_capital = STATE_NEW_YORK
 		
-		set_tariffs_export_priority = g:fabric		
-		
 		set_variable = monroe_doctrine
 		
-		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_national_militia
-		activate_law = law_type:law_local_police
-		activate_law = law_type:law_no_womens_rights # Women couldn't hold property until ~1839
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_guaranteed_liberties
 		
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_militarized_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		
+		activate_law = law_type:law_protected_speech
+		activate_law = law_type:law_worker_protections
+		activate_law = law_type:law_compulsory_primary_school
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_no_womens_rights
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_legacy_slavery
+		#activate_law = law_type:law_slave_trade
+
+		set_government_wage_level = very_high
+		set_military_wage_level = very_high
+		
+		add_taxed_goods = g:services
+		add_taxed_goods = g:opium
+		add_taxed_goods = g:tobacco
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:wine
+		add_taxed_goods = g:sugar
+		add_taxed_goods = g:coffee
+		add_taxed_goods = g:tea
+		add_taxed_goods = g:porcelain
+		add_taxed_goods = g:luxury_clothes
+		add_taxed_goods = g:luxury_furniture
+		add_taxed_goods = g:fine_art
+
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
-			level = 2
+			level = 5
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_social_security
+			level = 5
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_workplace_safety
+			level = 5
 		}
 		
 		set_institution_investment_level = {
 			institution = institution_schools
-			level = 2
-		}
-
-		set_institution_investment_level = {
-			institution = institution_police
-			level = 2
-		}
-
-		ig:ig_rural_folk = { # Andrew Jackson, Jacksonian Democracy & Populism
-			remove_ideology = ideology_isolationist
-			add_ideology = ideology_isolationist_expansionism
-			add_ruling_interest_group = yes
+			level = 5
 		}
 		
-		ig:ig_landowners = { 
-			set_interest_group_name = ig_southern_planters
-			remove_ideology = ideology_paternalistic
-			add_ideology = ideology_republican_paternalistic			
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 5
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_health_system
+			level = 5
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 5
+		}
+
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+			remove_ideology = ideology_patriotic
+			remove_ideology = ideology_loyalist
+			add_ideology = ideology_american_moralist
+			add_ideology = ideology_american_patriotic
+			add_ideology = ideology_meritocratic
 		}
 
 		ig:ig_devout = {
-			set_interest_group_name = ig_evangelicals
+			add_ruling_interest_group = yes
+			set_ig_bolstering = yes
+			set_interest_group_name = ig_catholic_church
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_american_moralist
+			add_ideology = ideology_american_paternalist
 		}
 
-		add_journal_entry = { type = je_texas_usa }
-		add_journal_entry = { type = je_acw_countdown }
+		ig:ig_industrialists = {
+			remove_ideology = ideology_individualist
+			add_ideology = ideology_pious
+			add_ideology = ideology_american_patriotic
+		}
+
+		ig:ig_intelligentsia = {
+			remove_ideology = ideology_liberal
+			remove_ideology = ideology_anti_clerical
+			add_ideology = ideology_isolationist_expansionism
+			add_ideology = ideology_patriarchal
+		}
+		
+		ig:ig_landowners = { 
+			set_ig_suppression = yes
+			set_interest_group_name = ig_southern_planters
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_republican_paternalistic
+		}
+		
+		ig:ig_petty_bourgeoisie = {
+			add_ruling_interest_group = yes
+			remove_ideology = ideology_reactionary
+			add_ideology = ideology_american_moralist
+			add_ideology = ideology_patriarchal
+		}
+
+		ig:ig_rural_folk = { # Andrew Jackson, Jacksonian Democracy & Populism
+			add_ruling_interest_group = yes
+			remove_ideology = ideology_particularist
+			remove_ideology = ideology_isolationist
+			add_ideology = ideology_isolationist_expansionism
+			add_ideology = ideology_american_moralist
+			add_ideology = ideology_american_populist
+		}
+		
+		ig:ig_trade_unions = {
+			remove_ideology = ideology_egalitarian
+			remove_ideology = ideology_populist
+			add_ideology = ideology_american_populist
+			add_ideology = ideology_patriarchal
+		}
+
+		#add_journal_entry = { type = je_texas_usa }
+		#add_journal_entry = { type = je_acw_countdown }
+
+		#add_modifier = {
+		#	name = missouri_compromise
+		#	years = 50
+		#	is_decaying = yes
+		#}
 
 		add_modifier = {
-			name = missouri_compromise
-			years = 50
-			is_decaying = yes
+			name = modifier_usa_capacity	
 		}
 	}
 }
