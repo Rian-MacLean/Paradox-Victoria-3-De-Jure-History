@@ -22,6 +22,7 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_colonial_exploitation
 		activate_law = law_type:law_militarized_police
 		activate_law = law_type:law_religious_schools

@@ -194,11 +194,10 @@ ideology_american_populist = {
 }
 
 ideology_american_paternalist = {
-	icon = "gfx/interface/icons/ideology_icons/populist.dds"
+	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
 	
 	lawgroup_labor_rights = {
-		law_serfdom = strongly_disapprove
-		law_serfdom_banned = neutral
+		law_no_workers_rights = strongly_disapprove
 		law_regulatory_bodies = approve
 		law_worker_protections = strongly_approve
 	}
