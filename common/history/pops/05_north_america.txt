@@ -13,11 +13,6 @@
 				culture = dixie
 				size = 86263
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 7818
-			}
 		}
 	}
 	s:STATE_LOUISIANA = {
@@ -31,26 +26,6 @@
 				culture = dixie
 				size = 118392
 			}
-			create_pop = {
-				culture = dixie
-				religion = jewish
-				size = 200
-			}
-			create_pop = {
-				culture = afro_american
-				size = 21106 # 16710 free in 1830, 25502 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 102994
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_antillean
-				religion = catholic
-				size = 16000
-			}
 		}
 	}
 	s:STATE_NEW_YORK = {
@@ -61,17 +36,8 @@
 			}
 			create_pop = {
 				culture = yankee
-				religion = jewish
-				size = 2000
-			}
-			create_pop = {
-				culture = yankee
 				religion = catholic
 				size = 39996
-			}
-			create_pop = {
-				culture = afro_american
-				size = 20004
 			}
 			create_pop = {
 				culture = irish
@@ -93,15 +59,6 @@
 				culture = dixie
 				religion = catholic
 				size = 48000
-			}
-			create_pop = {
-				culture = afro_american
-				size = 35120
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 312079
 			}
 		}
 	}
@@ -348,11 +305,6 @@
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves # there was even a slave revolt at Webbers Falls in 1842
-				culture = afro_american
-				size = 1200
-			}
-			create_pop = {
 				culture = caddoan
 				size = 8000
 			}
@@ -378,15 +330,6 @@
 			create_pop = {
 				culture = dixie
 				size = 33857
-			}
-			create_pop = {
-				culture = afro_american
-				size = 303 # 141 free in 1830, 465 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 15689
 			}
 			create_pop = {
 				culture = cherokee
@@ -417,15 +360,6 @@
 				culture = dixie
 				religion = catholic
 				size = 3996
-			}
-			create_pop = {
-				culture = afro_american
-				size = 1072 # 569 free in 1830, 1574 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 38928
 			}
 			create_pop = {
 				culture = irish
@@ -489,10 +423,6 @@
 				culture = north_german
 				size = 20000
 			}
-			create_pop = {
-				culture = afro_american
-				size = 8000
-			}
 		}
 	}
 	s:STATE_MICHIGAN = {
@@ -527,10 +457,6 @@
 				size = 1092200
 			}
 			create_pop = {
-				culture = afro_american
-				size = 16008
-			}
-			create_pop = {
 				culture = north_german
 				size = 128000
 			}
@@ -549,15 +475,6 @@
 			create_pop = {
 				culture = yankee
 				size = 316392
-			}
-			create_pop = {
-				culture = afro_american
-				size = 6117 # 4917 free in 1830, 7317 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 161879
 			}
 			create_pop = {
 				culture = irish
@@ -580,15 +497,6 @@
 				size = 204800
 			}
 			create_pop = {
-				culture = afro_american
-				size = 5040 # 4555 free in 1830, 5524 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 142960
-			}
-			create_pop = {
 				culture = irish
 				size = 39996
 			}
@@ -604,15 +512,6 @@
 				culture = dixie
 				size = 172804
 			}
-			create_pop = {
-				culture = afro_american
-				size = 943 # 519 free in 1830, 1366 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 87057
-			}
 		}
 	}
 	s:STATE_ALABAMA = {
@@ -620,15 +519,6 @@
 			create_pop = {
 				culture = dixie
 				size = 329008
-			}
-			create_pop = {
-				culture = afro_american
-				size = 1806 # 1572 free in 1830, 2039 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 229998
 			}
 			create_pop = {
 				culture = dixie
@@ -652,15 +542,6 @@
 				size = 47996
 			}
 			create_pop = {
-				culture = afro_american
-				size = 817 # unknown free population in 1830, 817 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 31183
-			}
-			create_pop = {
 				culture = muskogean
 				size = 8000
 			}
@@ -673,22 +554,8 @@
 				size = 329836
 			}
 			create_pop = {
-				culture = dixie
-				religion = jewish
-				size = 1000
-			}
-			create_pop = {
 				culture = cherokee
 				size = 8946 # 1835 Cherokee Census "Henderson Roll"
-			}
-			create_pop = {
-				culture = afro_american
-				size = 2620 # 2486 free in 1830, 2753 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 256172
 			}
 		}
 	}
@@ -697,15 +564,6 @@
 			create_pop = {
 				culture = dixie
 				size = 160916
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 18081 # 17673 slaves in WV's counties in 1830, 18488 slaves in 1840
-			}
-			create_pop = {
-				culture = afro_american
-				size = 1808 # don't have easy numbers for WV's free non-white population, but ~10% of the enslaved population seems to roughly track
 			}
 			create_pop = {
 				culture = dixie
@@ -724,19 +582,6 @@
 				culture = dixie
 				size = 251997
 			}
-			# Maryland: 52938 free in 1830, 62078 free in 1840
-			# Delaware: 15855 free in 1830, 16919 free in 1840
-			create_pop = {
-				culture = afro_american
-				size = 48541
-			}
-			# Maryland: 102994 in 1830, 89737 in 1840
-			# Delaware: 3292 in 1830, 2605 in 1840
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 58467
-			}
 		}
 	}
 
@@ -745,17 +590,6 @@
 			create_pop = {
 				culture = dixie
 				size = 77000
-			}
-	
-			create_pop = {
-					culture = afro_american
-					size = 16919
-			}
-	
-			create_pop = {
-					pop_type = slaves
-					culture = afro_american
-					size = 2605
 			}
 		}
 	}
@@ -768,21 +602,12 @@
 			}
 			create_pop = {
 				culture = yankee
-				religion = jewish
-				size = 2000
-			}
-			create_pop = {
-				culture = yankee
 				religion = catholic
 				size = 144008
 			}
 			create_pop = {
 				culture = irish
 				size = 59800
-			}
-			create_pop = {
-				culture = afro_american
-				size = 43996
 			}
 		}
 	}
@@ -797,10 +622,6 @@
 				religion = catholic
 				size = 27996
 			}
-			create_pop = {
-				culture = afro_american
-				size = 15996
-			}
 		}
 	}
 	s:STATE_ILLINOIS = {
@@ -808,10 +629,6 @@
 			create_pop = {
 				culture = yankee
 				size = 452400
-			}
-			create_pop = {
-				culture = afro_american
-				size = 4000
 			}
 		}
 	}
@@ -836,10 +653,6 @@
 			create_pop = {
 				culture = yankee
 				size = 754484
-			}
-			create_pop = {
-				culture = afro_american
-				size = 11996
 			}
 			create_pop = {
 				culture = irish
@@ -896,15 +709,6 @@
 				size = 492500
 			}
 			create_pop = {
-				culture = afro_american
-				size = 21138 # 19543 free in 1830, 22732 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 222862
-			}
-			create_pop = {
 				culture = cherokee
 				size = 3644 # 1835 Cherokee Census "Henderson Roll"
 			}
@@ -941,22 +745,8 @@
 				size = 253836
 			}
 			create_pop = {
-				culture = dixie
-				religion = jewish
-				size = 1000
-			}
-			create_pop = {
 				culture = cherokee
 				size = 6960
-			}
-			create_pop = {
-				culture = afro_american
-				size = 8099 # 7921 free in 1830, 8276 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 318693
 			}
 		}
 	}
@@ -1055,10 +845,6 @@
 				size = 65990
 			}
 			create_pop = {
-				culture = afro_american
-				size = 667
-			}
-			create_pop = {
 				culture = franco_canadian
 				size = 52800
 			}
@@ -1068,10 +854,6 @@
 			create_pop = {
 				culture = anglo_canadian
 				size = 196573
-			}
-			create_pop = {
-				culture = afro_american
-				size = 3333
 			}
 		}
 	}
@@ -1264,10 +1046,6 @@
 				culture = british
 				size = 14848
 			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 12352
-			}
 		}
 	}
 	s:STATE_TEXAS = {
@@ -1283,11 +1061,6 @@
 			create_pop = {
 				culture = caddoan
 				size = 4000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 6040
 			}
 			create_pop = {
 				culture = mexican
@@ -1450,10 +1223,6 @@
 				religion = catholic
 				size = 70004
 			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 6000
-			}
 		}
 	}
 	s:STATE_VERACRUZ = { # 242658 in 1830, 259463 in 1840
@@ -1474,10 +1243,6 @@
 				culture = oodham
 				size = 20000
 			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 800
-			}
 		}
 	}
 	s:STATE_SINALOA = { # est. total of 134941. 122285 in 1830, 147596 in 1840
@@ -1489,10 +1254,6 @@
 			create_pop = {
 				culture = oodham
 				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1100
 			}
 		}
 	}
@@ -1514,10 +1275,6 @@
 				culture = tarascan
 				size = 85162
 			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 3801
-			}
 		}
 	}
 	# Yucatan proper: 	417947 in 1830, 420726 in 1840, so averaging out to 419337
@@ -1533,10 +1290,6 @@
 			create_pop = {
 				culture = mayan
 				size = 388804
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1400
 			}
 		}
 	}
@@ -1563,10 +1316,6 @@
 				culture = zapotec
 				size = 264004
 			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 54000
-			}
 		}
 	}
 
@@ -1590,10 +1339,6 @@
 				culture = nahua
 				size = 27381
 			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 15036
-			}
 		}
 	}
 	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
@@ -1613,10 +1358,6 @@
 			create_pop = {
 				culture = nahua
 				size = 84182
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 23984
 			}
 		}
 	}
@@ -1694,10 +1435,6 @@
 			create_pop = {
 				culture = oodham
 				size = 13300
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1300
 			}
 		}
 	}

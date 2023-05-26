@@ -228,7 +228,13 @@
 		region_state:SIL = {
 			create_pop = {
 				culture = afro_caribbean
-				size = 38000
+				size = 146521
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_antillean
+				religion = catholic
+				size = 16000
 			}
 			create_pop = {
 				culture = kissi
@@ -302,6 +308,10 @@
 	}
 	s:STATE_LIBERIA = {
 		region_state:LIB = {
+			create_pop = {
+				culture = afro_american
+				size = 2219743
+			}
 			create_pop = {
 				culture = kru
 				size = 414200
@@ -1554,6 +1564,16 @@
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
 		region_state:MAD = {
+			create_pop = {
+				culture = dixie
+				religion = jewish
+				size = 2200
+			}
+			create_pop = {
+				culture = yankee
+				religion = jewish
+				size = 4000
+			}
 			create_pop = {
 				culture = malagasy
 				size = 805196
