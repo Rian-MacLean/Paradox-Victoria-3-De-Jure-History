@@ -65,10 +65,12 @@ ideology_plutocratic = {
 	lawgroup_distribution_of_power = {
 		law_autocracy = disapprove
 		law_oligarchy = neutral
+		law_single_party_state = neutral
 		law_landed_voting = approve
 		law_wealth_voting = strongly_approve
 		law_census_voting = neutral
 		law_universal_suffrage = strongly_disapprove
+		law_technocracy = strongly_approve
 		law_anarchy = strongly_disapprove
 	}
 
@@ -112,11 +114,13 @@ ideology_american_moralist = {
 	
 	lawgroup_distribution_of_power = {
 		law_autocracy = strongly_disapprove
-		law_universal_suffrage = disapprove
+		law_oligarchy = disapprove
+		law_single_party_state = neutral
 		law_wealth_voting = strongly_approve
 		law_landed_voting = strongly_approve
 		law_census_voting = neutral
-		law_oligarchy = disapprove
+		law_universal_suffrage = disapprove
+		law_technocracy = strongly_disapprove
 		law_anarchy = strongly_disapprove
 	}
 
@@ -164,13 +168,15 @@ ideology_american_populist = {
 	icon = "gfx/interface/icons/ideology_icons/populist.dds"
 	
 	lawgroup_distribution_of_power = {
-		law_anarchy = neutral
-		law_universal_suffrage = approve
-		law_census_voting = strongly_approve
-		law_wealth_voting = approve
-		law_landed_voting = approve
+		law_autocracy = strongly_disapprove	
 		law_oligarchy = strongly_disapprove
-		law_autocracy = strongly_disapprove		
+		law_single_party_state = strongly_disapprove
+		law_landed_voting = approve
+		law_wealth_voting = approve
+		law_census_voting = strongly_approve
+		law_universal_suffrage = approve
+		law_technocracy = strongly_disapprove
+		law_anarchy = neutral
 	}
 	
 	lawgroup_bureaucracy = {
