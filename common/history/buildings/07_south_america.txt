@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_ECUADOR={
-		region_state:ECU={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -46,45 +46,23 @@
 		}
 	}
 	s:STATE_GUAYANA={
-		region_state:NET={
+		region_state:USA={
 			create_building={
 				building="building_sugar_plantation"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:FRA={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:GBR={
-			create_building={
-				building="building_sugar_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_port"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
 	s:STATE_ZULIA={
-		region_state:VNZ={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -112,7 +90,7 @@
 		}
 	}
 	s:STATE_MIRANDA={
-		region_state:VNZ={
+		region_state:USA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -152,7 +130,7 @@
 		}
 	}
 	s:STATE_BOLIVAR={
-		region_state:VNZ={
+		region_state:USA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -168,7 +146,7 @@
 		}
 	}
 	s:STATE_ANTIOQUIA={
-		region_state:CLM={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -208,7 +186,7 @@
 		}
 	}
 	s:STATE_GUAVIARE={
-		region_state:CLM={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -236,7 +214,7 @@
 		}
 	}
 	s:STATE_CUNDINAMARCA={
-		region_state:CLM={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -286,10 +264,9 @@
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 		}
-
 	}
 	s:STATE_CAUCA={
-		region_state:CLM={
+		region_state:USA={
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
@@ -317,13 +294,11 @@
 		}
 	}
 	s:STATE_PASTAZA={
-		region_state:PEU={
-		}
-		region_state:ECU={
+		region_state:USA={
 		}
 	}
 	s:STATE_TARAPACA={
-		region_state:PEU={
+		region_state:USA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -333,7 +308,7 @@
 		}
 	}
 	s:STATE_ANTOFAGASTA={
-		region_state:BOL={
+		region_state:USA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -349,7 +324,7 @@
 		}
 	}
 	s:STATE_SANTA_CRUZ={
-		region_state:BOL={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -377,7 +352,7 @@
 		}
 	}
 	s:STATE_LA_PAZ={
-		region_state:BOL={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -436,7 +411,7 @@
 		}
 	}
 	s:STATE_POTOSI={
-		region_state:BOL={
+		region_state:USA={
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
@@ -470,7 +445,7 @@
 		}
 	}
 	s:STATE_CAJAMARCA={
-		region_state:PEU={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -504,7 +479,7 @@
 		}
 	}
 	s:STATE_LIMA={
-		region_state:PEU={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -562,7 +537,7 @@
 		}
 	}
 	s:STATE_ICA={
-		region_state:PEU={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -611,7 +586,7 @@
 		}
 	}
 	s:STATE_AREQUIPA={
-		region_state:PEU={
+		region_state:USA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -638,7 +613,7 @@
 			}			
 		}
 	}
-	s:STATE_URUGUAY={
+	s:STATE_USAGUAY={
 		region_state:URU={
 			create_building={
 				building="building_livestock_ranch"
@@ -661,9 +636,7 @@
 		}
 	}
 	s:STATE_JUJUY={
-		region_state:BOL={
-		}
-		region_state:ARG={
+		region_state:USA={
 			create_building={
 				building="building_gold_mine"
 				level=1
@@ -673,11 +646,11 @@
 		}
 	}
 	s:STATE_ALTO_PARAGUAY={
-		region_state:GNI={
+		region_state:USA={
 		}
 	}
 	s:STATE_BAJO_PARAGUAY={
-		region_state:PRG={
+		region_state:USA={
 			create_building={
 				building="building_arms_industry"
 				level=1
@@ -743,7 +716,7 @@
 		}
 	}
 	s:STATE_BUENOS_AIRES={
-		region_state:ARG={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -788,19 +761,17 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
 			}
 		}
-		region_state:PAT={
-		}
 	}
 	s:STATE_PATAGONIA={
-		region_state:PAT={
+		region_state:USA={
 		}
 	}
 	s:STATE_RIO_NEGRO={
-		region_state:ARG={
+		region_state:USA={
 		}
 	}
 	s:STATE_LA_PAMPA={
-		region_state:ARG={	
+		region_state:USA={	
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -834,7 +805,7 @@
 		}
 	}
 	s:STATE_SANTA_FE={
-		region_state:ARG={
+		region_state:USA={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=1
@@ -856,7 +827,7 @@
 		}
 	}
 	s:STATE_CORRIENTES={
-		region_state:ARG={
+		region_state:USA={
 			create_building={
 				building="building_maize_farm"
 				level=1
@@ -878,7 +849,7 @@
 		}
 	}
 	s:STATE_TUCUMAN={
-		region_state:ARG={
+		region_state:USA={
 			create_building={
 				building="building_gold_mine"
 				level=1
@@ -888,11 +859,11 @@
 		}
 	}
 	s:STATE_CHACO={
-		region_state:GNI={
+		region_state:USA={
 		}
 	}
 	s:STATE_SANTIAGO={
-		region_state:CHL={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -950,7 +921,7 @@
 		}
 	}
 	s:STATE_LOS_RIOS={
-		region_state:CHL={
+		region_state:USA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -978,13 +949,11 @@
 		}
 	}
 	s:STATE_ARAUCANIA={
-		region_state:CHL={
-		}
-		region_state:PAT={
+		region_state:USA={
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS={
-		region_state:GBR={
+		region_state:USA={
 			create_building={
 				building="building_port"
 				level=1
@@ -994,43 +963,31 @@
 		}
 	}
 	s:STATE_ACRE={
-		region_state:BOL={
+		region_state:USA={
 		}
 	}
 	s:STATE_AMAZONAS={
-		region_state:CLM={
-		}
-		region_state:PRA={
-		}
-		region_state:BOL={
+		region_state:USA={
 		}
 	}
 	s:STATE_MATO_GROSSO={
-		region_state:PRG={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}		
-		}
-		region_state:BRZ={
 			create_building={
 				building="building_banana_plantation"
 				level=1
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
-			create_building={
-				building="building_logging_camp"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL={
-		region_state:PNI={
+		region_state:USA={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -1058,7 +1015,7 @@
 		}
 	}
 	s:STATE_PARANA={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1074,7 +1031,7 @@
 		}
 	}
 	s:STATE_SANTA_CATARINA={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1090,7 +1047,7 @@
 		}
 	}
 	s:STATE_SAO_PAULO={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_coffee_plantation"
 				level=5
@@ -1118,7 +1075,7 @@
 		}
 	}
 	s:STATE_MINAS_GERAIS={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1170,7 +1127,7 @@
 		}
 	}
 	s:STATE_RIO_DE_JANEIRO={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1238,11 +1195,10 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 			# Re-add monument here
-
 		}
 	}
 	s:STATE_BAHIA={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1306,7 +1262,7 @@
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_NORTE={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_maize_farm"
 				level=1
@@ -1328,7 +1284,7 @@
 		}
 	}
 	s:STATE_CEARA={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -1356,7 +1312,7 @@
 		}
 	}
 	s:STATE_PIAUI={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_maize_farm"
 				level=1
@@ -1372,7 +1328,7 @@
 		}
 	}
 	s:STATE_PARAIBA={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -1400,7 +1356,7 @@
 		}
 	}
 	s:STATE_PERNAMBUCO={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1446,7 +1402,7 @@
 		}
 	}
 	s:STATE_MARANHAO={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1462,7 +1418,7 @@
 		}
 	}
 	s:STATE_GOIAS={
-		region_state:BRZ={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1472,7 +1428,7 @@
 		}
 	}
 	s:STATE_PARA={
-		region_state:PRA={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1494,103 +1450,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
