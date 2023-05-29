@@ -5,11 +5,6 @@
 				culture = north_italian
 				size = 2376996
 			}
-			create_pop = {
-				culture = north_italian
-				religion = jewish
-				size = 396
-			}
 		}
 	}
 	s:STATE_PIEDMONT = {
@@ -21,11 +16,6 @@
 			create_pop = {
 				culture = french
 				size = 93996
-			}
-			create_pop = {
-				culture = north_italian
-				religion = jewish
-				size = 2804
 			}
 		}
 	}
@@ -152,11 +142,6 @@
 				culture = north_italian
 				size = 1625400
 			}
-			create_pop = {
-				culture = north_italian
-				religion = jewish
-				size = 6996
-			}
 		}
 	}
 	s:STATE_ROMAGNA = {
@@ -173,11 +158,6 @@
 				culture = south_italian
 				size = 1333868
 			}
-			create_pop = {
-				culture = south_italian
-				religion = jewish
-				size = 5596
-			}
 		}
 	}
 	s:STATE_VENETIA = {
@@ -185,11 +165,6 @@
 			create_pop = {
 				culture = north_italian
 				size = 1855196
-			}
-			create_pop = {
-				culture = north_italian
-				religion = jewish
-				size = 2000
 			}
 		}
 	}
@@ -327,10 +302,6 @@
 				culture = british
 				size = 12336
 			}
-			create_pop = {
-				culture = sephardic
-				size = 3200
-			}
 		}
 	}
 	s:STATE_BADAJOZ = {
@@ -447,10 +418,6 @@
 				size = 67996
 			}
 			create_pop = {
-				culture = sephardic
-				size = 50004
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = north_caucasian
 				size = 6000
@@ -537,10 +504,6 @@
 				size = 304908
 			}
 			create_pop = {
-				culture = sephardic
-				size = 3196
-			}
-			create_pop = {
 				culture = serb
 				size = 372400
 			}
@@ -569,10 +532,6 @@
 				religion = sunni
 				size = 35600
 			}
-			create_pop = {
-				culture = sephardic
-				size = 6996
-			}
 		}
 	}
 	s:STATE_BULGARIA = {
@@ -584,10 +543,6 @@
 			create_pop = {
 				culture = bulgarian
 				size = 660000
-			}
-			create_pop = {
-				culture = sephardic
-				size = 4004
 			}
 		}
 	}
@@ -797,10 +752,6 @@
 				size = 8992
 			}
 			create_pop = {
-				culture = sephardic
-				size = 1996
-			}
-			create_pop = {
 				culture = greek
 				size = 82996
 			}
@@ -829,10 +780,6 @@
 				size = 935900
 			}
 			create_pop = {
-				culture = sephardic
-				size = 3796
-			}
-			create_pop = {
 				culture = albanian
 				religion = orthodox
 				size = 104000
@@ -844,10 +791,6 @@
 			create_pop = {
 				culture = turkish
 				size = 157296
-			}
-			create_pop = {
-				culture = sephardic
-				size = 7996
 			}
 			create_pop = {
 				culture = bulgarian
@@ -876,10 +819,6 @@
 			create_pop = {
 				culture = bulgarian
 				size = 28000
-			}
-			create_pop = {
-				culture = sephardic
-				size = 57204
 			}
 			create_pop = {
 				pop_type = slaves
@@ -929,10 +868,6 @@
 			create_pop = {
 				culture = british
 				size = 16
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2000
 			}
 		}
 	}
