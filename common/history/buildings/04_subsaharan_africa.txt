@@ -900,7 +900,7 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR={
-		region_state:MAD={
+		region_state:ISR={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -928,7 +928,7 @@
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR={
-		region_state:MAD={
+		region_state:ISR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

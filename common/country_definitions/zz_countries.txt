@@ -30,6 +30,18 @@ SCA = {
 	capital = STATE_SVEALAND
 }
 
+ISR = {
+	color = { 150  212  214 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { ashkenazi sephardic }
+	religion = jewish
+	capital = STATE_NORTH_MADAGASCAR
+}
+
 MGL = {
 	color = { 255  224  124 }
 	

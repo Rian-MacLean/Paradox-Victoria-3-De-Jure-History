@@ -1563,7 +1563,7 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:MAD = {
+		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
 				size = 3403079
@@ -1642,7 +1642,7 @@
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR = {
-		region_state:MAD = {
+		region_state:ISR = {
 			create_pop = {
 				culture = malagasy
 				size = 900304
