@@ -162,6 +162,6 @@
 		#	is_decaying = yes
 		#}
 
-		#add_modifier = { name = modifier_usa_capacity }
+		add_modifier = { name = modifier_usa_capacity }
 	}
 }
