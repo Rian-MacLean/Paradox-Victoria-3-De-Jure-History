@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_SVEALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -76,7 +76,7 @@
 		}
 	}
 	s:STATE_GOTALAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -128,7 +128,7 @@
 		}
 	}
 	s:STATE_SCANIA={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -198,7 +198,7 @@
 		}
 	}
 	s:STATE_NORRLAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -214,7 +214,7 @@
 		}
 	}
 	s:STATE_GOTLAND={
-		region_state:SWE={
+		region_state:SCA={
 			create_building={
 				building="building_port"
 				level=1
@@ -230,7 +230,7 @@
 		}
 	}
 	s:STATE_JUTLAND={
-		region_state:DEN={
+		region_state:SCA={
 			create_building={
 				building="building_rye_farm"
 				level=8
@@ -270,7 +270,7 @@
 		}
 	}
 	s:STATE_ZEALAND={
-		region_state:DEN={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -334,7 +334,7 @@
 		}
 	}
 	s:STATE_WESTERN_NORWAY={
-		region_state:NOR={
+		region_state:SCA={
 			create_building={
 				building="building_fishing_wharf"
 				level=4
@@ -380,7 +380,7 @@
 		}
 	}
 	s:STATE_NORTHERN_NORWAY={
-		region_state:NOR={
+		region_state:SCA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -396,7 +396,7 @@
 		}
 	}
 	s:STATE_EASTERN_NORWAY={
-		region_state:NOR={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -454,7 +454,7 @@
 		}
 	}
 	s:STATE_ICELAND={
-		region_state:DEN={
+		region_state:USA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -470,11 +470,11 @@
 		}
 	}
 	s:STATE_GREENLAND={
-		region_state:DEN={
+		region_state:USA={
 		}
 	}
 	s:STATE_SOUTHERN_FINLAND={
-		region_state:FIN={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -520,7 +520,7 @@
 		}
 	}
 	s:STATE_WEST_KARELIA={
-		region_state:FIN={
+		region_state:SCA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -554,11 +554,11 @@
 		}
 	}
 	s:STATE_ALAND={
-		region_state:FIN={
+		region_state:SCA={
 		}
 	}
 	s:STATE_OSTROBOTHNIA={
-		region_state:FIN={
+		region_state:SCA={
 			create_building={
 				building="building_logging_camp"
 				level=2

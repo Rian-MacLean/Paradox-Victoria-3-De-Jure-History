@@ -5752,7 +5752,6 @@ STATES = {
 			}
 		}
 		add_homeland = swedish
-		add_claim = c:SWE
 	}
 	s:STATE_WEST_KARELIA = {
 		create_state = {

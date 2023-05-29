@@ -26,10 +26,6 @@
 				religion = orthodox
 				size = 8004
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 5600
-			}
 		}
 	}
 	s:STATE_MOSCOW = {
@@ -37,10 +33,6 @@
 			create_pop = {
 				culture = russian
 				size = 3653196
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2200
 			}
 		}
 	}
@@ -69,10 +61,6 @@
 				size = 180400
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 200000
-			}
-			create_pop = {
 				culture = lithuanian
 				size = 95996
 			}
@@ -92,10 +80,6 @@
 				culture = south_german
 				size = 4004
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 164800
-			}
 		}
 	}
 	s:STATE_KIEV = {
@@ -103,10 +87,6 @@
 			create_pop = {
 				culture = ukrainian
 				size = 3923992
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 381996
 			}
 			create_pop = {
 				culture = polish
@@ -125,10 +105,6 @@
 				size = 2670100
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 10800
-			}
-			create_pop = {
 				culture = ukrainian
 				size = 344004
 			}
@@ -143,10 +119,6 @@
 			create_pop = {
 				culture = russian
 				size = 1281596
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1996
 			}
 			create_pop = {
 				culture = ugrian
@@ -166,10 +138,6 @@
 				size = 1753376
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 260004
-			}
-			create_pop = {
 				culture = lithuanian
 				size = 256000
 			}
@@ -180,20 +148,10 @@
 		}
 	}
 	s:STATE_EAST_KARELIA = {
-		region_state:RUS = {
+		region_state:SCA = {
 			create_pop = {
-				culture = russian
-				size = 102996
-			}
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 1000
-			}
-			create_pop = {
-				culture = finnish
-				religion = orthodox
-				size = 57200
+				culture = swedish
+				size = 161196
 			}
 		}
 	}
@@ -245,10 +203,6 @@
 				culture = greek
 				size = 8996
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 9000
-			}
 		}
 	}
 	s:STATE_LUHANSK = {
@@ -264,10 +218,6 @@
 			create_pop = {
 				culture = russian
 				size = 161992
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 41000
 			}
 			create_pop = {
 				culture = north_german
@@ -298,10 +248,6 @@
 				size = 802804
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 2000
-			}
-			create_pop = {
 				culture = ugrian
 				religion = orthodox
 				size = 20000
@@ -329,10 +275,6 @@
 			create_pop = {
 				culture = tatar
 				size = 20000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 154000
 			}
 			create_pop = {
 				culture = romanian
@@ -378,10 +320,6 @@
 			create_pop = {
 				culture = ukrainian
 				size = 98800
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 104400
 			}
 			create_pop = {
 				culture = lithuanian
@@ -473,10 +411,6 @@
 				size = 6000
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 53408
-			}
-			create_pop = {
 				culture = ugrian
 				religion = protestant
 				size = 900
@@ -502,10 +436,6 @@
 				size = 729000
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 220000
-			}
-			create_pop = {
 				culture = north_german
 				size = 24000
 			}
@@ -526,10 +456,6 @@
 				size = 20000
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 232000
-			}
-			create_pop = {
 				culture = north_german
 				size = 28004
 			}
@@ -545,10 +471,6 @@
 			create_pop = {
 				culture = north_german
 				size = 1319008
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 16004
 			}
 			create_pop = {
 				culture = polish
@@ -578,10 +500,6 @@
 				size = 32000
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 112400
-			}
-			create_pop = {
 				culture = north_german
 				size = 28000
 			}
@@ -599,10 +517,6 @@
 				size = 24000
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 119212
-			}
-			create_pop = {
 				culture = ukrainian
 				size = 88000
 			}
@@ -617,10 +531,6 @@
 			create_pop = {
 				culture = north_german
 				size = 452400
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2200
 			}
 			create_pop = {
 				culture = polish
@@ -645,10 +555,6 @@
 				size = 629796
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 2600
-			}
-			create_pop = {
 				culture = lithuanian
 				religion = protestant
 				size = 117196
@@ -670,10 +576,6 @@
 			create_pop = {
 				culture = north_german
 				size = 540400
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 16000
 			}
 			create_pop = {
 				culture = polish
@@ -700,10 +602,6 @@
 				culture = ukrainian
 				size = 152000
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 136000
-			}
 		}
 		region_state:KRA = {
 			create_pop = {
@@ -713,10 +611,6 @@
 			create_pop = {
 				culture = south_german
 				size = 4000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 32004
 			}
 			create_pop = {
 				culture = ukrainian
@@ -738,10 +632,6 @@
 				culture = south_german
 				size = 20004
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 180000
-			}
 		}
 	}
 	s:STATE_CENTRAL_HUNGARY = {
@@ -760,11 +650,6 @@
 				size = 149596
 			}
 			create_pop = {
-				culture = hungarian
-				religion = jewish
-				size = 71996
-			}
-			create_pop = {
 				culture = slovak
 				size = 31996
 			}
@@ -775,10 +660,6 @@
 			create_pop = {
 				culture = hungarian
 				size = 189292
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 19996
 			}
 			create_pop = {
 				culture = hungarian
@@ -800,11 +681,6 @@
 			create_pop = {
 				culture = croat
 				size = 20000
-			}
-			create_pop = {
-				culture = hungarian
-				religion = jewish
-				size = 16004
 			}
 		}
 	}
@@ -835,11 +711,6 @@
 			create_pop = {
 				culture = slovak
 				size = 128000
-			}
-			create_pop = {
-				culture = hungarian
-				religion = jewish
-				size = 35996
 			}
 			create_pop = {
 				culture = slovene
@@ -894,15 +765,6 @@
 				size = 62296
 			}
 			create_pop = {
-				culture = hungarian
-				religion = jewish
-				size = 732
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1932
-			}
-			create_pop = {
 				culture = serb
 				size = 245256
 			}
@@ -937,10 +799,6 @@
 				size = 212396
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 60400
-			}
-			create_pop = {
 				culture = polish
 				size = 8000
 			}
@@ -968,10 +826,6 @@
 				culture = hungarian
 				religion = protestant
 				size = 168452
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 40400
 			}
 			create_pop = {
 				culture = romanian
@@ -1003,10 +857,6 @@
 				size = 1792
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 32800
-			}
-			create_pop = {
 				culture = north_german
 				size = 87996
 			}
@@ -1035,10 +885,6 @@
 				culture = hungarian
 				size = 142000
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 32800
-			}
 		}
 	}
 	s:STATE_MOLDAVIA = {
@@ -1050,10 +896,6 @@
 			create_pop = {
 				culture = romanian
 				size = 144000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 20004
 			}
 			create_pop = {
 				culture = hungarian
@@ -1102,10 +944,6 @@
 			create_pop = {
 				culture = bulgarian
 				size = 12000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 95996
 			}
 			create_pop = {
 				culture = turkish

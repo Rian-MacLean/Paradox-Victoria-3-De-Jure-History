@@ -1565,6 +1565,51 @@
 	s:STATE_SOUTH_MADAGASCAR = {
 		region_state:MAD = {
 			create_pop = {
+				culture = ashkenazi
+				size = 3403079
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20237
+			}
+			create_pop = {
+				culture = hungarian
+				religion = jewish
+				size = 71996
+			}
+			create_pop = {
+				culture = hungarian
+				religion = jewish
+				size = 16004
+			}
+			create_pop = {
+				culture = hungarian
+				religion = jewish
+				size = 35996
+			}
+			create_pop = {
+				culture = hungarian
+				religion = jewish
+				size = 732
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2908
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2440
+			}
+			create_pop = {
+				culture = sephardic
+				size = 895
+			}
+			create_pop = {
+				culture = sephardic
+				size = 3203
+			}
+			create_pop = {
 				culture = dixie
 				religion = jewish
 				size = 2200

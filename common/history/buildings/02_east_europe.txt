@@ -282,7 +282,7 @@
 		}
 	}
 	s:STATE_EAST_KARELIA={
-		region_state:RUS={
+		region_state:SCA={
 			create_building={
 				building="building_logging_camp"
 				level=1
