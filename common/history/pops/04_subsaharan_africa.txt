@@ -1566,31 +1566,16 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 1747142
+				size = 1629406
 			}
 			create_pop = {
 				culture = sephardic
-				size = 63310
-			}
-			create_pop = {
-				culture = malagasy
-				size = 805196
-			}
-			create_pop = {
-				culture = malagasy
-				religion = sunni
-				size = 72604
+				size = 126620
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
-				size = 15000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = malagasy
-				religion = sunni
-				size = 5000
+				size = 1393020
 			}
 		}
 	}
@@ -1598,35 +1583,12 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 1747142
-			}
-			create_pop = {
-				culture = sephardic
-				size = 63310
-			}
-			create_pop = {
-				culture = malagasy
-				size = 900304
-			}
-			create_pop = {
-				culture = malagasy
-				religion = catholic
-				size = 5000
-			}
-			create_pop = {
-				culture = malagasy
-				religion = sunni
-				size = 97800
-			}
-			create_pop = {
-				culture = malagasy
-				religion = protestant
-				size = 12000
+				size = 1991498
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
-				size = 30000
+				size = 1702580
 			}
 		}
 	}

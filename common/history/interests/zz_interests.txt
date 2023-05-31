@@ -62,7 +62,12 @@
 		add_declared_interest = region_south_germany
 		add_declared_interest = region_baltic
 		add_declared_interest = region_france	
-	}	
+	}
+	c:ISR = {
+		add_declared_interest = region_dixie
+		add_declared_interest = region_italy
+		add_declared_interest = region_iberia	
+	}
 }	
 
 
