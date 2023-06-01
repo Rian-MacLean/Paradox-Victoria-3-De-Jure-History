@@ -4301,7 +4301,7 @@ bulgarian={
 
 albanian={
 	color= hsv{ 0.10 0.60 0.44 }
-	religion = sunni
+	religion = catholic
 	traits = { albanian_language european_heritage }
 	male_common_first_names={
 		Ahmet
