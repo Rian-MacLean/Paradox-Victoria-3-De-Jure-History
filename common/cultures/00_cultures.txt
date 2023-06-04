@@ -6744,7 +6744,7 @@ sephardic={
 turkish={
 	color= hsv{ 0.99 0.48 0.80 }
 	religion = sunni
-	traits = { turkic middle_eastern_heritage }
+	traits = { turkic central_asian_heritage }
 	obsessions = {
 		tea
 	}
@@ -6898,7 +6898,7 @@ turkish={
 azerbaijani={
 	color= hsv{ 0.67 0.38 0.41 }
 	religion = shiite
-	traits = { caucasus_group turkic middle_eastern_heritage }
+	traits = { caucasus_group turkic central_asian_heritage }
 	male_common_first_names={
 		Ahmad
 		Ali
