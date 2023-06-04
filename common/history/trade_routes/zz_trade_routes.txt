@@ -1,5 +1,25 @@
 TRADE_ROUTES = {
-	c:ISR = {	
+	c:BYZ = {
+		create_trade_route = {
+			goods = dye
+			level = 3
+			direction = import
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 2
+			direction = import
+			target = c:USA.market
+		}
+	}
+	c:ISR = {
 		create_trade_route = {
 			goods = iron
 			level = 9

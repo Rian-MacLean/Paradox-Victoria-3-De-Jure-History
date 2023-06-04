@@ -49,17 +49,17 @@
 		set_military_wage_level = very_high
 		
 		add_taxed_goods = g:services
-		add_taxed_goods = g:opium
+		#add_taxed_goods = g:opium
 		add_taxed_goods = g:tobacco
 		add_taxed_goods = g:liquor
 		add_taxed_goods = g:wine
-		add_taxed_goods = g:sugar
+		#add_taxed_goods = g:sugar
 		add_taxed_goods = g:coffee
-		add_taxed_goods = g:tea
+		#add_taxed_goods = g:tea
 		add_taxed_goods = g:porcelain
 		add_taxed_goods = g:luxury_clothes
 		add_taxed_goods = g:luxury_furniture
-		add_taxed_goods = g:fine_art
+		#add_taxed_goods = g:fine_art
 
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
@@ -133,6 +133,8 @@
 		
 		ig:ig_petty_bourgeoisie = {
 			remove_ideology = ideology_reactionary
+			remove_ideology = ideology_patriotic
+			add_ideology = ideology_american_patriotic
 			add_ideology = ideology_american_moralist
 			add_ideology = ideology_patriarchal
 		}

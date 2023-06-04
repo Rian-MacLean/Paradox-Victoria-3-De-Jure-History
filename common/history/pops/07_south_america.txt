@@ -11,7 +11,6 @@
 		region_state:USA = {
 			create_pop = {
 				culture = yankee
-				religion = animist
 				size = 140000
 			}
 		}

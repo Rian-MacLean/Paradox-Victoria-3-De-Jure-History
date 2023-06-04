@@ -295,11 +295,7 @@ religious_party = {
 		}
 		if = { # religiously inclined people might join if devout are powerful
 			limit = {
-				owner = {
-					any_interest_group = {
-						is_member_of_party = owner.py:religious_party
-					}
-				}
+				exists = owner.py:religious_party
 				has_ideology = ideology_pious
 			}
 			add = {
@@ -309,11 +305,7 @@ religious_party = {
 		}
 		if = { # religiously inclined people might join if devout are powerful
 			limit = {
-				owner = {
-					any_interest_group = {
-						is_member_of_party = owner.py:religious_party
-					}
-				}
+				exists = owner.py:religious_party
 				has_ideology = ideology_american_moralist
 			}
 			add = {
