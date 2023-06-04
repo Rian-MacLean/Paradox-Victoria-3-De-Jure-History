@@ -348,7 +348,7 @@
 		}
 	}
 	s:STATE_CRIMEA={
-		region_state:RUS={
+		region_state:BYZ={
 			create_building={
 				building="building_naval_base"
 				level=5
@@ -1278,7 +1278,7 @@
 		}
 	}
 	s:STATE_BESSARABIA={
-		region_state:RUS={
+		region_state:MOL={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
