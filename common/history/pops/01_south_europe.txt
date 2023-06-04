@@ -427,11 +427,11 @@
 			}
 			create_pop = {
 				culture = romanian
-				size = 84000
+				size = 52000
 			}
 			create_pop = {
 				culture = greek
-				size = 65604
+				size = 97604
 			}
 			create_pop = {
 				culture = ukrainian

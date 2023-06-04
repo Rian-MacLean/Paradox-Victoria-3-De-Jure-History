@@ -182,7 +182,7 @@
 		}
 	}
 	s:STATE_CRIMEA = {
-		region_state:RUS = {
+		region_state:BYZ = {
 			create_pop = {
 				culture = tatar
 				size = 158400
@@ -936,19 +936,14 @@
 		}
 	}
 	s:STATE_BESSARABIA = {
-		region_state:RUS = {
+		region_state:MOL = {
 			create_pop = {
 				culture = romanian
-				size = 808396
+				size = 1128396
 			}
 			create_pop = {
 				culture = bulgarian
 				size = 12000
-			}
-			create_pop = {
-				culture = turkish
-				religion = orthodox
-				size = 32000
 			}
 			create_pop = {
 				culture = ukrainian

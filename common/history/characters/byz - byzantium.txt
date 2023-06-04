@@ -1,0 +1,19 @@
+CHARACTERS = {
+	c:BYZ = {
+        create_character = {
+			first_name = Constantine
+			last_name = Augustus
+			culture = cu:greek
+			ruler = yes
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			birth_date = 1767.3.15
+			dna = dna_andrew_jackson
+			traits = {
+				pious
+				brave
+			}
+		}
+    }
+}
