@@ -295,28 +295,31 @@ religious_party = {
 		}
 		if = { # religiously inclined people might join if devout are powerful
 			limit = {
-				is_powerful = no
-				owner = { ig:ig_devout = { is_powerful = yes } }
+				owner = {
+					any_interest_group = {
+						is_member_of_party = owner.py:religious_party
+					}
+				}
 				has_ideology = ideology_pious
 			}
-			add = 25
+			add = {
+				value = 10
+				desc = "from_powerful_devout_other"
+			}
 		}
 		if = { # religiously inclined people might join if devout are powerful
 			limit = {
-				is_powerful = no
-				owner = { ig:ig_devout = { is_powerful = yes } }
+				owner = {
+					any_interest_group = {
+						is_member_of_party = owner.py:religious_party
+					}
+				}
 				has_ideology = ideology_american_moralist
 			}
-			add = 100
-		}
-		if = { # religiously inclined people might join if devout are powerful
-			limit = {
-				is_powerful = no
-				owner = { ig:ig_devout = { is_powerful = yes } }
-				has_ideology = ideology_american_moralist
-				has_party = no
+			add = {
+				value = 10
+				desc = "from_powerful_devout_other"
 			}
-			add = 900
 		}
 		if = { # America Party
 			limit = {
@@ -324,7 +327,10 @@ religious_party = {
 				is_powerful = yes
 				owner = { THIS = c:USA }
 			}
-			add = 1000
+			add = {
+				value = 100
+				desc = "from_powerful_devout"
+			}
 		}
 		
 		if = { # arbitrary weight for Andrew Jackson to be in the right party
