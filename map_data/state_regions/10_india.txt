@@ -10,8 +10,9 @@
     arable_land = 275
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
-        bg_coal_mining = 80
-        bg_logging = 14
+        bg_coal_mining = 64
+        bg_iron_mining = 28
+        bg_logging = 8
     }
 }
 
@@ -27,8 +28,8 @@ STATE_NORTH_BENGAL = {
     arable_land = 600
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
-        bg_iron_mining = 30
-        bg_logging = 29
+        bg_coal_mining = 22
+        bg_logging = 16
     }
 }
 
@@ -44,12 +45,11 @@ STATE_ASSAM = {
     arable_land = 75
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" }
     capped_resources = {
-        bg_coal_mining = 48
         bg_logging = 20
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 20
+        undiscovered_amount = 10
     }
 }
 
@@ -65,9 +65,8 @@ STATE_DELHI = {
     arable_land = 625
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
-        bg_iron_mining = 45
-        bg_logging = 23
         bg_monuments = 1
+        bg_logging = 8
     }
 }
 
@@ -83,7 +82,7 @@ STATE_AWADH = {
     arable_land = 250
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
-        bg_logging = 17
+        bg_logging = 8
     }
 }
 
@@ -101,12 +100,9 @@ STATE_GUJARAT = {
     arable_land = 185
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 8
-        bg_fishing = 16
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
+        bg_lead_mining = 15
+        bg_logging = 4
+        bg_fishing = 12
     }
     naval_exit_id = 3048
 }
@@ -123,7 +119,8 @@ STATE_CENTRAL_INDIA = {
     arable_land = 300
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 6
+        bg_coal_mining = 18
+        bg_logging = 8
     }
 }
 
@@ -139,8 +136,7 @@ STATE_KASHMIR = {
     arable_land = 85
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_opium_plantations" "bg_tea_plantations" }
     capped_resources = {
-        bg_coal_mining = 12
-        bg_logging = 14
+        bg_logging = 3
     }
 }
 
@@ -157,7 +153,7 @@ STATE_PUNJAB = {
     arable_land = 650
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
-        bg_logging = 11
+        bg_logging = 12
     }
 }
 
@@ -172,8 +168,9 @@ STATE_NAGPUR = {
     arable_land = 200
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_iron_mining = 18
-        bg_logging = 9
+        bg_coal_mining = 34
+        bg_iron_mining = 15
+        bg_logging = 8
     }
 }
 
@@ -190,12 +187,8 @@ STATE_SOUTH_BENGAL = {
     arable_land = 400
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 23
-        bg_fishing = 20
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 20
+        bg_logging = 12
+        bg_fishing = 28
     }
     naval_exit_id = 3050
 }
@@ -213,8 +206,8 @@ STATE_SINDH = {
     arable_land = 100
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
-        bg_sulfur_mining = 40
-        bg_fishing = 6
+        bg_logging = 4
+        bg_fishing = 8
     }
     naval_exit_id = 3048
 }
@@ -230,8 +223,9 @@ STATE_RAJPUTANA = {
     arable_land = 300
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
-        bg_lead_mining = 24
-        bg_sulfur_mining = 40
+        bg_coal_mining = 14
+        bg_sulfur_mining = 24
+        bg_logging = 2
     }
 }
 
@@ -248,12 +242,12 @@ STATE_CEYLON = {
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 11
-        bg_fishing = 13
+        bg_logging = 19
+        bg_fishing = 11
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 12
+        undiscovered_amount = 70
     }
     naval_exit_id = 3049
 }
@@ -288,15 +282,14 @@ STATE_ORISSA = {
     arable_land = 50
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_iron_mining = 30
-        bg_lead_mining = 45
-        bg_fishing = 7
+        bg_iron_mining = 26
+        bg_logging = 8
+        bg_fishing = 31
     }
     naval_exit_id = 3050
 }
 
 STATE_CIRCARS = {
-    #Andhra
     id = 472
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x063403" "x0AC82E" "x0F1912" "x11F0A0" "x180640" "x207C4F" "x338BFB" "x34BB3B" "x35AB0E" "x365CC3" "x3EC5D1" "x42F4F2" "x461A00" "x477063" "x5170A0" "x54D463" "x59BBE1" "x669373" "x6B15F1" "x7166FA" "x73B187" "x84EE56" "x8B1F32" "x9070A0" "x9193B1" "xB00B6B" "xB3DED5" "xC744F9" "xCDFBE6" "xCFF020" "xD19AD8" "xE2CF64" "xE9BCE7" "xEBBB7A" "xF2F82A" "xF46AEC" "xF8BB81" "xF91482" }
@@ -308,10 +301,9 @@ STATE_CIRCARS = {
     arable_land = 250
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_coal_mining = 40
-        bg_iron_mining = 21
-        bg_logging = 11
-        bg_fishing = 18
+        bg_coal_mining = 14
+        bg_logging = 8
+        bg_fishing = 13
     }
     naval_exit_id = 3050
 }
@@ -329,10 +321,9 @@ STATE_MYSORE = {
     arable_land = 100
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_gold_mining = 4
-        bg_iron_mining = 24
-        bg_logging = 14
-        bg_fishing = 5
+        bg_iron_mining = 14
+        bg_logging = 8
+        bg_fishing = 6
     }
     naval_exit_id = 3049
 }
@@ -350,8 +341,12 @@ STATE_TRAVANCORE = {
     arable_land = 80
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 11
-        bg_fishing = 10
+        bg_logging = 4
+        bg_fishing = 5
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 15
     }
     naval_exit_id = 3049
 }
@@ -369,9 +364,9 @@ STATE_MADRAS = {
     arable_land = 375
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_iron_mining = 36
-        bg_logging = 20
-        bg_fishing = 18
+        bg_coal_mining = 12
+        bg_logging = 12
+        bg_fishing = 8
     }
     naval_exit_id = 3049
 }
@@ -387,7 +382,9 @@ STATE_HYDERABAD = {
     arable_land = 250
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 13
+        bg_coal_mining = 22
+        bg_gold_mining = 20
+        bg_logging = 4
     }
 }
 
@@ -404,8 +401,9 @@ STATE_BOMBAY = {
     arable_land = 350
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 17
-        bg_fishing = 12
+        bg_logging = 8
+        bg_fishing = 29
+        bg_gold_mining = 10
     }
     naval_exit_id = 3048
 }

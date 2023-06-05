@@ -11,12 +11,8 @@
     arable_land = 25
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 7
+        bg_logging = 6
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 10
     }
     naval_exit_id = 3155
 }
@@ -34,13 +30,9 @@ STATE_GUATEMALA = {
     arable_land = 40
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_iron_mining = 30
-        bg_logging = 17
+        bg_lead_mining = 10
+        bg_logging = 15
         bg_fishing = 5
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 20
     }
     naval_exit_id = 3026
 }
@@ -58,12 +50,13 @@ STATE_HONDURAS = {
     arable_land = 35
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 15
+        bg_logging = 13
         bg_fishing = 8
     }
     resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 16
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 7
     }
     naval_exit_id = 3026
 }
@@ -81,12 +74,14 @@ STATE_NICARAGUA = {
     arable_land = 50
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 14
+        bg_logging = 12
         bg_fishing = 5
+        bg_iron_mining = 10
     }
     resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 14
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 7
     }
     naval_exit_id = 3026
 }
@@ -104,13 +99,8 @@ STATE_COSTA_RICA = {
     arable_land = 15
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_coal_mining = 24
-        bg_logging = 8
+        bg_logging = 7
         bg_fishing = 3
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 12
     }
     naval_exit_id = 3026
 }
@@ -127,14 +117,8 @@ STATE_PANAMA = {
     arable_land = 20
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_coal_mining = 36
-        bg_logging = 8
+        bg_logging = 7
         bg_fishing = 6
-        bg_whaling = 2
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 12
     }
     naval_exit_id = 3026
 }
@@ -151,12 +135,8 @@ STATE_HAITI = {
     arable_land = 35
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 7
+        bg_logging = 6
         bg_fishing = 6
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 12
     }
     naval_exit_id = 3061
 }
@@ -173,12 +153,9 @@ STATE_SANTO_DOMINGO = {
     arable_land = 30
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 11
+        bg_logging = 10
         bg_fishing = 7
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 12
+        bg_lead_mining = 10
     }
     naval_exit_id = 3061
 }
@@ -195,10 +172,7 @@ STATE_PUERTO_RICO = {
     capped_resources = {
         bg_logging = 2
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 6
+        bg_sulfur_mining = 6
     }
     naval_exit_id = 3025
 }
@@ -236,7 +210,7 @@ STATE_WEST_INDIES = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
     naval_exit_id = 3025
 }
@@ -252,12 +226,8 @@ STATE_JAMAICA = {
     arable_land = 20
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 4
+        bg_logging = 3
         bg_fishing = 5
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 14
     }
     naval_exit_id = 3061
 }
@@ -275,18 +245,10 @@ STATE_CUBA = {
     arable_land = 105
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_coal_mining = 16
-        bg_iron_mining = 18
-        bg_logging = 15
+        bg_lead_mining = 20
+        bg_iron_mining = 30
+        bg_logging = 13
         bg_fishing = 10
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 8
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
     }
     naval_exit_id = 3061
 }
