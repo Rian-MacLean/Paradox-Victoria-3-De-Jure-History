@@ -44,3 +44,9 @@
  ideology_holy_legacy:0 "Holy Legacy"
  ideology_holy_legacy_desc:0 "#lore This group believes in the traditions set down from the Crusaders of the days of old. Where the religious and political elite have political authority.#!"
  
+ state_trait_iron_range:0 "Iron Range"
+ state_trait_anthracite:0 "Anthracite"
+ state_trait_minas_gerais:0 "Iron Quadrangle"
+ state_trait_rich_oil:0 "Rich Oil Reserves"
+ state_trait_salt_domes:0 "Salt Domes"
+ state_trait_new_world:0 "New World State"

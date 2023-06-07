@@ -19,7 +19,7 @@ law_state_religion = {
 	}
 	
 	modifier = {
-		interest_group_ig_devout_pol_str_mult = 0.5
+		interest_group_ig_devout_pol_str_mult = 0.3
 		country_authority_add = 200
 	}
 	
@@ -59,7 +59,7 @@ law_freedom_of_conscience = {
 	}
 	
 	modifier = {
-		interest_group_ig_devout_pol_str_mult = 0.20
+		interest_group_ig_devout_pol_str_mult = 0.15
 		country_authority_add = 100
 	}
 	
