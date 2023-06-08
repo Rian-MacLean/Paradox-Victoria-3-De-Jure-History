@@ -486,11 +486,11 @@
 				size = 10279
 			}
 			create_pop = {
-				culture = flemish
+				culture = dutch
 				size = 70121
 			}
 			create_pop = {
-				culture = flemish
+				culture = dutch
 				religion = protestant
 				size = 2021
 			}
@@ -645,7 +645,7 @@
 				size = 3472
 			}
 			create_pop = { # Givet area Walloon
-				culture = wallonian
+				culture = french
 				size = 4167
 			}
 		}
@@ -727,11 +727,11 @@
 				size = 327009
 			}
 			create_pop = {
-				culture = flemish
+				culture = dutch
 				size = 26531
 			}
 			create_pop = {
-				culture = wallonian # French or Walloon Reformed
+				culture = french # French or Walloon Reformed
 				religion = protestant
 				size = 6542
 			}
@@ -750,7 +750,7 @@
 				size = 134022
 			}
 			create_pop = {
-				culture = wallonian # French or Walloon Reformed
+				culture = french # French or Walloon Reformed
 				religion = protestant
 				size = 425
 			}
@@ -758,19 +758,13 @@
 	}
 	# Noordbrabant, Gelderland, and Limburg
 	s:STATE_GELRE = {
-		region_state:NET = {
+		region_state:FRA = {
 			create_pop = {
 				culture = dutch
-				size = 192091
+				size = 865980
 			}
 			create_pop = {
-				culture = dutch
-				religion = catholic
-				size = 673889
-			}
-			create_pop = {
-				culture = wallonian # French or Walloon Reformed
-				religion = protestant
+				culture = french
 				size = 774
 			}
 			create_pop = {
@@ -781,40 +775,19 @@
 		}
 	}
 	s:STATE_WALLONIA = {
-		region_state:LUX = {
-			create_pop = {
-				culture = wallonian
-				size = 103992
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 71996
-			}
-			create_pop = {
-				culture = north_german
-				size = 572
-			}
-		}
 		# Hainaut, Liège, Luxembourg, and Namur
-		region_state:BEL = { # 
+		region_state:FRA = { # 
 			create_pop = {
-				culture = wallonian # 'Walloon & French' in census data.
-				size = 1413476
+				culture = french
+				size = 1517468
 			}
 			create_pop = {
 				culture = north_german
-				religion = catholic
-				size = 27847
+				size = 100415
 			}
 			create_pop = {
-				culture = flemish # 'Flemish & Dutch' in census data.
-				size = 40207
-			}
-			create_pop = {
-				culture = flemish
-				religion = protestant
-				size = 1355
+				culture = dutch
+				size = 41562
 			}
 			create_pop = {
 				culture = british
@@ -824,18 +797,13 @@
 	}
 	# Antwerp, Brabant, West Flanders, East Flanders, and Limburg
 	s:STATE_FLANDERS = {
-		region_state:BEL = {
+		region_state:FRA = {
 			create_pop = {
-				culture = flemish # 'Flemish & Dutch' in census data.
-				size = 2224197
+				culture = dutch
+				size = 2230210
 			}
 			create_pop = {
-				culture = flemish
-				religion = protestant
-				size = 6013
-			}
-			create_pop = {
-				culture = wallonian # 'Walloon & French' in census data.
+				culture = french
 				size = 260733
 			}
 			create_pop = {
@@ -1096,7 +1064,7 @@
 		}
 	}
 	s:STATE_RHINELAND = {
-		region_state:PRU = {
+		region_state:FRA = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1110,8 +1078,6 @@
 				culture = north_german
 				size = 323992
 			}
-		}
-		region_state:BAV = {
 			create_pop = {
 				culture = south_german
 				size = 251600
@@ -1124,7 +1090,7 @@
 		}
 	}
 	s:STATE_NORTH_RHINE = {
-		region_state:PRU = {
+		region_state:FRA = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1135,7 +1101,7 @@
 				size = 179847
 			}
 			create_pop = {
-				culture = wallonian
+				culture = french
 				size = 4000
 			}
 		}

@@ -1,0 +1,24 @@
+GOVERNMENT = {
+	c:USA = {
+		if = {
+			limit = { exists = py:religious_party }
+			py:religious_party = {
+				set_ruling_party = yes
+                add_ig_to_party = ig:ig_devout
+                add_ig_to_party = ig:ig_armed_forces
+                add_ig_to_party = ig:ig_petty_bourgeoisie
+                add_ig_to_party = ig:ig_rural_folk
+                add_ig_to_party = ig:ig_industrialists
+                add_ig_to_party = ig:ig_trade_unions
+				add_momentum = momentum_large
+			}				
+		}	
+		if = {
+			limit = { exists = py:conservative_party }
+			py:religious_party = {
+                add_ig_to_party = ig:ig_landowners
+                add_ig_to_party = ig:ig_intelligentsia
+			}				
+		}
+	}
+}
