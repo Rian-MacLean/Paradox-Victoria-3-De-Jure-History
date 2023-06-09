@@ -356,7 +356,7 @@
 			}
 			create_pop = {
 				culture = kru
-				religion = protestant
+				religion = catholic
 				size = 16400
 			}
 		}
@@ -2795,7 +2795,7 @@
 			}
 			create_pop = {
 				culture = khoisan
-				religion = protestant
+				religion = catholic
 				size = 108000
 			}
 			create_pop = {

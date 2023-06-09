@@ -63,7 +63,6 @@
 			}
 			create_pop = {
 				culture = corsican
-				religion = protestant
 				size = 124
 			}
 		}

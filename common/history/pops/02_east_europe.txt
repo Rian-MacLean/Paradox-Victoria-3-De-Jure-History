@@ -416,7 +416,6 @@
 			}
 			create_pop = {
 				culture = ugrian
-				religion = protestant
 				size = 900
 			}
 			create_pop = {
@@ -479,7 +478,6 @@
 			}
 			create_pop = {
 				culture = polish
-				religion = protestant
 				size = 16000
 			}
 		}
@@ -514,7 +512,6 @@
 			}
 			create_pop = {
 				culture = polish
-				religion = protestant
 				size = 32000
 			}
 			create_pop = {
@@ -531,7 +528,6 @@
 			}
 			create_pop = {
 				culture = polish
-				religion = protestant
 				size = 24000
 			}
 			create_pop = {
@@ -552,7 +548,6 @@
 			}
 			create_pop = {
 				culture = polish
-				religion = protestant
 				size = 144000
 			}
 			create_pop = {
@@ -574,7 +569,6 @@
 			}
 			create_pop = {
 				culture = lithuanian
-				religion = protestant
 				size = 117196
 			}
 			create_pop = {
@@ -584,7 +578,6 @@
 			}
 			create_pop = {
 				culture = polish
-				religion = protestant
 				size = 28000
 			}
 		}
@@ -646,7 +639,6 @@
 			}
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 932400
 			}
 			create_pop = {
@@ -667,7 +659,6 @@
 			}
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 288000
 			}
 			create_pop = {
@@ -700,7 +691,6 @@
 			}
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 316400
 			}
 			create_pop = {
@@ -709,7 +699,6 @@
 			}
 			create_pop = {
 				culture = south_german
-				religion = protestant
 				size = 1100
 			}
 			create_pop = {
@@ -774,7 +763,6 @@
 			}
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 64956
 			}
 		}
@@ -799,7 +787,6 @@
 			}
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 212396
 			}
 			create_pop = {
@@ -828,7 +815,6 @@
 			}
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 168452
 			}
 			create_pop = {
@@ -845,7 +831,6 @@
 		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 132004
 			}
 			create_pop = {
@@ -870,7 +855,6 @@
 		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
-				religion = protestant
 				size = 286000
 			}
 			create_pop = {

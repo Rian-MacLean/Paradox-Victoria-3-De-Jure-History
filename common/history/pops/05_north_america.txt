@@ -364,13 +364,11 @@
 			create_pop = {
 				pop_type = clergy
 				culture = yankee
-				religion = protestant
 				size = 100
 			}
 			create_pop = {
 				pop_type = capitalists
 				culture = yankee
-				religion = protestant
 				size = 450
 			}
 			create_pop = {
@@ -385,7 +383,7 @@
 			}
 			create_pop = {
 				culture = hawaiian
-				religion = protestant
+				religion = catholic
 				size = 132304
 			}
 			create_pop = {
