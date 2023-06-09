@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_DAGESTAN = {
-		region_state:DAG = {
+		region_state:DON = {
 			create_pop = {
 				culture = north_caucasian
 				size = 271100
@@ -212,7 +212,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN = {
-		region_state:RUS = {
+		region_state:KLM = {
 			create_pop = {
 				culture = kalmyk
 				size = 795208

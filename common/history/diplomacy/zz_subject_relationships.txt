@@ -42,17 +42,135 @@ DIPLOMACY = {
 		}
 		create_diplomatic_pact = {
 			country = c:SWI
-			type = protectorate
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = defensive_pact
+		}
+		create_diplomatic_pact = {
+			country = c:PAP	
+			type = defensive_pact
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = customs_union
 		}
 		create_diplomatic_pact = {
 			country = c:POL
 			type = defensive_pact
 		}
 	}
+	c:AUS = {
+		create_diplomatic_pact = {
+			country = c:PAP	
+			type = defensive_pact
+		}
+		create_diplomatic_pact = {
+			country = c:SWI	
+			type = defensive_pact
+		}
+		create_diplomatic_pact = {
+			country = c:PRU	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:WLD	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:LIP
+			type = customs_union
+		}			
+		create_diplomatic_pact = {
+			country = c:SCM
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:SAX
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:MST
+			type = customs_union
+		}			
+		create_diplomatic_pact = {
+			country = c:ANH
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:MEC
+			type = customs_union
+		}			
+		create_diplomatic_pact = {
+			country = c:HES
+			type = customs_union
+		}		
+		create_diplomatic_pact = {
+			country = c:NAS
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = customs_union
+		}		
+		create_diplomatic_pact = {
+			country = c:FRM
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:WUR
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:BAD
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:BAV
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:SCW
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:COB
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:WEI
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:MEI
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:HEK
+			type = customs_union
+		}	
+	}
 	c:BYZ = {
 		create_diplomatic_pact = {
-			country = c:HUN
+			country = c:PAP	
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:PAP	
+			type = defensive_pact
+		}
+		create_diplomatic_pact = {
+			country = c:SIC
 			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = defensive_pact
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = customs_union
 		}
 		create_diplomatic_pact = {
 			country = c:WAL
@@ -65,6 +183,10 @@ DIPLOMACY = {
 		create_diplomatic_pact = {
 			country = c:UKR
 			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:DON
+			type = puppet
 		}
 	}
 	c:JAP = {

@@ -8,7 +8,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:SAR = {
+		region_state:FRA = {
 			create_pop = {
 				culture = north_italian
 				size = 2367188
@@ -20,7 +20,7 @@
 		}
 	}
 	s:STATE_SARDINIA = {
-		region_state:SAR = {
+		region_state:FRA = {
 			create_pop = {
 				culture = south_italian
 				size = 524084
@@ -28,13 +28,13 @@
 		}
 	}
 	s:STATE_MALTA = {
-		region_state:GBR = {
+		region_state:BYZ = {
 			create_pop = {
 				culture = maltese
 				size = 117192
 			}
 			create_pop = {
-				culture = british
+				culture = greek
 				size = 2792
 			}
 		}
@@ -101,7 +101,7 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:SAR = {
+		region_state:FRA = {
 			create_pop = {
 				culture = french
 				size = 92032
@@ -290,17 +290,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 1218404
-			}
-		}
-		region_state:GBR = {
-			create_pop = {
-				culture = spanish
-				size = 49024
-			}
-			create_pop = {
-				culture = british
-				size = 12336
+				size = 1279764
 			}
 		}
 	}
@@ -325,7 +315,7 @@
 		}
 	}
 	s:STATE_BEIRA = {
-		region_state:POR = {
+		region_state:SPA = {
 			create_pop = {
 				culture = portuguese
 				size = 1620800
@@ -333,7 +323,7 @@
 		}
 	}
 	s:STATE_ESTREMADURA = {
-		region_state:POR = {
+		region_state:SPA = {
 			create_pop = {
 				culture = portuguese
 				size = 860796
@@ -341,7 +331,7 @@
 		}
 	}
 	s:STATE_ALENTEJO = {
-		region_state:POR = {
+		region_state:SPA = {
 			create_pop = {
 				culture = portuguese
 				size = 372508
@@ -349,49 +339,37 @@
 		}
 	}
 	s:STATE_CAPE_VERDE = {
-		region_state:POR = {
+		region_state:GBR = {
 			create_pop = {
-				culture = portuguese
+				culture = british
 				size = 103532
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 24666
 			}
 		}
 	}
 
 	s:STATE_MADEIRA = {
-		region_state:POR = {
+		region_state:GBR = {
 			create_pop = {
-				culture = portuguese
+				culture = british
 				size = 103532
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 24666
 			}
 		}
 	}
 
 	s:STATE_CANARY_ISLANDS = {
-		region_state:SPA = {
+		region_state:GBR = {
 			create_pop = {
-				culture = spanish
+				culture = british
 				size = 208004
 			}
 		}
 	}
 
 	s:STATE_AZORES = {
-		region_state:POR = {
+		region_state:GBR = {
 			create_pop = {
-				culture = portuguese
+				culture = british
 				size = 103532
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 24666
 			}
 		}
 	}
@@ -516,7 +494,7 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:BYZ = {
+		region_state:HUN = {
 			create_pop = {
 				culture = croat
 				size = 563592
@@ -541,7 +519,7 @@
 		}
 	}
 	s:STATE_SLAVONIA = {
-		region_state:BYZ = {
+		region_state:HUN = {
 			create_pop = {
 				culture = croat
 				size = 282048

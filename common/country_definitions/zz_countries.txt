@@ -30,6 +30,17 @@ SCA = {
 	capital = STATE_SVEALAND
 }
 
+AUS = {
+	color = { 211  220  240 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german south_german }
+	capital = STATE_AUSTRIA
+}
+
 ISR = {
 	color = { 150  212  214 }
 	

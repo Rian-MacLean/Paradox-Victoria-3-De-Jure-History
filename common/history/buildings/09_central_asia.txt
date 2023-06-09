@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DAGESTAN={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -26,7 +26,7 @@
 				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:CHC={
+		region_state:BYZ={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -42,7 +42,7 @@
 		}
 	}
 	s:STATE_KUBAN={
-		region_state:RUS={
+		region_state:DON={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -228,7 +228,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN={
-		region_state:RUS={
+		region_state:KLM={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

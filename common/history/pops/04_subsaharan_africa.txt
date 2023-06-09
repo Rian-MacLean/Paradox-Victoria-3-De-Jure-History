@@ -231,6 +231,18 @@
 				size = 146521
 			}
 			create_pop = {
+				culture = afro_brazilian
+				size = 24666
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 24666
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 24666
+			}
+			create_pop = {
 				pop_type = slaves
 				culture = afro_antillean
 				religion = catholic
