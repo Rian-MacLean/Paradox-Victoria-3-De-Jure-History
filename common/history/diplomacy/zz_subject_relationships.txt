@@ -41,6 +41,14 @@ DIPLOMACY = {
 			type = dominion
 		}
 		create_diplomatic_pact = {
+			country = c:WES
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BAD
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:SWI
 			type = customs_union
 		}

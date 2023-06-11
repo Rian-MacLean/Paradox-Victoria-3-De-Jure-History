@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:AUS = {
+		region_state:PAP = {
 			create_pop = {
 				culture = north_italian
 				size = 2376996
@@ -116,27 +116,15 @@
 		}
 	}
 	s:STATE_EMILIA = {
-		region_state:PAR = {
+		region_state:PAP = {
 			create_pop = {
 				culture = north_italian
-				size = 472004
-			}
-		}
-		region_state:LUC = {
-			create_pop = {
-				culture = north_italian
-				size = 108408
-			}
-		}
-		region_state:MOD = {
-			create_pop = {
-				culture = north_italian
-				size = 648400
+				size = 1228812
 			}
 		}
 	}
 	s:STATE_TUSCANY = {
-		region_state:TUS = {
+		region_state:PAP = {
 			create_pop = {
 				culture = north_italian
 				size = 1625400
@@ -160,7 +148,7 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:AUS = {
+		region_state:PAP = {
 			create_pop = {
 				culture = north_italian
 				size = 1855196
@@ -702,14 +690,8 @@
 				size = 28000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 200
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 700
 			}
 		}
 	}
@@ -728,16 +710,9 @@
 				size = 80000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 300
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 1500
-			}
-
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {

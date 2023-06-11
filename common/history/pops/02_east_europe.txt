@@ -90,11 +90,15 @@
 				culture = polish
 				size = 141504
 			}
+			create_pop = {
+				culture = ukrainian
+				size = 1000000
+			}
 		}
 		region_state:UKR = {
 			create_pop = {
 				culture = ukrainian
-				size = 3923992
+				size = 2923992
 			}
 			create_pop = {
 				culture = russian
