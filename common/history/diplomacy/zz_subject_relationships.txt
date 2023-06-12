@@ -29,14 +29,6 @@ DIPLOMACY = {
 	}
 	c:FRA = {
 		create_diplomatic_pact = {
-			country = c:SPA
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:NET
-			type = dominion
-		}
-		create_diplomatic_pact = {
 			country = c:SWI
 			type = customs_union
 		}
