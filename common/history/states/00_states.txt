@@ -2563,7 +2563,6 @@ STATES = {
 		}
 		
 		add_homeland = british
-		add_homeland = welsh
 	}
 	s:STATE_YORKSHIRE = {
 		create_state = {
@@ -2579,7 +2578,7 @@ STATES = {
 			owned_provinces = { xFBDD5D xCCBBD1 x662BE7 x84625B x8E7728 xFACCE3 x314E1F x80DB90 x20E000 x0E7C03 x37518E x3CFF08 xB7B8EA x0C1520 xF78F29 x637BE8 xF00652 x47C5CD x5B0884 }
 		}
 		
-		add_homeland = scottish
+		add_homeland = british
 	}
 	s:STATE_MIDLANDS = {
 		create_state = {
@@ -2611,36 +2610,31 @@ STATES = {
 			owned_provinces = { xB2A15E x20E080 x676072 xA0E080 x0B53FA x832656 xA06080 x363883 x80F634 xD01BE2 xDCD566 x206080 x002C82 xA0E000 x193EFC x9B6ACC }
 		}
 		
-		add_homeland = scottish
+		add_homeland = british
 	}
 	s:STATE_ULSTER = {
 		create_state = {
 			country = c:GBR
 			owned_provinces = { x688E79 x0A38AF x2BE1C8 xA06040 xCFCD2B xAA6FA1 x20E040 xA0C0E0 }
-			state_type = unincorporated
 		}
 		
-		add_homeland = irish
 		add_homeland = british
-		add_homeland = scottish
 	}
 	s:STATE_MUNSTER = {
 		create_state = {
 			country = c:GBR
 			owned_provinces = { xEF3F71 xE06040 xF53F9B xBDAB32 xA0E0C0 x849939 x02061B xECB3A5 x969279 xD9BB34 }
-			state_type = unincorporated
 		}
 		
-		add_homeland = irish
+		add_homeland = british
 	}
 	s:STATE_LEINSTER = {
 		create_state = {
 			country = c:GBR
 			owned_provinces = { xA0E040 xA2A933 x1E9CB2 xAEAF93 x2060C0 xCC3E24 x5B3F6F x5086D4 x60E040 }
-			state_type = unincorporated
 		}
 		
-		add_homeland = irish
+		add_homeland = british
 	}
 	s:STATE_LANGUEDOC = {
 		create_state = {
@@ -6593,6 +6587,7 @@ STATES = {
 		}
 		
 		add_homeland = north_italian
+		add_claim = c:PAP
 	}
 	s:STATE_SARDINIA = {
 		create_state = {
@@ -6601,6 +6596,7 @@ STATES = {
 		}
 		
 		add_homeland = south_italian
+		add_claim = c:PAP
 	}
 	s:STATE_TARAPACA = {
 		create_state = {
@@ -6718,10 +6714,10 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = { x706E78 xEF4020 x396B5C }
-			state_type = unincorporated
 		}
 		
 		add_homeland = corsican
+		add_claim = c:PAP
 	}
 	s:STATE_PASHTUNISTAN = {
 		create_state = {

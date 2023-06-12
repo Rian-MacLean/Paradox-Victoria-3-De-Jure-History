@@ -131,16 +131,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2657596
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 100000
-			}
-			create_pop = {
-				culture = irish
-				size = 28400
+				size = 2785996
 			}
 		}
 	}
@@ -148,28 +139,15 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1986404
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 85700
-			}
-			create_pop = {
-				culture = irish
-				size = 80700
+				size = 2152804
 			}
 		}
 	}
 	s:STATE_WALES = {
 		region_state:GBR = {
 			create_pop = {
-				culture = welsh
-				size = 778557
-			}
-			create_pop = {
 				culture = british
-				size = 194639
+				size = 973196
 			}
 		}
 	}
@@ -177,29 +155,15 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2026592
-			}
-			create_pop = {
-				culture = irish
-				size = 16000
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 48000
+				size = 2090592
 			}
 		}
 	}
 	s:STATE_HIGHLANDS = {
 		region_state:GBR = {
 			create_pop = {
-				culture = scottish
-				size = 672396
-			}
-			create_pop = {
-				culture = scottish
-				religion = catholic
-				size = 8000
+				culture = british
+				size = 680396
 			}
 		}
 	}
@@ -207,16 +171,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2543604
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 24400
-			}
-			create_pop = {
-				culture = irish
-				size = 12000
+				size = 2580004
 			}
 		}
 	}
@@ -224,12 +179,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1565208
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 8000
+				size = 1573208
 			}
 		}
 	}
@@ -237,133 +187,47 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1969600
-			}
-			create_pop = {
-				culture = british
-				religion = catholic
-				size = 12400
-			}
-			create_pop = {
-				culture = irish
-				size = 4400
+				size = 1986400
 			}
 		}
 	}
 	s:STATE_LOWLANDS = {
 		region_state:GBR = {
 			create_pop = {
-				culture = scottish
-				size = 1397200
-			}
-			create_pop = {
-				culture = scottish
-				religion = catholic
-				size = 188000
-			}
-			create_pop = {
-				culture = irish
-				size = 52400
+				culture = british
+				size = 1637600
 			}
 		}
 	}
 	s:STATE_ULSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
-				size = 1183122
-			}
-			create_pop = {
-				culture = british # Anglicans
-				size = 407111
-			}
-			create_pop = {
-				culture = irish # Anglicans
-				size = 71843
-			}
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				size = 575084
-			}
-			create_pop = {
-				culture = irish  # Presbyterians and Methodists
-				size = 101485
+				culture = british
+				size = 2338645
 			}
 		}
 	}
 	s:STATE_MUNSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
-				size = 2214388
-			}
-			create_pop = {
-				culture = british # Anglicans
-				size = 71856
-			}
-			create_pop = {
-				culture = irish # Anglicans
-				size = 47904
-			}
-			create_pop = {
-				culture = british  # Presbyterians and Methodists
-				size = 10049
-			}
-			create_pop = {
-				culture = irish  # Presbyterians and Methodists
-				size = 4040
+				culture = british
+				size = 2348237
 			}
 		}
 	}
 	s:STATE_LEINSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
-				size = 1677581
-			}
-			create_pop = {
-				culture = british # Anglicans
-				size = 160989
-			}
-			create_pop = {
-				culture = irish # Anglicans
-				size = 68994
-			}
-			create_pop = {
-				culture = british  # Presbyterians and Methodists
-				size = 14385
-			}
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				size = 4300
-			}
-			create_pop = {
-				culture = irish  # Presbyterians and Methodists
-				size = 8007
+				culture = british
+				size = 1930256
 			}
 		}
 	}
 	s:STATE_CONNAUGHT = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
-				size = 1319428
-			}
-			create_pop = {
-				culture = british # Anglicans
-				size = 28463
-			}
-			create_pop = {
-				culture = irish # Anglicans
-				size = 33413
-			}
-			create_pop = {
-				culture = british  # Presbyterians and Methodists
-				size = 4007
-			}
-			create_pop = {
-				culture = irish  # Presbyterians and Methodists
-				size = 5170
+				culture = british
+				size = 1390481
 			}
 		}
 	}

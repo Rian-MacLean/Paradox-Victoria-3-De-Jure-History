@@ -110,6 +110,16 @@ NZL = { ai_will_do = { always = no } }
 
 ### Europe
 
+ENG = { ai_will_do = { always = no } }
+
+SCO = { ai_will_do = { always = no } }
+
+WLS = { ai_will_do = { always = no } }
+
+IRE = { ai_will_do = { always = no } }
+
+ULS = { ai_will_do = { always = no } }
+
 DEN = { ai_will_do = { always = no } }
 
 NOR = { ai_will_do = { always = no } }
@@ -119,6 +129,18 @@ SWE = { ai_will_do = { always = no } }
 SCN = { ai_will_do = { always = no } }
 
 FIN = { ai_will_do = { always = no } }
+
+GRE = { ai_will_do = { always = no } }
+
+ION = { ai_will_do = { always = no } }
+
+CRE = { ai_will_do = { always = no } }
+
+CYP = { ai_will_do = { always = no } }
+
+CAU = { ai_will_do = { always = no } }
+
+AZB = { ai_will_do = { always = no } }
 
 
 ### Middle East
