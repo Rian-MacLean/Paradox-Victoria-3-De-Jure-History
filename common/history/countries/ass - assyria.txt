@@ -1,0 +1,16 @@
+COUNTRIES = {
+	c:ASS = {
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_traditional = yes
+		add_technology_researched = napoleonic_warfare
+		
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_slavery_banned
+    }
+}

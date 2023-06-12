@@ -118,7 +118,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:HDJ={
+		region_state:JER={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -128,7 +128,7 @@
 		}
 	}
 	s:STATE_HEDJAZ={
-		region_state:HDJ={
+		region_state:JER={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -152,7 +152,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}		
 		}
-		region_state:NEJ={		
+		region_state:PER={		
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -184,7 +184,7 @@
 		}
 	}
 	s:STATE_TRANSJORDAN={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -197,7 +197,7 @@
 		}
 	}
 	s:STATE_PALESTINE={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -219,7 +219,7 @@
 		}
 	}
 	s:STATE_LEBANON={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -241,7 +241,7 @@
 		}
 	}
 	s:STATE_SYRIA={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -321,7 +321,7 @@
 		}
 	}
 	s:STATE_BAGHDAD={
-		region_state:TUR={
+		region_state:PER={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -349,7 +349,7 @@
 		}
 	}
 	s:STATE_MOSUL={
-		region_state:TUR={
+		region_state:ASS={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -365,7 +365,7 @@
 		}
 	}
 	s:STATE_DEIR_EZ_ZOR={
-		region_state:TUR={
+		region_state:ASS={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -375,7 +375,7 @@
 		}
 	}
 	s:STATE_BASRA={
-		region_state:TUR={
+		region_state:PER={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -681,7 +681,7 @@
 				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 		}
-		region_state:TUR={
+		region_state:ASS={
 			create_building={
 				building="building_government_administration"
 				level=1

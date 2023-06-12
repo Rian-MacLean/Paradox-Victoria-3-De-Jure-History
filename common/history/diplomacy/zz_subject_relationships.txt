@@ -1,10 +1,6 @@
 DIPLOMACY = {
 	c:USA = {
 		create_diplomatic_pact = {
-			country = c:JER
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:LIB
 			type = dominion
 		}	
@@ -41,14 +37,6 @@ DIPLOMACY = {
 			type = dominion
 		}
 		create_diplomatic_pact = {
-			country = c:WES
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:BAD
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:SWI
 			type = customs_union
 		}
@@ -78,88 +66,22 @@ DIPLOMACY = {
 			country = c:SWI	
 			type = defensive_pact
 		}
+	}
+	c:PAP = {
 		create_diplomatic_pact = {
-			country = c:PRU	
-			type = customs_union
+			country = c:JER
+			type = defensive_pact
 		}
-		create_diplomatic_pact = {
-			country = c:WLD	
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:LIP
-			type = customs_union
-		}			
-		create_diplomatic_pact = {
-			country = c:SCM
-			type = customs_union
-		}	
-		create_diplomatic_pact = {
-			country = c:SAX
-			type = customs_union
-		}	
-		create_diplomatic_pact = {
-			country = c:MST
-			type = customs_union
-		}			
-		create_diplomatic_pact = {
-			country = c:ANH
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:MEC
-			type = customs_union
-		}			
-		create_diplomatic_pact = {
-			country = c:HES
-			type = customs_union
-		}		
-		create_diplomatic_pact = {
-			country = c:NAS
-			type = customs_union
-		}	
-		create_diplomatic_pact = {
-			country = c:LUB
-			type = customs_union
-		}		
-		create_diplomatic_pact = {
-			country = c:FRM
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:WUR
-			type = customs_union
-		}	
-		create_diplomatic_pact = {
-			country = c:BAD
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:BAV
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:SCW
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:COB
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:WEI
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:MEI
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:HEK
-			type = customs_union
-		}	
 	}
 	c:BYZ = {
+		create_diplomatic_pact = {
+			country = c:JER
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:JER
+			type = defensive_pact
+		}
 		create_diplomatic_pact = {
 			country = c:PAP	
 			type = customs_union
@@ -194,6 +116,10 @@ DIPLOMACY = {
 		}
 		create_diplomatic_pact = {
 			country = c:DON
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ASS
 			type = puppet
 		}
 	}
