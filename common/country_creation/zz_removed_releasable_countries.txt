@@ -1,0 +1,132 @@
+### Americas
+
+ICL = { ai_will_do = { always = no } }
+
+GRN = { ai_will_do = { always = no } }
+
+CAN = { ai_will_do = { always = no } }
+
+NEW = { ai_will_do = { always = no } }
+
+NVS = { ai_will_do = { always = no } }
+
+NBS = { ai_will_do = { always = no } }
+
+QUE = { ai_will_do = { always = no } }
+
+ONT = { ai_will_do = { always = no } }
+
+NEN = { ai_will_do = { always = no } }
+
+IRO = { ai_will_do = { always = no } }
+
+UOM = { ai_will_do = { always = no } }
+
+CSA = { ai_will_do = { always = no } }
+
+ASA = { ai_will_do = { always = no } }
+
+LOU = { ai_will_do = { always = no } }
+
+MKT = { ai_will_do = { always = no } }
+
+SEQ = { ai_will_do = { always = no } }
+
+TEX = { ai_will_do = { always = no } }
+
+DES = { ai_will_do = { always = no } }
+
+ORG = { ai_will_do = { always = no } }
+
+CAL = { ai_will_do = { always = no } }
+
+BAH = { ai_will_do = { always = no } }
+
+CUB = { ai_will_do = { always = no } }
+
+JAM = { ai_will_do = { always = no } }
+
+HAI = { ai_will_do = { always = no } }
+
+DOM = { ai_will_do = { always = no } }
+
+PCO = { ai_will_do = { always = no } }
+
+WIN = { ai_will_do = { always = no } }
+
+RIO = { ai_will_do = { always = no } }
+
+YUC = { ai_will_do = { always = no } }
+
+UCA = { ai_will_do = { always = no } }
+
+GUA = { ai_will_do = { always = no } }
+
+ALT = { ai_will_do = { always = no } }
+
+HON = { ai_will_do = { always = no } }
+
+ELS = { ai_will_do = { always = no } }
+
+NIC = { ai_will_do = { always = no } }
+
+COS = { ai_will_do = { always = no } }
+
+PNM = { ai_will_do = { always = no } }
+
+CLM = { ai_will_do = { always = no } }
+
+VNZ = { ai_will_do = { always = no } }
+
+ECU = { ai_will_do = { always = no } }
+
+BRZ = { ai_will_do = { always = no } }
+
+AMZ = { ai_will_do = { always = no } }
+
+PRA = { ai_will_do = { always = no } }
+
+AGJ = { ai_will_do = { always = no } }
+
+PNI = { ai_will_do = { always = no } }
+
+PEU = { ai_will_do = { always = no } }
+
+BOL = { ai_will_do = { always = no } }
+
+URU = { ai_will_do = { always = no } }
+
+ARG = { ai_will_do = { always = no } }
+
+PRG = { ai_will_do = { always = no } }
+
+CHL = { ai_will_do = { always = no } }
+
+
+### Oceania
+
+NZL = { ai_will_do = { always = no } }
+
+
+### Europe
+
+DEN = { ai_will_do = { always = no } }
+
+NOR = { ai_will_do = { always = no } }
+
+SWE = { ai_will_do = { always = no } }
+
+SCN = { ai_will_do = { always = no } }
+
+FIN = { ai_will_do = { always = no } }
+
+
+### Middle East
+
+PAL = { ai_will_do = { always = no } }
+
+LEB = { ai_will_do = { always = no } }
+
+EOT = { ai_will_do = { always = no } }
+
+SYR = { ai_will_do = { always = no } }

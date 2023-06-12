@@ -367,10 +367,6 @@
 				culture = jerusalemite
 				size = 100000
 			}
-			create_pop = {
-				culture = north_caucasian
-				size = 100
-			}
 		}
 	}
 	s:STATE_PALESTINE = {
@@ -384,14 +380,6 @@
 				religion = jewish
 				size = 18000
 			}
-			create_pop = {
-				culture = armenian
-				size = 1400
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 1200
-			}
 		}
 	}
 	s:STATE_LEBANON = {
@@ -404,24 +392,6 @@
 				culture = sephardic
 				size = 6000
 			}
-			create_pop = {
-				culture = armenian
-				religion = catholic
-				size = 4000
-			}
-			create_pop = {
-				culture = armenian
-				size = 1000
-			}
-			create_pop = {
-				culture = greek
-				religion = orthodox
-				size = 6000
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 2000
-			}
 		}
 	}
 	s:STATE_SYRIA = {
@@ -433,10 +403,6 @@
 			create_pop = {
 				culture = sephardic
 				size = 8000
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 3000
 			}
 		}
 	}

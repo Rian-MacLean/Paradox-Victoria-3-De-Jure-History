@@ -68,7 +68,7 @@
 		region_state:BYZ = {
 			create_pop = {
 				culture = armenian
-				size = 265100
+				size = 274241
 			}
 			create_pop = {
 				culture = greek

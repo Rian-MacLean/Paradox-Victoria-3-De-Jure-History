@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_LOWER_EGYPT={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -103,7 +103,7 @@
 		}
 	}
 	s:STATE_UPPER_EGYPT={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -125,7 +125,7 @@
 		}
 	}
 	s:STATE_MIDDLE_EGYPT={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -165,19 +165,19 @@
 		}
 	}
 	s:STATE_EGYPTIAN_DESERT={
-		region_state:EGY={
+		region_state:JER={
 		}
 	}
 	s:STATE_MATRUH={
-		region_state:EGY={
+		region_state:JER={
 		}
 	}
 	s:STATE_SINAI={
-		region_state:EGY={		
+		region_state:JER={		
 		}
 	}
 	s:STATE_ERITREA={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -207,7 +207,7 @@
 		}
 	}
 	s:STATE_DONGOLA={
-		region_state:EGY={
+		region_state:JER={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -223,7 +223,7 @@
 		}
 	}
 	s:STATE_KORDOFAN={
-		region_state:EGY={
+		region_state:NBA={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -255,7 +255,7 @@
 		}
 	}
 	s:STATE_BLUE_NILE={
-		region_state:EGY={
+		region_state:NBA={
 			create_building={
 				building="building_millet_farm"
 				level=2

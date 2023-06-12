@@ -1,6 +1,10 @@
 ﻿POPS = {
 	s:STATE_LOWER_EGYPT = {
-		region_state:EGY = {
+		region_state:JER = {
+			create_pop = {
+				culture = jerusalemite
+				size = 1600000
+			}
 			create_pop = {
 				culture = misri
 				size = 2318347
@@ -11,27 +15,17 @@
 				size = 132050
 			}
 			create_pop = {
-				culture = turkish
-				pop_type = aristocrats
-				size = 20755
+				culture = misri
+				size = 8012
 			}
 			create_pop = {
-				culture = turkish
-				pop_type = bureaucrats
-				size = 7591
-			}
-			create_pop = {
-				culture = turkish
-				pop_type = officers
-				size = 520
-			}
-			create_pop = {
-				culture = greek
-				size = 20590
+				culture = misri
+				religion = oriental_orthodox
+				size = 871
 			}
 			create_pop = {
 				culture = north_caucasian
-				size = 28588
+				size = 34888
 			}
 			create_pop = {
 				culture = mashriqi
@@ -40,10 +34,6 @@
 			create_pop = {
 				culture = sephardic
 				size = 26410
-			}
-			create_pop = {
-				culture = armenian
-				size = 2741
 			}
 			create_pop = {
 				culture = sudanese
@@ -61,7 +51,7 @@
 		}
 	}
 	s:STATE_UPPER_EGYPT = {
-		region_state:EGY = {
+		region_state:JER = {
 			create_pop = {
 				culture = misri
 				size = 320008
@@ -97,7 +87,7 @@
 		}
 	}
 	s:STATE_MIDDLE_EGYPT = {
-		region_state:EGY = {
+		region_state:JER = {
 			create_pop = {
 				culture = misri
 				size = 942937
@@ -138,19 +128,23 @@
 		}
 	}
 	s:STATE_EGYPTIAN_DESERT = {
-		region_state:EGY = {
+		region_state:JER = {
 			create_pop = {
 				culture = bedouin
-				size = 10948
+				size = 18749
+			}
+			create_pop = { # Siwi People
+				culture = berber
+				size = 2165
 			}
 			create_pop = {
 				culture = misri
 				religion = oriental_orthodox
-				size = 2184
+				size = 3286
 			}
 			create_pop = {
 				culture = misri
-				size = 13206
+				size = 24188
 			}
 			create_pop = {
 				culture = sudanese
@@ -164,54 +158,23 @@
 		}
 	}
 	s:STATE_MATRUH = {
-		region_state:EGY = {
+		region_state:JER = {
 			create_pop = {
-				culture = bedouin
-				size = 7801
-			}
-			create_pop = { # Siwi People
-				culture = berber
-				size = 2165
-			}
-			create_pop = {
-				culture = misri
-				size = 10982
-			}
-			create_pop = {
-				culture = misri
-				religion = oriental_orthodox
-				size = 1102
+				culture = jerusalemite
+				size = 60000
 			}
 		}
 	}
 	s:STATE_SINAI = {
-		region_state:EGY = {
+		region_state:JER = {
 			create_pop = {
-				culture = misri
-				size = 8012
-			}
-			create_pop = {
-				culture = mashriqi
-				size = 512
-			}
-			create_pop = {
-				culture = bedouin
-				size = 11120
-			}
-			create_pop = {
-				culture = misri
-				religion = oriental_orthodox
-				size = 871
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sudanese
-				size = 101
+				culture = jerusalemite
+				size = 200000
 			}
 		}
 	}
 	s:STATE_ERITREA = {
-		region_state:EGY = {
+		region_state:JER = {
 			create_pop = {
 				culture = tigray
 				size = 75764
@@ -261,7 +224,7 @@
 		}
 	}
 	s:STATE_DONGOLA = {
-		region_state:EGY = {
+		region_state:JER = {
 			create_pop = {
 				culture = bedouin
 				size = 156000
@@ -288,7 +251,7 @@
 		}
 	}
 	s:STATE_KORDOFAN = {
-		region_state:EGY = {
+		region_state:NBA = {
 			create_pop = {
 				culture = sudanese
 				size = 224396
@@ -335,7 +298,7 @@
 		}
 	}
 	s:STATE_BLUE_NILE = {
-		region_state:EGY = {
+		region_state:NBA = {
 			create_pop = {
 				culture = sudanese
 				size = 307600

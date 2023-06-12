@@ -67,12 +67,6 @@ DIPLOMACY = {
 			type = defensive_pact
 		}
 	}
-	c:PAP = {
-		create_diplomatic_pact = {
-			country = c:JER
-			type = defensive_pact
-		}
-	}
 	c:BYZ = {
 		create_diplomatic_pact = {
 			country = c:JER
@@ -120,6 +114,16 @@ DIPLOMACY = {
 		}
 		create_diplomatic_pact = {
 			country = c:ASS
+			type = puppet
+		}
+	}
+	c:JER = {
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = defensive_pact
+		}
+		create_diplomatic_pact = {
+			country = c:NBA
 			type = puppet
 		}
 	}

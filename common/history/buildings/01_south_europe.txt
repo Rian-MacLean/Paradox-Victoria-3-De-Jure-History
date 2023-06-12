@@ -258,7 +258,7 @@
 		}
 	}
 	s:STATE_CAMPANIA={
-		region_state:SIC={
+		region_state:PAP={
 			create_building={
 				building="building_government_administration"
 				level=6
@@ -352,7 +352,7 @@
 		}
 	}
 	s:STATE_CALABRIA={
-		region_state:SIC={
+		region_state:PAP={
 			create_building={
 				building="building_food_industry"
 				level=3
@@ -398,7 +398,7 @@
 		}
 	}
 	s:STATE_APULIA={
-		region_state:SIC={
+		region_state:PAP={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -432,7 +432,7 @@
 		}
 	}
 	s:STATE_ABRUZZO={
-		region_state:SIC={
+		region_state:PAP={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -746,7 +746,7 @@
 		}
 	}
 	s:STATE_SICILY={
-		region_state:SIC={
+		region_state:PAP={
 			create_building={
 				building="building_government_administration"
 				level=3
