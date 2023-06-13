@@ -944,7 +944,6 @@ STATES = {
 		}
 		
 		add_homeland = spanish
-		add_homeland = galician
 	}
 	s:STATE_ASTURIAS = {
 		create_state = {
@@ -977,7 +976,6 @@ STATES = {
 		}
 		
 		add_homeland = spanish
-		add_homeland = basque
 	}
 	s:STATE_CATALONIA = {
 		create_state = {
@@ -986,7 +984,6 @@ STATES = {
 		}
 		
 		add_homeland = spanish
-		add_homeland = catalan
 	}
 	s:STATE_BALEARES = {
 		create_state = {
@@ -995,7 +992,6 @@ STATES = {
 		}
 		
 		add_homeland = spanish
-		add_homeland = catalan
 	}
 	s:STATE_NEW_SOUTH_WALES = {
 		create_state = {
@@ -2797,7 +2793,6 @@ STATES = {
 		}
 		
 		add_homeland = spanish
-		add_homeland = portuguese
 	}
 	s:STATE_ESTREMADURA = {
 		create_state = {
@@ -2806,7 +2801,6 @@ STATES = {
 		}
 		
 		add_homeland = spanish
-		add_homeland = portuguese
 	}
 	s:STATE_ALENTEJO = {
 		create_state = {
@@ -2815,7 +2809,6 @@ STATES = {
 		}
 		
 		add_homeland = spanish
-		add_homeland = portuguese
 	}
 	s:STATE_MADEIRA = {
 		create_state = {
@@ -2870,6 +2863,7 @@ STATES = {
 			country = c:SPA
 			owned_provinces = { xB4471A x679A01 x009020 x97FBA4 x342BE6 x506000 xC694C3 xF19B02 x7500D4 x30A000 x4A8E78 xE47DCF }
 		}
+
 		add_homeland = spanish
 	}
 	s:STATE_VALENCIA = {
@@ -2877,7 +2871,7 @@ STATES = {
 			country = c:SPA
 			owned_provinces = { x721583 xCAC27C x99E5CE x8FDF80 xD06040 xDFEF80 x25DD5C xB03776 x71158B x626878 xE0BED4 x6549AD xA03040 x134657 }
 		}
-		add_homeland = catalan
+
 		add_homeland = spanish
 	}
 	s:STATE_TOLEDO = {
@@ -2885,6 +2879,7 @@ STATES = {
 			country = c:SPA
 			owned_provinces = { x302080 x2B550F xB0A080 xB5194A xF841E6 xB0A000 xF693FD x92DDDA x89CA9E xCAA3E1 xDCD24C x41C3FC x73D6A9 x093A56 xB02080 xF44640 x88CEE5 x8010A0 xA1BEC2 }
 		}
+		
 		add_homeland = spanish
 	}
 	s:STATE_WALLONIA = {

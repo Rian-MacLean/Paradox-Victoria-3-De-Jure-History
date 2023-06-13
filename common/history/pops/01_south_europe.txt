@@ -172,28 +172,18 @@
 		}
 	}
 	s:STATE_GALICIA = {
-		# 840792
 		region_state:SPA = {
 			create_pop = {
-				culture = galician
-				size = 828528
-			}
-			create_pop = {
 				culture = spanish
-				size = 12264
+				size = 840792
 			}
 		}
 	}
 	s:STATE_ASTURIAS = {
-		# please don't ask for a source
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 614264
-			}
-			create_pop = {
-				culture = basque
-				size = 32000
+				size = 646264
 			}
 		}	
 	}
@@ -201,11 +191,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 1430808
-			}
-			create_pop = {
-				culture = basque
-				size = 4000
+				size = 1434808
 			}
 		}
 	}
@@ -213,15 +199,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 579200
-			}
-			create_pop = {
-				culture = catalan
-				size = 32220
-			}
-			create_pop = {
-				culture = basque
-				size = 700060
+				size = 1311480
 			}
 		}
 	}
@@ -229,39 +207,23 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 401200
-			}
-			create_pop = {
-				culture = basque
-				size = 100008
-			}
-			create_pop = {
-				culture = catalan
-				size = 77996
+				size = 579204
 			}
 		}
 	}
 	s:STATE_CATALONIA = {
 		region_state:SPA = {
 			create_pop = {
-				culture = catalan
-				size = 704308
-			}
-			create_pop = {
 				culture = spanish
-				size = 316804
+				size = 1021112
 			}
 		}
 	}
 	s:STATE_BALEARES = {
 		region_state:SPA = {
 			create_pop = {
-				culture = catalan
-				size = 145244
-			}
-			create_pop = {
 				culture = spanish
-				size = 78020
+				size = 223264
 			}
 		}
 	}
@@ -293,18 +255,14 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 989604
-			}
-			create_pop = {
-				culture = catalan
-				size = 490392
+				size = 1479996
 			}
 		}
 	}
 	s:STATE_BEIRA = {
 		region_state:SPA = {
 			create_pop = {
-				culture = portuguese
+				culture = spanish
 				size = 1620800
 			}
 		}
@@ -312,7 +270,7 @@
 	s:STATE_ESTREMADURA = {
 		region_state:SPA = {
 			create_pop = {
-				culture = portuguese
+				culture = spanish
 				size = 860796
 			}
 		}
@@ -320,7 +278,7 @@
 	s:STATE_ALENTEJO = {
 		region_state:SPA = {
 			create_pop = {
-				culture = portuguese
+				culture = spanish
 				size = 372508
 			}
 		}
