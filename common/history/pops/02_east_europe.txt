@@ -2,7 +2,7 @@
 	s:STATE_INGRIA = {
 		region_state:SCA = {
 			create_pop = {
-				culture = finnish
+				culture = swedish
 				size = 88000
 			}
 		}
