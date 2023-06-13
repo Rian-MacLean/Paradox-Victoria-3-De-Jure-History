@@ -634,7 +634,7 @@
 				size = 2000
 			}
 			create_pop = {
-				culture = south_italian
+				culture = north_italian
 				size = 2000
 			}
 			create_pop = {

@@ -858,7 +858,7 @@ STATES = {
 			owned_provinces = { x805120 x8A0548 xF0AF66 xC090A0 x702CA8 x00D020 xB7B8F1 }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		create_state = {
@@ -1466,7 +1466,7 @@ STATES = {
 			owned_provinces = { xB5726E xB0C0A0 xB040A0 x3040A0 }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 	}
 	s:STATE_NEVADA = {
 		create_state = {
@@ -6212,7 +6212,7 @@ STATES = {
 			owned_provinces = { x73CE17 x214415 x4090A0 xDF1CE3 x890469 x0E8BCC }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 	}
 	s:STATE_ABRUZZO = {
 		create_state = {
@@ -6220,7 +6220,7 @@ STATES = {
 			owned_provinces = { xA6F611 x31C0A0 x0AE57A x0D3025 xF34DC0 }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 	}	
 	s:STATE_CALABRIA = {
 		create_state = {
@@ -6228,7 +6228,7 @@ STATES = {
 			owned_provinces = { xC01020 xC050E0 x785460 xE78C7B }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 	}	
 	s:STATE_APULIA = {
 		create_state = {
@@ -6236,7 +6236,7 @@ STATES = {
 			owned_provinces = { x704020 x2C8F44 xEFC992 x4050DF x74BD9B x836841 x30209F }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 	}
 	s:STATE_WEST_GALICIA = {
 		create_state = {
@@ -6590,7 +6590,7 @@ STATES = {
 			owned_provinces = { xFD923D x80D020 xA61F49 x0D6170 xD8550D xFA1A93 x30A040 xDC4AE3 }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 		add_claim = c:PAP
 	}
 	s:STATE_TARAPACA = {
@@ -6693,7 +6693,7 @@ STATES = {
 			owned_provinces = { x30C021 x72531E xD3A384 xE782CC x6E8D07 xD8F07B }
 		}
 		
-		add_homeland = south_italian
+		add_homeland = north_italian
 	}
 	s:STATE_BANAT = {
 		create_state = {
