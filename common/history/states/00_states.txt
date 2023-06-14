@@ -1257,12 +1257,11 @@ STATES = {
 	}
 	s:STATE_TUNISIA = {
 		create_state = {
-			country = c:TUN
+			country = c:FRA
 			owned_provinces = { x15695C x063C9A x063CAB x988C08 x8923FD x7B9842 x751D37 x3DAE05 x237231 x491AE9 xA42759 x9F15B8 x18A545 x7A3A59 xC05020 xF69D0A x1799E8 x80D0A0 x4DF111 xC9AE6E x5BE6C7 xA24948 xBFD021 x9A4E94 x6C10D8 x7EA4E1 xBA7F1A xC4C64B xA77517 x704227 x1C0C13 x60F074 xA0F7A4 x7CF7C9 x57186F x67FF86 x40D021 xCF7B71 x6016DA }
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber
+		add_homeland = north_italian
 	}
 	s:STATE_GUINEA = {
 		create_state = {
@@ -2139,68 +2138,50 @@ STATES = {
 		
 		add_homeland = bedouin
 		add_homeland = berber
-		add_homeland = bidan	
-		add_claim = c:MOR
+		add_homeland = bidan
 	}
 	s:STATE_MARRAKECH = {
 		create_state = {
-			country = c:MOR
+			country = c:SPA
 			owned_provinces = { xA71D65 x60EF40 x5875FD x05EA68 x6CA1BE xDB16D9 x4DF62B x567F0E x5A68FC xB4CFFC xDF7040 x58949B x43DA94 x76734F x082C5F x7318F4 xE070C0 x6CAFA4 xFDFF7B }
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber
+		add_homeland = spanish
 	}
 	s:STATE_FEZ = {
 		create_state = {
-			country = c:MOR
+			country = c:SPA
 			owned_provinces = { x955513 x99F490 x638C69 xDF3040 xD6AD03 xFAE2BB xB98CBC xA0F040 xF54743 x1A55F0 x5284C8 xB73221 x60B040 xE445EF }
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber		
+		add_homeland = spanish		
 	}
 	s:STATE_AL_RIF = {
 		create_state = {
-			country = c:MOR
-			owned_provinces = { xE6D43C xDFB040 xFA1C92 x20B0C0 xA0B0C0 xF05E87 x75DC50 x8FBBB6 x9BC3AC xE95985 }
-		}
-		create_state = {
 			country = c:SPA
-			owned_provinces = { xCA9F75 }
-			state_type = unincorporated
+			owned_provinces = { xE6D43C xDFB040 xFA1C92 x20B0C0 xA0B0C0 xF05E87 x75DC50 x8FBBB6 x9BC3AC xE95985 xCA9F75 }
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber		
+		add_homeland = spanish			
 	}
 	s:STATE_INNER_MOROCCO = {
 		create_state = {
-			country = c:MOR
-			owned_provinces = { x6030C0 x50BA5E xE3D0F0 xDF30C0 xE2981F x75EBCA xE521ED xFAE302 xB14383 x360984 xA0EFC0 x2853A6 xB096BF x0B4734 x031705 x96EF9B xE1981C x977DCA xD89587 x7D32B3 x95A1C3 x2D7AF0 x0488C2 xE92045 x830671 x0277E9 xAC4646 x66D4E9 x593CFE x6070C0 x9015D0 x4B50E0 xBA134C x45FD26 x8971F5 xBD6AB5 x1AA449 xCA258A x07D47A x4C6494 xE1B48A xBC1415 xDFEF40 x4F8487 x26277F xA21408 x370312 x603080 }
-		}
-		create_state = {
-			country = c:SAH
-			owned_provinces = { x0FA44F xE80E2E x88C527 x53C5EF xF414B2 x8ACEDE x9E582E x8DCD09 x4DE76B }
+			country = c:SPA
+			owned_provinces = {
+				x6030C0 x50BA5E xE3D0F0 xDF30C0 xE2981F x75EBCA xE521ED xFAE302 xB14383 x360984 xA0EFC0 x2853A6 xB096BF x0B4734 x031705 x96EF9B xE1981C x977DCA xD89587 x7D32B3 x95A1C3 x2D7AF0 x0488C2 xE92045 x830671 x0277E9 xAC4646 x66D4E9 x593CFE x6070C0 x9015D0 x4B50E0 xBA134C x45FD26 x8971F5 xBD6AB5 x1AA449 xCA258A x07D47A x4C6494 xE1B48A xBC1415 xDFEF40 x4F8487 x26277F xA21408 x370312 x603080
+				x0FA44F xE80E2E x88C527 x53C5EF xF414B2 x8ACEDE x9E582E x8DCD09 x4DE76B
+			}
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber
-		add_claim = c:MOR
+		add_homeland = spanish
 	}
 	s:STATE_ORAN = {
 		create_state = {
-			country = c:MAS
-			owned_provinces = { "x0D2515" "x207040" "x3E6888" "x465605" "x4CE79E" "x60D278" "x6736D2" "x6F831B" "x7534E5" "x8C4FD5" "x95CBD4" "xA07040" "xB78BBE" "xBCA418" "xC2269C" "xCEB068"  "xE76FA0" "xEFD8F4" }
-		}
-		create_state = {
 			country = c:FRA
-			owned_provinces = { "xDFB0C0" "xB735DB" }
-			state_type = unincorporated
+			owned_provinces = { "xDFB0C0" "xB735DB" "x0D2515" "x207040" "x3E6888" "x465605" "x4CE79E" "x60D278" "x6736D2" "x6F831B" "x7534E5" "x8C4FD5" "x95CBD4" "xA07040" "xB78BBE" "xBCA418" "xC2269C" "xCEB068"  "xE76FA0" "xEFD8F4" }
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber		
+		add_homeland = french		
 	}
 	s:STATE_SAHARA = {
 		create_state = {
@@ -2219,8 +2200,9 @@ STATES = {
 			owned_provinces = { "x009C77" "x00DBCD" "x00EEEA" "x00F82C" "x0111E0" "x01B101" "x01D8C5" "x02D341" "x030D3A" "x040FB0" "x050E11" "x06AD38" "x075A58" "x07AA74" "x080040" "x08EFD1" "x0C3495" "x0D1A14" "x0D2EFA" "x0D88A2" "x0E724B" "x0E9A6B" "x121445" "x1278FB" "x129251" "x142FF9" "x14D1B4" "x15D6C8" "x166616" "x18297C" "x1AA1B0" "x1BB153" "x1BDA61" "x1CA3FC" "x1CD9D7" "x1DC48F" "x1E1A4F" "x1EFFAC" "x1F568B" "x205920" "x212B65" "x23E76E" "x2432FD" "x28569B" "x299F9A" "x29EC27" "x2A051C" "x2A383E" "x2BEBA7" "x2D52AF" "x2E7AED" "x2EF0DE" "x2F448D" "x3129F9" "x315D65" "x31F0C0" "x321FBF" "x323DED" "x332D15" "x333668" "x3418CE" "x35A004" "x374D72" "x38156A" "x382239" "x3939A8" "x3A0A41" "x3B18D1" "x3B9BCE" "x3BD60C" "x3CA4E9" "x3ED0EE" "x4185C5" "x422CE2" "x434333" "x449CD7" "x44C2B6" "x46E6AB" "x47BC2A" "x4A5AA8" "x4C1AA1" "x4C8CD5" "x4CC886" "x4DF1D7" "x4E9EE4" "x4EBEAD" "x4EFBB3" "x4F745C" "x516F08" "x519ED7" "x527BDF" "x528EA9" "x531A8F" "x5480D1" "x54A9C4" "x56B4C3" "x57F67D" "x587872" "x58A662" "x5A8EA2" "x5AA1D2" "x5B4F2E" "x5B5BC7" "x5BE8F0" "x5BE9E8" "x5D52C8" "x5D6827" "x5D7C20" "x5D99A9" "x5E2D7B" "x6128D2" "x6607B5" "x683A56" "x69F831" "x6C003A" "x6CDBA0" "x6E3BD1" "x6EB17D" "x6FA0A6" "x7000EE" "x718472" "x723DCD" "x7438DB" "x75B43E" "x764CC4" "x773BE4" "x7823EC" "x79C694" "x7C9235" "x7CB41E" "x7E044B" "x7E0C0C" "x7FF932" "x809060" "x80CA07" "x810724" "x810990" "x826411" "x83134F" "x831768" "x8544DE" "x8698D9" "x8735C5" "x873702" "x889BE5" "x8B4F55" "x8C02C7" "x8C7B4B" "x8CBB09" "x8E3794" "x8E81A6" "x8FAA7B" "x903031" "x904CD5" "x90D020" "x90D0A0" "x92297B" "x94ADDB" "x95997D" "x969764" "x99252D" "x99404C" "x9AEE6E" "x9B0D73" "x9B3B5E" "x9D0416" "xA0F080" "xA135BD" "xA206B7" "xA4A134" "xA4ED68" "xA68480" "xA6DDD2" "xA70B58" "xA7C676" "xA81959" "xA84AB9" "xA8E858" "xAA6179" "xAB8FF8" "xABB300" "xACBA82" "xAD5729" "xADC02B" "xAE14E1" "xAEA4F5" "xB019F4" "xB02F76" "xB17D4F" "xB32A1B" "xB36DB1" "xB36EF6" "xB4BF69" "xB79FAD" "xB8C8DB" "xB99ECE" "xB9A662" "xB9E99C" "xBB3F7B" "xBB8D82" "xBD40F6" "xBDC56D" "xBECCF9" "xBEE5D4" "xBF938D" "xC025CF" "xC41901" "xC72015" "xC721E2" "xC74F00" "xC8B4A8" "xC8C1F2" "xCB828A" "xCBE5F1" "xCC6CE1" "xCC9974" "xCE7361" "xD014D8" "xD08147" "xD0AD00" "xD0EE2D" "xD2B058" "xD3FB1F" "xD466BA" "xD50155" "xD54C2F" "xD55E0D" "xD79F61" "xD8BF99" "xD8CB3A" "xD9F238" "xDBB4E7" "xDC7482" "xDFF227" "xE122A0" "xE279A0" "xE35CC8" "xE37F76" "xE959DC" "xE9AB3F" "xE9B604" "xEA906E" "xEB67B9" "xEB915D" "xEBDC0B" "xEC2F1F" "xECF140" "xEDAF33" "xEE08B6" "xEEC9F1" "xF07118" "xF25AA3" "xF29DC7" "xF30208" "xF7139E" "xF7AA89" "xF8D6B9" "xF97F78" "xFA8E8D" "xFC03CD" "xFF55DD" }
 		}
 		create_state = {
-			country = c:TUG
+			country = c:FRA
 			owned_provinces = { "x92685C" "x40C34C" "x3C36A2" "x17B5D5" "xD0827C" "xB9AF30" "x4050A0" "xB80798" "xCD4F3F" "x35846A" "xBAD421" }
+			state_type = unincorporated
 		}
 		
 		add_homeland = tuareg
@@ -2228,49 +2210,33 @@ STATES = {
 	}
 	s:STATE_ALGIERS = {
 		create_state = {
-			country = c:MAS
-			owned_provinces = { "x0811DE" "x13AB12" "x16B315" "x20EF40" "x20EF80" "x267471" "x363B86" "x3BB3BB" "x513113" "x5ACA8F"  "x7E5293" "x9D893C" "xA75E78" "xAA79B2" "xB951DE" "xC6BA37" "xCB898B" "xD14DAC" "xD9F21C" "xEB7B78" "xEF919A" "xF151FD" "xFEE41A" }
-		}
-		create_state = {
 			country = c:FRA
-			owned_provinces = { "x713C2F" }
-			state_type = unincorporated
+			owned_provinces = { "x713C2F" "x0811DE" "x13AB12" "x16B315" "x20EF40" "x20EF80" "x267471" "x363B86" "x3BB3BB" "x513113" "x5ACA8F"  "x7E5293" "x9D893C" "xA75E78" "xAA79B2" "xB951DE" "xC6BA37" "xCB898B" "xD14DAC" "xD9F21C" "xEB7B78" "xEF919A" "xF151FD" "xFEE41A" }
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber
+		add_homeland = french
 	}
 	s:STATE_CONSTANTINE = {
 		create_state = {
-			country = c:CON
-			owned_provinces = { "x01D0A0" "x01EE15" "x137E91" "x1AF7B7" "x265E07" "x3AD789" "x3EE58D" "x79D029" "x7C6240" "x8050A0" "x991E79" "xA12B39" "xA31194" "xA39A15" "xB5486B" "xC3090D" "xC65997" "xD99A74" "xDC0687" "xDF1F38" "xFCF985" "x0C42E2" "xB04F35" "x8FFB18" 
-			#Bougie - Should belong to France, but due to naval invasion wackiness will have to stay with Constantine for now.
-			"x8090DF"
+			country = c:FRA
+			owned_provinces = {
+				"x0050A0"
+				"x01D0A0" "x01EE15" "x137E91" "x1AF7B7" "x265E07" "x3AD789" "x3EE58D" "x79D029" "x7C6240" "x8050A0" "x991E79" "xA12B39" "xA31194" "xA39A15" "xB5486B" "xC3090D" "xC65997" "xD99A74" "xDC0687" "xDF1F38" "xFCF985" "x0C42E2" "xB04F35" "x8FFB18" 
+				#Bougie - Should belong to France, but due to naval invasion wackiness will have to stay with Constantine for now.
+				"x8090DF"
+				"x429B12" "x9AF6A4" "x8E7690" "x2DF9DB" "x3A0E38" "x0090A0" "xB1BCFF" "x0C5C65"
 			}
 		}
-		create_state = {
-			country = c:FRA
-			owned_provinces = { "x0050A0" }
-			state_type = unincorporated
-		}
-		create_state = {
-			country = c:AIT
-			owned_provinces = { "x429B12" "x9AF6A4" "x8E7690" "x2DF9DB" "x3A0E38" "x0090A0" "xB1BCFF" "x0C5C65" }
-		}
 		
-		add_homeland = maghrebi
-		add_homeland = berber		
+		add_homeland = french		
 	}
 	s:STATE_TRIPOLI = {
 		create_state = {
-			country = c:TRI
+			country = c:PAP
 			owned_provinces = { x86E434 x886CFB x2A751D xAAD5CC x202929 x11D0A0 x463A7E x0479EF xC4D8ED xF65A12 x72AD6F x348703 xD7FFBE xA3FFD3 x285F4F x5B7280 x587B0B xACD89C x87476F xBABA5F x5F830E x8C63E2 x41FEF5 x460BB7 xDA9E29 x0190E0 x8855E0 xD2D69C x5F28EB xEB8E58 xCA4E6B x2B86F4 xF88C6A x8ADB51 x8207BC x009F47 xA4B02B x4508B3 x070399 x1F3EAA xDA32A4 xBFA1D6 xAA6A72 xD4F032 xB11A98 x5B44AB x98E67F x0B1422 xD8876F xA95E42 xA48E9C x3F1904 x756DFD xFCE120 x1F8886 x0C5EBE xD9A89D x9A4E88 xA06BA4 x2BBB9C xC724C8 x26FEF6 xE6917C x801060 x6EA444 x1C2606 x725A37 x7CFB8C xB89482 x617DC1 xCB3322 x0A5735 x7C0DA3 x1845BE xF3329A xA14DC8 x81C7D9 x4B9EB1 x5183F2 x65294E xA3E261 xFFED82 x67758E x6316C9 x7EE2C1 x83708C xD7CBD9 x00AA38 xB55E99 x976D70 x41960C x6951D5 xFD5B11 xA3B5DA x8EDC4D x4D4A58 xE9B457 xF42EA1 x68DB95 x06135E x163759 x4E480E x8010E0 x0C98CD xFF8008 x3293BF xC3C4EC xACF78C x909C77 xB01814 x37034A xBD52A2 x02CCF5 xC6722B x85204C x321C7F xADD677 xC49FA7 x84D04D xC050A0 x43C678 }
 		}
 		
-		add_homeland = maghrebi
-		add_homeland = tuareg
-		add_homeland = bedouin
-		add_homeland = berber
+		add_homeland = north_italian
 	}
 	s:STATE_LIBYAN_DESERT = {
 		create_state = {
@@ -2285,12 +2251,11 @@ STATES = {
 	}
 	s:STATE_LIBYA = {
 		create_state = {
-			country = c:TRI
+			country = c:PAP
 			owned_provinces = { x209020 x4FB39B x2B40DE x99D6C9 xBCB1A5 xDF191B x04DAA1 x025170 x8D408F x13063D xE123F5 xA01020 x55361C x1898D8 xA645B8 x800FBB xD7040F xAD6337 x574B81 xB0EEAE x34A20C x97E206 xC74D58 xE2D391 x40D0E0 xC0D0A0 x188727 x96B6AF xFAB002 x77D1BA xE0D870 xBDFE7F x4C7050 x505BF8 x1E8A25 x8E70B1 x40CFA0 }
 		}
 
-		add_homeland = maghrebi
-		add_homeland = bedouin		
+		add_homeland = north_italian		
 	}
 	s:STATE_UPPER_EGYPT = {
 		create_state = {

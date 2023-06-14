@@ -121,3 +121,15 @@ NBA = { # Nuba
 	cultures = { nuba }
 	capital = STATE_EQUATORIA
 }
+
+TRI = {
+	color = { 180  137  148 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { maghrebi }
+	capital = STATE_TRIPOLI
+	is_named_from_capital = yes
+}
