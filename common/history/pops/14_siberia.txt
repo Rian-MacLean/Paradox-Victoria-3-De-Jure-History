@@ -81,7 +81,7 @@
 		}
 	}
 	s:STATE_UPPER_YENISEYSK = {
-		region_state:RUS = {
+		region_state:SIB = {
 			create_pop = {
 				culture = siberian
 				size = 21780
@@ -127,7 +127,7 @@
 	}
 
 	s:STATE_CHUKOTKA = {
-		region_state:RUS = {
+		region_state:NNV = {
 			create_pop = {
 				culture = inuit
 				size = 3580
@@ -143,7 +143,7 @@
 		}
 	}
 	s:STATE_KAMCHATKA = {
-		region_state:RUS = {
+		region_state:FER = {
 			create_pop = {
 				culture = siberian
 				size = 5600
@@ -156,7 +156,7 @@
 	}
 	
 	s:STATE_OKHOTSK = {
-		region_state:RUS = {
+		region_state:TNS = {
 			create_pop = {
 				culture = yakut
 				size = 43008
@@ -178,7 +178,7 @@
 	}
 
 	s:STATE_YAKUTSK = {
-		region_state:RUS = {
+		region_state:YAK = {
 			create_pop = {
 				culture = yakut
 				size = 41100

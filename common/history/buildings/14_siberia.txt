@@ -30,7 +30,7 @@
 		}
 	}
 	s:STATE_UPPER_YENISEYSK={
-		region_state:RUS={
+		region_state:SIB={
 		}
 	}
 	s:STATE_OB={
@@ -42,15 +42,15 @@
 		}
 	}
 	s:STATE_CHUKOTKA={
-		region_state:RUS={
+		region_state:NNV={
 		}
 	}
 	s:STATE_KAMCHATKA={
-		region_state:RUS={
+		region_state:FER={
 		}
 	}
 	s:STATE_OKHOTSK={
-		region_state:RUS={
+		region_state:TNS={
 			create_building={
 				building="building_naval_base"
 				level=5
@@ -66,7 +66,7 @@
 		}
 	}
 	s:STATE_YAKUTSK={
-		region_state:RUS={
+		region_state:YAK={
 		}
 	}
 	s:STATE_TRANS_BAIKAL={

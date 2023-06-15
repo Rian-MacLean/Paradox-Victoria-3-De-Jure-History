@@ -96,6 +96,38 @@ MGL = {
 	capital = STATE_URGA
 }
 
+SIB = { # Siberia
+	color = { 139 138 160 }
+	country_type = decentralized
+	tier = kingdom
+	cultures = { yakut siberian inuit }
+	capital = STATE_TOMSK
+}
+
+TNS = {
+	color = { 11 115 39 }
+	country_type = decentralized
+	tier = principality
+	cultures = { siberian }
+	capital = STATE_OKHOTSK
+}
+
+FER = {
+ 	color = { 207 25 25 }
+	country_type = decentralized
+	tier = principality
+	cultures = { siberian inuit }
+	capital = STATE_OKHOTSK
+}
+
+NNV = { # Nunavut
+	color = { 205 214 216 }
+	country_type = decentralized
+	tier = principality
+	cultures = { inuit }
+	capital = STATE_CHUKOTKA
+}
+
 
 ### Africa
 
