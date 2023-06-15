@@ -458,7 +458,7 @@
 				size = 148000
 			}
 		}
-		region_state:POR = {
+		region_state:SPA = {
 			create_pop = {
 				culture = yue
 				size = 336000
@@ -708,22 +708,10 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:CHI = {
+		region_state:JAP = {
 			create_pop = {
-				culture = min
-				size = 1480000
-			}
-			create_pop = {
-				culture = manchu
-				size = 492
-			}
-			create_pop = {
-				culture = han # nanfaren
-				size = 815504
-			}
-			create_pop = {
-				culture = yuanzhumin
-				size = 600000
+				culture = japanese
+				size = 2896996
 			}
 		}
 	}
@@ -1216,32 +1204,23 @@
 		}
 	}
 	s:STATE_SAKHALIN = {
-		region_state:SKH = {
+		region_state:JAP = {
 			create_pop = {
-				culture = ainu
+				culture = japanese
 				size = 24004
 			}
 			create_pop = {
-				culture = siberian
+				culture = japanese
+				religion = shinto
 				size = 16000
 			}
 		}
 	}
 	s:STATE_HOKKAIDO = {
-		region_state:AIN = {
-			create_pop = {
-				culture = ainu
-				size = 49500
-			}
-		}
 		region_state:JAP = {
 			create_pop = {
-				culture = ainu
-				size = 9020
-			}
-			create_pop = {
 				culture = japanese
-				size = 9862
+				size = 68382
 			}
 		}
 	}

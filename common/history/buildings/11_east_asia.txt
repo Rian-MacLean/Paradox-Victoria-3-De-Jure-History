@@ -586,7 +586,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:POR={
+		region_state:SPA={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -1064,7 +1064,7 @@
 		}
 	}
 	s:STATE_FORMOSA={
-		region_state:CHI={
+		region_state:JAP={
 			create_building={
 				building="building_fishing_wharf"
 				level=5
@@ -1600,7 +1600,7 @@
 		}
 	}
 	s:STATE_SAKHALIN={
-		region_state:SKH={
+		region_state:JAP={
 		}
 	}
 	s:STATE_HOKKAIDO={
