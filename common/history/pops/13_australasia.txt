@@ -1,143 +1,74 @@
 ﻿POPS = {
 	s:STATE_NEW_SOUTH_WALES = {
-		region_state:NSW = {
-			create_pop = {
-				culture = aborigine
-				size = 63200
-			}
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 101384
-			}
-			create_pop = {
-				culture = irish
-				size = 16080
+				size = 800000
 			}
 		}
 	}
 	s:STATE_VICTORIA = {
-		region_state:NSW = {
-			create_pop = {
-				culture = aborigine
-				size = 31118
-			}
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 24676
+				size = 800000
 			}
 		}
 	}
 
 	s:STATE_TASMANIA = {
-		region_state:TAS = {
-			create_pop = {
-				culture = aborigine
-				size = 12208
-			}
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 11319
+				size = 300000
 			}
 		}
 	}
 	s:STATE_QUEENSLAND = {
-		region_state:NSW = {
-			create_pop = {
-				culture = aborigine
-				size = 59200
-			}
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 4000
+				size = 400000
 			}
 		}
 	}
 	s:STATE_SOUTH_AUSTRALIA = {
-		region_state:SAS = {
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 10500
-			}		
-			create_pop = {
-				culture = aborigine
-				size = 22000
-			}
-		}
-		region_state:KAU = {
-			create_pop = {
-				culture = australian
-				size = 300
-			}		
-			create_pop = {
-				culture = aborigine
-				size = 51000
+				size = 600000
 			}
 		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
-		region_state:WAS = {
-			create_pop = {
-				culture = aborigine
-				size = 68600 # Pops previously allocated to Noongar: 21100.
-			}
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 3004
+				size = 600000
 			}
 		}
 	}
 	s:STATE_NORTHERN_TERRITORY = {
-		region_state:NSW = {
+		region_state:AST = {
 			create_pop = {
-				culture = aborigine
-				size = 31804
+				culture = australian
+				size = 200000
 			}
 		}
 	}
 	s:STATE_NORTH_ISLAND = {
-		region_state:UNT = {
-			create_pop = {
-				culture = maori
-				religion = protestant
-				size = 30000
-			}
-			create_pop = {
-				culture = maori
-				size = 25000
-			}
-		}
-		region_state:NSW = {
-			create_pop = {
-				culture = maori
-				size = 5000
-			}
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 1004
-			}
-		}
-		region_state:NTO = {
-			create_pop = {
-				culture = maori
-				size = 32000
+				size = 600000
 			}
 		}
 	}
 	s:STATE_SOUTH_ISLAND = {
-		region_state:NTO = {
+		region_state:AST = {
 			create_pop = {
 				culture = australian
-				size = 428
-			}
-			create_pop = {
-				culture = maori
-				size = 12000
-			}
-		}
-		region_state:NTU = {
-			create_pop = {
-				culture = maori
-				size = 64000
+				size = 600000
 			}
 		}
 	}

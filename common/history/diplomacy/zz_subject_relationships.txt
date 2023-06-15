@@ -7,6 +7,10 @@ DIPLOMACY = {
 	}
 	c:GBR = {
 		create_diplomatic_pact = {
+			country = c:AST
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:ABU
 			type = protectorate
 		}
@@ -23,6 +27,12 @@ DIPLOMACY = {
 		create_diplomatic_pact = {
 			country = c:UBD
 			type = puppet
+		}
+	}
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = dominion
 		}
 	}
 	c:SPA = {	
