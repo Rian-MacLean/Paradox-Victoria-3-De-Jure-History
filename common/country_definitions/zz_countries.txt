@@ -5,7 +5,7 @@ USA = {
 	
 	country_type = colonial
 	
-	tier = empire
+	tier = hegemony
 	
 	cultures = { yankee }
 	capital = STATE_DISTRICT_OF_COLUMBIA
@@ -85,15 +85,12 @@ JAP = {
 	capital = STATE_KANSAI
 }
 
-MGL = {
-	color = { 255  224  124 }
-	
+MGE = { # Mongol Empire
+	color = { 0 75 175 }
 	country_type = unrecognized
-	
-	tier = empire
-	
+	tier = hegemony
 	cultures = { mongol }
-	capital = STATE_URGA
+	capital = STATE_ULIASTAI
 }
 
 SIB = { # Siberia

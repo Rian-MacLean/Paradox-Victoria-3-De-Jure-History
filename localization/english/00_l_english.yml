@@ -51,3 +51,10 @@
  state_trait_rich_oil:0 "Rich Oil Reserves"
  state_trait_salt_domes:0 "Salt Domes"
  state_trait_new_world:0 "New World State"
+
+ MGE:0 "Mongol Empire"
+ MGE_ADJ:0 "Mongol"
+ ISL:0 "Islamic Empire"
+ ISL_ADJ:0 "Islam"
+ PEE:0 "Persian Empire"
+ PEE_ADJ:0 "Persian"

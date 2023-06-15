@@ -40,3 +40,12 @@ JER_fascist = {
 		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
 	}		
 }
+
+MGE = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "mongol_empire_flag.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
