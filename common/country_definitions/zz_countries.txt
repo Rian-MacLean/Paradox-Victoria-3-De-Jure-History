@@ -73,6 +73,17 @@ SIC = {
 }
 
 
+### Middle East
+
+PER = { #Persian Empire
+	color = { 0 100 100 }
+	country_type = recognized
+	tier = empire
+	cultures = { mongol persian }
+	capital = STATE_BAGHDAD
+}
+
+
 ### Asia
 
 JAP = {

@@ -14,9 +14,23 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:PER={		
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_barracks"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}			
+		}
 	}
 	s:STATE_OMAN={
-		region_state:OMA={
+		region_state:PER={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -56,7 +70,7 @@
 		}
 	}
 	s:STATE_ABU_DHABI={
-		region_state:ABU={
+		region_state:PER={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -441,17 +455,6 @@
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}				
-			create_building={
-				building= "building_argebam"
-			}
-		}
-		region_state:OMA={
-			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
@@ -462,7 +465,16 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
-			}			
+			}
+			create_building={
+				building="building_barracks"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}				
+			create_building={
+				building= "building_argebam"
+			}
 		}
 	}
 	s:STATE_SISTAN={

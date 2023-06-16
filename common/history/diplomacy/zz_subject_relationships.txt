@@ -135,54 +135,10 @@ DIPLOMACY = {
 			type = puppet
 		}
 	}
-	c:MGL = {
+	c:MGE = {
 		create_diplomatic_pact = {
-			country = c:XIB
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:HNA
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:YUE
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:GUI
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:SIH
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:YUN
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:TIB
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:YAK
+			country = c:PER
 			type = tributary
-		}
-		create_diplomatic_pact = {
-			country = c:SIB
-			type = tributary
-		}
-		create_diplomatic_pact = {
-			country = c:PRM
-			type = tributary
-		}
-		create_diplomatic_pact = {
-			country = c:IUS
-			type = tributary
-		}
-		create_diplomatic_pact = {
-			country = c:KLM
-			type = vassal
 		}
 	}
 }

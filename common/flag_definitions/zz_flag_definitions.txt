@@ -1,0 +1,1 @@
+PER = { flag_definition = { coa = PEE_flag subject_canton = PEE_flag  priority = 1500 } }

@@ -266,7 +266,7 @@
 		}
 	}
 	s:STATE_KHIVA = {
-		region_state:KHI = {
+		region_state:PER = {
 			create_pop = {
 				culture = uzbek
 				size = 276396
@@ -305,7 +305,7 @@
 		}
 	}
 	s:STATE_UZBEKIA = {
-		region_state:BUK = {
+		region_state:PER = {
 			create_pop = {
 				culture = uzbek
 				size = 1552396
@@ -353,7 +353,7 @@
 		}
 	}
 	s:STATE_TAJIKISTAN = {
-		region_state:KOK = {
+		region_state:PER = {
 			create_pop = {
 				culture = tajik
 				size = 211004
@@ -379,7 +379,7 @@
 		}
 	}
 	s:STATE_KIRGHIZIA = {
-		region_state:KOK = {
+		region_state:PER = {
 			create_pop = {
 				culture = kirgiz
 				size = 232150
@@ -421,7 +421,7 @@
 				size = 8000
 			}
 		}
-		region_state:CHI = {
+		region_state:MGE = {
 			create_pop = {
 				culture = kirgiz
 				size = 100150
@@ -446,7 +446,7 @@
 		}
 	}
 	s:STATE_TURKMENIA = {
-		region_state:KHI = {
+		region_state:PER = {
 			create_pop = {
 				culture = uzbek
 				size = 186004
@@ -535,7 +535,7 @@
 	}
 	# Please do not ask where these numbers come from.
 	s:STATE_JETISY = {
-		region_state:CHI = {
+		region_state:MGE = {
 			create_pop = {
 				culture = kazak
 				size = 200642
@@ -587,7 +587,7 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN = {
-		region_state:PAN = {
+		region_state:PER = {
 			create_pop = {
 				culture = pashtun
 				size = 655212
@@ -599,7 +599,7 @@
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN = {
-		region_state:AFG = {
+		region_state:PER = {
 			create_pop = {
 				culture = tajik
 				size = 670172
@@ -642,7 +642,7 @@
 		}
 	}
 	s:STATE_EASTERN_AFGHANISTAN = {
-		region_state:AFG = {
+		region_state:PER = {
 			create_pop = {
 				culture = pashtun
 				size = 1131236
@@ -677,26 +677,10 @@
 		}
 	}
 	s:STATE_BALUCHISTAN = {
-		region_state:MAK = {
+		region_state:PER = {
 			create_pop = {
 				culture = baluchi
-				size = 440296
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 14800
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = baluchi
-				size = 7000
-			}
-		}
-		region_state:KAL = {
-			create_pop = {
-				culture = baluchi
-				size = 512392
+				size = 956788
 			}
 			create_pop = {
 				culture = pashtun
@@ -705,23 +689,12 @@
 			create_pop = {
 				pop_type = slaves
 				culture = lacustrine_bantu
-				size = 21000
+				size = 35800
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = baluchi
-				size = 10000
-			}
-		}
-		region_state:OMA = {
-			create_pop = {
-				culture = baluchi
-				size = 4100
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 300
+				size = 17300
 			}
 			create_pop = {
 				culture = bedouin
@@ -730,7 +703,7 @@
 		}
 	}
 	s:STATE_LHASA = {
-		region_state:TIB = {
+		region_state:MGE = {
 			create_pop = {
 				culture = tibetan
 				size = 1820000
@@ -747,7 +720,7 @@
 		}
 	}
 	s:STATE_NGARI = {
-		region_state:TIB = {
+		region_state:MGE = {
 			create_pop = {
 				culture = tibetan
 				size = 824000

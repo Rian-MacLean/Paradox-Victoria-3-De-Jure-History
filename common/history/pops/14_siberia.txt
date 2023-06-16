@@ -40,7 +40,7 @@
 				size = 16000
 			}
 		}
-		region_state:CHI = {
+		region_state:MGE = {
 			create_pop = {
 				culture = tatar
 				size = 36000
@@ -73,9 +73,9 @@
 		}
 	}
 	s:STATE_TUVA = {
-		region_state:CHI = {
+		region_state:MGE = {
 			create_pop = {
-				culture = tuvan
+				culture = mongol
 				size = 30000
 			}
 		}
@@ -201,42 +201,18 @@
 
 
 	s:STATE_TRANS_BAIKAL = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 122000
-			}
-			create_pop = {
-				culture = yakut
-				size = 5992
-			}
-			create_pop = {
-				culture = manchu
-				size = 85996
-			}
+		region_state:MGE = {
 			create_pop = {
 				culture = mongol
-				size = 36000
-			}
-			create_pop = {
-				culture = siberian
-				size = 17996
+				size = 267984
 			}
 		}
 	}
 	s:STATE_IRKUTSK = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 388408
-			}
+		region_state:MGE = {
 			create_pop = {
 				culture = mongol
-				size = 116004
-			}
-			create_pop = {
-				culture = siberian
-				size = 4996
+				size = 509408
 			}
 		}
 	}

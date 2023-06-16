@@ -18,7 +18,7 @@
 	s:STATE_TOMSK={
 		region_state:RUS={
 		}
-		region_state:CHI={
+		region_state:MGE={
 		}
 	}
 	s:STATE_TUVA={
@@ -70,11 +70,11 @@
 		}
 	}
 	s:STATE_TRANS_BAIKAL={
-		region_state:RUS={
+		region_state:MGE={
 		}
 	}
 	s:STATE_IRKUTSK={
-		region_state:RUS={
+		region_state:MGE={
 		}
 	}
 }

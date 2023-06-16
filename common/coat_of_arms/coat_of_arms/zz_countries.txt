@@ -49,3 +49,12 @@ MGE = {
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 }
+
+PEE_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = white
+	textured_emblem = {
+		texture = "Persian_empire_flag.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
