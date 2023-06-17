@@ -133,43 +133,28 @@
 		}
 	}
 	s:STATE_SAMARA = {
-		region_state:RUS = {
+		region_state:GLH = {
 			create_pop = {
 				culture = russian
-				size = 1977196
+				size = 2057196
 			}
 			create_pop = {
 				culture = tatar
-				religion = orthodox
-				size = 50000
+				religion = catholic
+				size = 55000
 			}
 			create_pop = {
 				culture = tatar
-				size = 372000
-			}
-		}
-		region_state:KZH = {
-			create_pop = {
-				culture = russian
-				size = 80000
-			}
-			create_pop = {
-				culture = tatar
-				religion = orthodox
-				size = 5000
+				size = 412000
 			}
 			create_pop = {
 				culture = tatar
 				size = 25000
 			}
-			create_pop = {
-				culture = kazak
-				size = 40000
-			}
 		}
 	}
 	s:STATE_KAZAN = {
-		region_state:RUS = {
+		region_state:GLH = {
 			create_pop = {
 				culture = russian
 				size = 2455124
@@ -191,7 +176,7 @@
 		}
 	}
 	s:STATE_TARTARIA = {
-		region_state:RUS = {
+		region_state:GLH = {
 			create_pop = {
 				culture = russian
 				size = 2656396
@@ -212,9 +197,9 @@
 		}
 	}
 	s:STATE_ASTRAKHAN = {
-		region_state:KLM = {
+		region_state:GLH = {
 			create_pop = {
-				culture = kalmyk
+				culture = mongol
 				size = 795208
 			}
 			create_pop = {
@@ -232,36 +217,18 @@
 		}
 	}
 	s:STATE_URALSK = {
-		region_state:RUS = {
+		region_state:GLH = {
 			create_pop = {
 				culture = kazak
-				size = 42000
+				size = 77500
 			}
 			create_pop = {
 				culture = russian
-				size = 7996
-			}
-		}
-
-		region_state:KZH = {
-			create_pop = {
-				culture = kazak
-				size = 31500
+				size = 8996
 			}
 			create_pop = {
 				culture = uzbek
 				size = 3500
-			}
-		}
-
-		region_state:OZH = {
-			create_pop = {
-				culture = russian
-				size = 1000
-			}
-			create_pop = {
-				culture = kazak
-				size = 4000
 			}
 		}
 	}
@@ -490,46 +457,22 @@
 		}
 	}
 	s:STATE_SEMIRECHE = {
-		region_state:UZH = {
+		region_state:GLH = {
 			create_pop = {
 				culture = kazak
-				size = 114162
+				size = 166362
 			}
 			create_pop = {
 				culture = uighur
-				size = 7000
+				size = 12100
 			}
 			create_pop = {
 				culture = kirgiz
 				size = 4000
 			}
-		}
-		region_state:OZH = {
-			create_pop = {
-				culture = kazak
-				size = 50000
-			}
-			create_pop = {
-				culture = uighur
-				size = 4000
-			}
 			create_pop = {
 				culture = russian
-				size = 1200
-			}
-		}
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 2500
-			}
-			create_pop = {
-				culture = kazak
-				size = 2200
-			}
-			create_pop = {
-				culture = uighur
-				size = 1100
+				size = 3700
 			}
 		}
 	}
@@ -551,38 +494,18 @@
 		}
 	}
 	s:STATE_AKMOLINSK = {
-		region_state:OZH = {
+		region_state:GLH = {
 			create_pop = {
 				culture = kazak
-				size = 190000
+				size = 256000
 			}
 			create_pop = {
 				culture = russian
-				size = 2000
+				size = 13992
 			}
 			create_pop = {
 				culture = uzbek
-				size = 38000
-			}
-		}
-		region_state:RUS = {
-			create_pop = {
-				culture = kazak
-				size = 14500
-			}
-			create_pop = {
-				culture = russian
-				size = 11992
-			}
-		}
-		region_state:KZH = {
-			create_pop = {
-				culture = kazak
-				size = 51500
-			}
-			create_pop = {
-				culture = uzbek
-				size = 32000
+				size = 70000
 			}
 		}
 	}

@@ -54,7 +54,5 @@
 
  MGE:0 "Mongol Empire"
  MGE_ADJ:0 "Mongol"
- ISL:0 "Islamic Empire"
- ISL_ADJ:0 "Islam"
- PEE:0 "Persian Empire"
- PEE_ADJ:0 "Persian"
+ GLH:0 "Golden Horde"
+ GLH_ADJ:0 "Golden Horde"

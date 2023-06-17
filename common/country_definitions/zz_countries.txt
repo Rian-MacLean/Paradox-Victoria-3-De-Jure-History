@@ -72,6 +72,14 @@ SIC = {
 	capital = STATE_CAMPANIA
 }
 
+GLH = {
+	color = { 250  182  3 } # 243 180 17
+	country_type = unrecognized
+	tier = empire
+	cultures = { mongol tatar russian }
+	capital = STATE_ASTRAKHAN
+}
+
 
 ### Middle East
 
@@ -100,7 +108,7 @@ MGE = { # Mongol Empire
 	color = { 0 75 175 }
 	country_type = unrecognized
 	tier = hegemony
-	cultures = { mongol }
+	cultures = { mongol han }
 	capital = STATE_ULIASTAI
 }
 

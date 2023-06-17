@@ -137,7 +137,17 @@ DIPLOMACY = {
 	}
 	c:MGE = {
 		create_diplomatic_pact = {
+			country = c:GLH
+			type = tributary
+		}
+		create_diplomatic_pact = {
 			country = c:PER
+			type = tributary
+		}
+	}
+	c:GLH = {
+		create_diplomatic_pact = {
+			country = c:PRM
 			type = tributary
 		}
 	}
