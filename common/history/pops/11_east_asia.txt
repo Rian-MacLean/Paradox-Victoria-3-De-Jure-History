@@ -426,7 +426,7 @@
 		region_state:MGE = {
 			create_pop = {
 				culture = yue
-				size = 9748000
+				size = 10084000
 			}
 			create_pop = {
 				culture = manchu
@@ -457,20 +457,14 @@
 				culture = hakka
 				size = 148000
 			}
-		}
-		region_state:SPA = {
-			create_pop = {
-				culture = yue
-				size = 336000
-			}
-			create_pop = {
-				culture = portuguese
-				size = 996
-			}
 			create_pop = {
 				culture = yue
 				religion = catholic
 				size = 5000
+			}
+			create_pop = {
+				culture = spanish
+				size = 996
 			}
 		}
 	}

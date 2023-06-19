@@ -1152,7 +1152,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
+		region_state:SPA = {
 			create_pop = {
 				culture = marathi
 				religion = catholic

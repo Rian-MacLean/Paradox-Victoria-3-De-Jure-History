@@ -888,7 +888,7 @@
 				size = 55996
 			}
 		}
-		region_state:POR = {
+		region_state:SPA = {
 			create_pop = {
 				culture = melanesian
 				size = 40000

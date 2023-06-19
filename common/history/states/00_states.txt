@@ -2313,7 +2313,7 @@ STATES = {
 	}
 	s:STATE_NORTH_ANGOLA = {
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = { xC02050 xDAAC09 x78C387 x6FD2F7 xC93845 xCFA0E7 xCE457C x82C47B x15BBB9 xF00017 x087B9D xADC6D4 xBF65DC x32E90E x4764A5 xD30F2F xCFF013 xC7F9BD x491B8B x8F94AF xDAA27C x8C112B xA71792 }
 			state_type = unincorporated
 
@@ -2324,7 +2324,7 @@ STATES = {
 	}
 	s:STATE_SOUTH_ANGOLA = {
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = { x57F834 x07C3F2 xD6C96D x50C030 xD2F7C4 xFC5809 x8F380E xE10AC9 x1B547C x8060F0 x85CF92 xCB3588 xD891B2 x068F41 xA95021 x7CB2EC x68FADF x02B371 x0446CA }
 			state_type = unincorporated
 
@@ -2375,7 +2375,7 @@ STATES = {
 	}
 	s:STATE_LOURENCO_MARQUES = {
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = {
 				x3083D0 x54CDC5 x361897 xB6C38B x31033A xC41403 x51ECCC x8DC2A9 xE4494C x040DB6 x7D5F16
 			}
@@ -2395,7 +2395,7 @@ STATES = {
 	}
 	s:STATE_MOCAMBIQUE = {
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = {
 				x3D00BC xC270F8 xA5450D xB230F4 x2F77FB xE412DB xA32AAD x005594 x876584 x9FE0B0 xA8A6DE x1D7D03 xBE355B x49AFAC xFE0A11 x11E090
 			}
@@ -2416,7 +2416,7 @@ STATES = {
 	}
 	s:STATE_ZAMBEZIA = {
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = { x667225 x217D32 x277F44 x3F30D0 x71C576 x6EDE1E x30B0D0 x27EEEF xF0ABE1 x8D331C xCA8CD6 x65E3CE x598E16 x94943F x90E090 x0B2E9A xD7451D x19FC5A }
 			state_type = unincorporated
 
@@ -3124,7 +3124,7 @@ STATES = {
 	}
 	s:STATE_BOMBAY = {
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = { x51F0A0 }
 			state_type = unincorporated
 		}
@@ -3388,7 +3388,7 @@ STATES = {
 			owned_provinces = { x5ABA94 x100090 }
 		}
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = { x4EE71E x3CCE91 x7F4592 x908090 x929145 x7D205E}
 			state_type = unincorporated
 		}
@@ -4471,7 +4471,7 @@ STATES = {
 	}
 	s:STATE_GAMBIA = {
 		create_state = {
-			country = c:POR
+			country = c:SPA
 			owned_provinces = { 
 				x7486F1 x9933B7 x04FDE5 x146701 
 			}
@@ -5455,13 +5455,7 @@ STATES = {
 	s:STATE_GUANGDONG = {
 		create_state = {
 			country = c:MGE
-			owned_provinces = { x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 x62BF42 xCB457A x30B0E0 x156AC0 xA92B88 xDC137A x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 }
-		}
-		create_state = {
-			country = c:SPA
-			owned_provinces = { xB031E0 }
-			state_type = unincorporated
-			state_type = treaty_port
+			owned_provinces = { xB031E0 x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 x62BF42 xCB457A x30B0E0 x156AC0 xA92B88 xDC137A x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 }
 		}
 
 		add_homeland = yue
