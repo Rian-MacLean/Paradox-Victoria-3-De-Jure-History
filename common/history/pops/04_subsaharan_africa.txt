@@ -1,4 +1,4 @@
-﻿POPS = {
+POPS = {
 	s:STATE_IVORY_COAST = {
 		region_state:FRA = {
 			create_pop = {
@@ -978,7 +978,11 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:OMA = {
+		region_state:ISR = {
+			create_pop = {
+				culture = ashkenazi
+				size = 1289255
+			}
 			create_pop = {
 				culture = swahili
 				size = 382800
@@ -1023,6 +1027,11 @@
 				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 45000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				size = 1235600
 			}
 		}
 	}
@@ -1578,16 +1587,16 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 1629406
+				size = 1042055
 			}
 			create_pop = {
 				culture = sephardic
-				size = 126620
+				size = 412039
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
-				size = 1393020
+				size = 880000
 			}
 		}
 	}
@@ -1595,12 +1604,12 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 1991498
+				size = 1454094
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
-				size = 1702580
+				size = 980000
 			}
 		}
 	}

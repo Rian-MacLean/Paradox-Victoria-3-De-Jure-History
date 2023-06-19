@@ -259,11 +259,6 @@
 				religion = sunni
 				size = 40600
 			}
-			create_pop = {
-				culture = sephardic # Najran Jews
-				religion = jewish
-				size = 300
-			}
 		}
 	}
 	s:STATE_HAIL = {
@@ -317,11 +312,6 @@
 				size = 143776
 			}
 			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 670
-			}
-			create_pop = {
 				culture = mashriqi
 				religion = catholic
 				size = 859
@@ -346,11 +336,6 @@
 				culture = jerusalemite
 				size = 600000
 			}
-			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 18000
-			}
 		}
 	}
 	s:STATE_LEBANON = {
@@ -359,10 +344,6 @@
 				culture = jerusalemite
 				size = 600000
 			}
-			create_pop = {
-				culture = sephardic
-				size = 6000
-			}
 		}
 	}
 	s:STATE_SYRIA = {
@@ -370,10 +351,6 @@
 			create_pop = {
 				culture = jerusalemite
 				size = 600000
-			}
-			create_pop = {
-				culture = sephardic
-				size = 8000
 			}
 		}
 	}
@@ -386,10 +363,6 @@
 			create_pop = {
 				culture = armenian
 				size =  125000
-			}
-			create_pop = {
-				culture = sephardic
-				size = 12000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -780,10 +753,6 @@
 				size = 967149
 			}
 			create_pop = {
-				culture = sephardic
-				size = 2010
-			}
-			create_pop = {
 				culture = armenian
 				size = 63277
 			}
@@ -808,10 +777,6 @@
 				size = 7368
 			}
 			create_pop = {
-				culture = sephardic
-				size = 14059
-			}
-			create_pop = {
 				culture = bulgarian
 				size = 240
 			}
@@ -834,10 +799,6 @@
 			create_pop = {
 				culture = armenian
 				size = 9020
-			}
-			create_pop = {
-				culture = sephardic
-				size = 140
 			}
 			create_pop = {
 				culture = north_caucasian
@@ -934,10 +895,6 @@
 				size = 245075
 			}
 			create_pop = {
-				culture = sephardic
-				size = 160
-			}
-			create_pop = {
 				culture = north_caucasian
 				size = 4300
 			}
@@ -976,10 +933,6 @@
 			create_pop = {
 				culture = armenian
 				size = 157463
-			}
-			create_pop = {
-				culture = sephardic
-				size = 230
 			}
 			create_pop = {
 				culture = north_caucasian

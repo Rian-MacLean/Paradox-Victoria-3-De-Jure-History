@@ -6,10 +6,6 @@
 				size = 271100
 			}
 			create_pop = {
-				culture = sephardic
-				size = 5200
-			}
-			create_pop = {
 				culture = north_caucasian
 				religion = catholic
 				size = 72200
@@ -87,10 +83,6 @@
 				size = 306704
 			}
 			create_pop = {
-				culture = sephardic
-				size = 1004
-			}
-			create_pop = {
 				culture = north_caucasian
 				size = 27600
 			}
@@ -109,10 +101,6 @@
 			create_pop = {
 				culture = georgian
 				size = 491996
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2996
 			}
 			create_pop = {
 				culture = north_caucasian
