@@ -2719,7 +2719,7 @@ POPS = {
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:ORA = {
+		region_state:SAF = {
 			create_pop = {
 				culture = sotho
 				size = 353400
@@ -2740,7 +2740,7 @@ POPS = {
 		}
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:TRN = {
+		region_state:SAF = {
 			create_pop = {
 				culture = sotho
 				size = 271804
