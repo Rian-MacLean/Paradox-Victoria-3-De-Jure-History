@@ -3458,7 +3458,7 @@ yankee={
 
 afro_american={
 	color= hsv{ 0.10 0.10 0.24 }
-	religion = catholic
+	religion = atheist
 	traits = { anglophone african_heritage }
 	male_common_first_names={
 		Albert Abraham Alexander Anthony Adam
@@ -3527,110 +3527,6 @@ afro_american={
 		Vanderpool
 		Wells Williams Whitehurst Ward White Weems Wilkinson Wescott Wiggins Weeks Waring Washington Warner Wesley
 		Yancy
-	}
-	ethnicities = {
-		1 = african
-	}
-	graphics = african
-}
-
-afro_caribbean={
-	color= hsv{ 0.32 0.27 0.32 }
-	religion = catholic
-	traits = { african_heritage anglophone }
-	male_common_first_names={
-		Anderson
-		Anselm
-		Arthur
-		Ben
-		Colville
-		Cuffee
-		Cyril
-		Earl
-		Edwin
-		Ellis
-		Eric
-		Geoffrey
-		George
-		Graham
-		Henry
-		Herbert
-		Hubert
-		Jeffrey
-		John
-		Josiah
-		Lennox
-		Lloyd
-		Malcolm
-		Mervyn
-		Nicholas
-		Rainford
-		Reginald
-		Robert
-		Stokely
-		William
-		Winston
-	}
-	female_common_first_names = {
-		Amy
-		Barbara
-		Carolyn
-		Christine
-		Cubah
-		Delores
-		Erna
-		Fanny
-		Hazel
-		Joanna
-		Louisa
-		Mary
-		Obeah
-		Sylvia
-		Vanessa
-		Vera
-		Violet
-	}	
-	noble_last_names = {
-		Cotton
-		Duperly
-		Eyre
-		Gordon
-		Hill
-		Jordon
-		Osborn
-		Sharpe
-	}
-	common_last_names={
-		Abbott
-		Best
-		Blaize
-		Brathwaite
-		Carmichael
-		Chambers
-		Clark
-		Douglas
-		Dymally
-		Findley
-		Goddard
-		Hall
-		Henson
-		Holder
-		James
-		Jones
-		Julian
-		Kilgour
-		Lassalle
-		Lovelace
-		McIntosh
-		Nurse
-		Perry
-		Roberts
-		Robinson
-		Shadd
-		Stollmeyer
-		Sylvester
-		Williams
-		Young
 	}
 	ethnicities = {
 		1 = african

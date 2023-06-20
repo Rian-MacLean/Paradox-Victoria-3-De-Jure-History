@@ -167,6 +167,18 @@ ISR = {
 	capital = STATE_NORTH_MADAGASCAR
 }
 
+LIB = {
+	color = { 193  138  83 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { afro_american }
+	capital = STATE_LIBERIA
+	is_named_from_capital = yes
+}
+
 NBA = { # Nuba
 	color = { 138 187 72 }
 	

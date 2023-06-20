@@ -2,26 +2,31 @@
 	c:LIB = {
 		effect_starting_technology_tier_3_tech = yes
 		activate_law = law_type:law_presidential_republic # Liberia did not declare independence until 1847; until then, the American Colonization Society ran the show
-		activate_law = law_type:law_single_party_state
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_state_atheism
+		activate_law = law_type:law_national_guard
 
-		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_free_trade
 		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_local_police
 
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_women_in_the_workplace
 		activate_law = law_type:law_slave_trade
 
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
 		ig:ig_landowners = {
-			set_ig_bolstering = yes
 			add_ruling_interest_group = yes
 		}
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
-			set_ig_suppression = yes
 		}
 
 		set_state_religion = rel:atheist

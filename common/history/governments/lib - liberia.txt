@@ -1,0 +1,10 @@
+GOVERNMENT = {
+	c:LIB = {
+		py:conservative_party = {
+			add_ig_to_party = ig:ig_landowners
+			add_ig_to_party = ig:ig_intelligentsia
+			add_momentum = momentum_large
+			set_ruling_party = yes
+		}
+	}
+}

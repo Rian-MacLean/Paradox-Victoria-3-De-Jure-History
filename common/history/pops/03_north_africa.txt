@@ -32,10 +32,6 @@
 				size = 7126
 			}
 			create_pop = {
-				culture = sephardic
-				size = 26410
-			}
-			create_pop = {
 				culture = sudanese
 				size = 15500
 			}
@@ -110,10 +106,6 @@
 			create_pop = {
 				culture = bedouin
 				size = 13020
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2602
 			}
 			create_pop = {
 				pop_type = slaves
@@ -340,10 +332,6 @@
 				culture = spanish
 				size = 986696
 			}
-			create_pop = {
-				culture = sephardic
-				size = 42500
-			}
 		}
 	}
 	s:STATE_FEZ = {
@@ -352,10 +340,6 @@
 				culture = spanish
 				size = 1056700
 			}
-			create_pop = {
-				culture = sephardic
-				size = 70504
-			}
 		}
 	}
 	s:STATE_AL_RIF = {
@@ -363,10 +347,6 @@
 			create_pop = {
 				culture = spanish
 				size = 533388
-			}
-			create_pop = {
-				culture = sephardic
-				size = 12800
 			}
 		}
 	}
@@ -384,14 +364,6 @@
 				culture = french
 				size = 1402757
 			}
-			create_pop = {
-				culture = sephardic
-				size = 2606
-			}
-			create_pop = {
-				culture = sephardic
-				size = 7849
-			}
 		}
 	}
 	s:STATE_CONSTANTINE = {
@@ -399,18 +371,6 @@
 			create_pop = {
 				culture = french
 				size = 1956564
-			}
-			create_pop = {
-				culture = sephardic
-				size = 4646
-			}
-			create_pop = {
-				culture = sephardic
-				size = 304
-			}
-			create_pop = {
-				culture = sephardic
-				size = 1778
 			}
 		}
 	}
@@ -420,14 +380,6 @@
 				culture = french
 				size = 779283
 			}
-			create_pop = {
-				culture = sephardic
-				size = 2910
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2604
-			}
 		}
 	}
 	s:STATE_TUNISIA = {
@@ -435,10 +387,6 @@
 			create_pop = {
 				culture = north_italian
 				size = 1296804
-			}
-			create_pop = {
-				culture = sephardic
-				size = 19204
 			}
 		}
 	}
@@ -448,10 +396,6 @@
 				culture = north_italian
 				size = 506224
 			}
-			create_pop = {
-				culture = sephardic
-				size = 5996
-			}
 		}
 	}
 	s:STATE_LIBYA = {
@@ -459,10 +403,6 @@
 			create_pop = {
 				culture = north_italian
 				size = 425736
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2996
 			}
 		}
 	}
@@ -533,10 +473,6 @@
 			create_pop = {
 				culture = berber
 				size = 29991
-			}
-			create_pop = {
-				culture = sephardic
-				size = 389
 			}
 		}
 	}
