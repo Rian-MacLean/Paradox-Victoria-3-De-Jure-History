@@ -2002,12 +2002,6 @@
 	s:STATE_NORTHERN_SERBIA={
 		region_state:BYZ={
 			create_building={
-				building="building_lead_mine"
-				level=4
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
-			}
-			create_building={
 				building="building_livestock_ranch"
 				level=2
 				reserves=1
@@ -2034,6 +2028,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_lead_mine"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
 			}
 			create_building={
 				building="building_livestock_ranch"
