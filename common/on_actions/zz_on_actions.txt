@@ -1,0 +1,76 @@
+on_monthly_pulse_country = {
+	effect = {
+		if = {
+            limit = {
+                any_scope_building = {
+                    is_building_type = building_university
+                    level >= 5
+                }
+			}
+			add_modifier = modifier_first_university
+			add_modifier = modifier_second_university
+            add_modifier = modifier_third_university
+            add_modifier = modifier_forth_university
+            add_modifier = modifier_fifth_university
+		}
+        else_if = {
+            limit = {
+                any_scope_building = {
+                    is_building_type = building_university
+                    level = 4
+                }
+			}
+			add_modifier = modifier_first_university
+            add_modifier = modifier_second_university
+            add_modifier = modifier_third_university
+            add_modifier = modifier_forth_university
+            remove_modifier = modifier_fifth_university
+        }
+        else_if = {
+            limit = {
+                any_scope_building = {
+                    is_building_type = building_university
+                    level = 3
+                }
+			}
+			add_modifier = modifier_first_university
+            add_modifier = modifier_second_university
+            add_modifier = modifier_third_university
+            remove_modifier = modifier_forth_university
+            remove_modifier = modifier_fifth_university
+        }
+        else_if = {
+            limit = {
+                any_scope_building = {
+                    is_building_type = building_university
+                    level = 2
+                }
+			}
+			add_modifier = modifier_first_university
+            add_modifier = modifier_second_university
+            remove_modifier = modifier_third_university
+            remove_modifier = modifier_forth_university
+            remove_modifier = modifier_fifth_university
+        }
+        else_if = {
+            limit = {
+                any_scope_building = {
+                    is_building_type = building_university
+                    level = 1
+                }
+			}
+			add_modifier = modifier_first_university
+            remove_modifier = modifier_second_university
+            remove_modifier = modifier_third_university
+            remove_modifier = modifier_forth_university
+            remove_modifier = modifier_fifth_university
+        }
+        else = {
+            remove_modifier = modifier_first_university
+            remove_modifier = modifier_second_university
+            remove_modifier = modifier_third_university
+            remove_modifier = modifier_forth_university
+            remove_modifier = modifier_fifth_university
+        }
+	}
+}
