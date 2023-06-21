@@ -56,3 +56,9 @@
  MGE_ADJ:0 "Mongol"
  GLH:0 "Golden Horde"
  GLH_ADJ:0 "Golden Horde"
+
+ modifier_first_university:0 "First University"
+ modifier_second_university:0 "Second University"
+ modifier_third_university:0 "Third University"
+ modifier_forth_university:0 "Fourth University"
+ modifier_fifth_university:0 "Fifth University"

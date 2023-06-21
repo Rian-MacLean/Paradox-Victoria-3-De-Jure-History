@@ -1,0 +1,7 @@
+DIPLOMACY = {
+	c:BYZ = {
+		set_relations = { country = c:PAP value = 50 }
+		set_relations = { country = c:HUN value = 50 }
+		set_relations = { country = c:JER value = 50 }
+	}
+}

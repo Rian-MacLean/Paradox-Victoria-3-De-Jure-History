@@ -47,10 +47,6 @@ DIPLOMACY = {
 			type = defensive_pact
 		}
 		create_diplomatic_pact = {
-			country = c:PAP	
-			type = defensive_pact
-		}
-		create_diplomatic_pact = {
 			country = c:POL
 			type = customs_union
 		}
@@ -60,10 +56,6 @@ DIPLOMACY = {
 		}
 	}
 	c:AUS = {
-		create_diplomatic_pact = {
-			country = c:PAP	
-			type = defensive_pact
-		}
 		create_diplomatic_pact = {
 			country = c:SWI	
 			type = defensive_pact
