@@ -1185,20 +1185,18 @@ STATES = {
 		}
 		create_state = {
 			country = c:JER
-			owned_provinces = { x9EDF3C x2197EF x314190 xDD033C xB08F60 }
+			owned_provinces = {
+				x9EDF3C x2197EF x314190 xDD033C xB08F60
+				x319060 xB090E0 x2BD409 xFA0283 x657048 x54840B x3D1674 x2975A3
+			}
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:LAH
-			owned_provinces = { x319060 xB090E0 x2BD409 xFA0283 x657048 x54840B x3D1674 x2975A3 }
-		}
-		create_state = {
-			country = c:MAH
-			owned_provinces = { x30A3E2 x37058f xAD1CE2 x8D121D x8D6307 xBDEA27 x02B35C xA2FDFA x6BD0A9 xB010DF x9D6547 xA0540A }
-		}
-		create_state = {
-			country = c:KAT
-			owned_provinces = { xC790E8 x299C0F xDFA579 x346541 x90602A x3D86FC x75D341 x8E96A7 xDD732E x95D64E x5F3582 x2A9E89 xBAA208 x308FDF xD6CC22 x1C7B77 xA05CB5 x6D2F95 x5C91FE x3D7345 xC09525 xB8A8D2 x672267 x60DFF9 xD3F276 xA1AAB0 x843C65 x5DF9FC x895FE6 xCF61E1 x0B9A27 xF385EB x0C7E0C x872CEB x8BF4B8 }
+			country = c:PER
+			owned_provinces = {
+				xC790E8 x299C0F xDFA579 x346541 x90602A x3D86FC x75D341 x8E96A7 xDD732E x95D64E x5F3582 x2A9E89 xBAA208 x308FDF xD6CC22 x1C7B77 xA05CB5 x6D2F95 x5C91FE x3D7345 xC09525 xB8A8D2 x672267 x60DFF9 xD3F276 xA1AAB0 x843C65 x5DF9FC x895FE6 xCF61E1 x0B9A27 xF385EB x0C7E0C x872CEB x8BF4B8
+				x30A3E2 x37058f xAD1CE2 x8D121D x8D6307 xBDEA27 x02B35C xA2FDFA x6BD0A9 xB010DF x9D6547 xA0540A
+			}
 		}
 
 		add_homeland = bedouin
@@ -2356,7 +2354,7 @@ STATES = {
 			country = c:ISR
 			owned_provinces = { xD690E0 xD0E090 x60E0B0 }
 		}
-		
+
 		add_homeland = ashkenazi
 		add_homeland = sephardic
 	}

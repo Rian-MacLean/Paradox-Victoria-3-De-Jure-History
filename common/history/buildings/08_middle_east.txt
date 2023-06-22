@@ -92,20 +92,6 @@
 		}
 	}
 	s:STATE_YEMEN={
-		region_state:LAH={
-			create_building={
-				building="building_coffee_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}		
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}	
-		}
 		region_state:ZAI={
 			create_building={
 				building="building_wheat_farm"
@@ -135,9 +121,15 @@
 		region_state:JER={
 			create_building={
 				building="building_coffee_plantation"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
