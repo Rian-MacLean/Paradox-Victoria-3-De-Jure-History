@@ -4,4 +4,9 @@ DIPLOMACY = {
 		set_relations = { country = c:HUN value = 50 }
 		set_relations = { country = c:JER value = 50 }
 	}
+	c:ISR = {
+		set_relations = { country = c:GBR value = 50 }
+		set_relations = { country = c:USA value = 50 }
+		set_relations = { country = c:FRA value = 50 }
+	}
 }

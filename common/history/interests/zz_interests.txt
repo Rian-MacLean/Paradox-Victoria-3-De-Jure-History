@@ -66,7 +66,8 @@
 	c:ISR = {
 		add_declared_interest = region_dixie
 		add_declared_interest = region_italy
-		add_declared_interest = region_iberia	
+		add_declared_interest = region_rhine
+		add_declared_interest = region_north_china
 	}
 }	
 

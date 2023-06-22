@@ -93,7 +93,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 2196
+				size = 10978
 			}
 		}
 	}

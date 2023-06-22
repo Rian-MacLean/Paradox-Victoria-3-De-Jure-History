@@ -388,6 +388,10 @@
 				culture = north_italian
 				size = 1296804
 			}
+			create_pop = {
+				culture = french
+				size = 32080
+			}
 		}
 	}
 	s:STATE_TRIPOLI = {

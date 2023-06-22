@@ -786,7 +786,7 @@
 		}
 	}
 	s:STATE_CEYLON = {
-		region_state:BIC = {
+		region_state:NET = {
 			create_pop = {
 				culture = sinhala
 				size = 849208
@@ -815,7 +815,7 @@
 				size = 16400
 			}
 			create_pop = {
-				culture = british
+				culture = dutch
 				size = 7992
 			}
 			create_pop = {
@@ -841,41 +841,15 @@
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
-		region_state:FRA = {
+		region_state:ISR = {
 			create_pop = {
-				culture = french
-				size = 29992
+				culture = ashkenazi
+				size = 350000
 			}
 			create_pop = {
-				culture = afro_antillean
-				size = 68000
-			}
-			create_pop = {
-				culture = swahili
-				size = 2000
-			}
-			create_pop = {
-				culture = afro_antillean
-				religion = animist
-				size = 6000
-			}
-		}
-		region_state:GBR = {
-			create_pop = {
-				culture = french
-				size = 2088
-			}
-			create_pop = {
-				culture = afro_antillean
-				size = 94612
-			}
-			create_pop = {
-				culture = british
-				size = 800
-			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 5900
+				pop_type = slaves
+				culture = malagasy
+				size = 135000
 			}
 		}
 	}

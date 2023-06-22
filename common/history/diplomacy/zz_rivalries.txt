@@ -1,0 +1,140 @@
+DIPLOMACY = {
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MGE
+			type = rivalry
+		}
+	}
+	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:GBR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BYZ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = rivalry
+		}
+	}
+	c:BYZ = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:GLH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:PER
+			type = rivalry
+		}
+	}
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = rivalry
+		}
+	}
+	c:AUS = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SCA
+			type = rivalry
+		}
+	}
+	c:SCA = {
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = rivalry
+		}
+	}
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:SCA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:UKR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:GLH
+			type = rivalry
+		}
+	}
+	c:JER = {
+		create_diplomatic_pact = {
+			country = c:PER
+			type = rivalry
+		}
+	}
+	c:BIC = {
+		create_diplomatic_pact = {
+			country = c:MGE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:PER
+			type = rivalry
+		}
+	}
+	c:MGE = {
+		create_diplomatic_pact = {
+			country = c:GBR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:JAP
+			type = rivalry
+		}
+	}
+	c:JAP = {
+		create_diplomatic_pact = {
+			country = c:MGE
+			type = rivalry
+		}
+	}
+	c:GLH = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BYZ
+			type = rivalry
+		}
+	}
+	c:PER = {
+		create_diplomatic_pact = {
+			country = c:BYZ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:JER
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BIC
+			type = rivalry
+		}
+	}
+}

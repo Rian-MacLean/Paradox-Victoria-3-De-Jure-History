@@ -1134,7 +1134,7 @@ STATES = {
 	}	
 	s:STATE_CEYLON = {
 		create_state = {
-			country = c:BIC
+			country = c:NET
 			owned_provinces = { xA0EFCC xA0A0D0 x23CE5A x8D6FA8 xDF2050 xDAB923 x1DA090 xC18817 x8A707A x967CCE x602050 xC23350 x95AAA3 x5B5C22 x47B038 }
 			state_type = unincorporated
 		}
@@ -2353,17 +2353,12 @@ STATES = {
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
 		create_state = {
-			country = c:FRA
-			owned_provinces = { xD690E0 }
-			state_type = unincorporated
-
+			country = c:ISR
+			owned_provinces = { xD690E0 xD0E090 x60E0B0 }
 		}
-		create_state = {
-			country = c:GBR
-			owned_provinces = { xD0E090 x60E0B0 }
-			state_type = unincorporated
-
-		}
+		
+		add_homeland = ashkenazi
+		add_homeland = sephardic
 	}
 	s:STATE_LOURENCO_MARQUES = {
 		create_state = {
