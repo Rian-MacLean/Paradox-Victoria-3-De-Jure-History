@@ -398,7 +398,18 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_italian
-				size = 506224
+				size = 205628
+			}
+		}
+		region_state:TRI = {
+			create_pop = {
+				culture = bedouin
+				size = 283796
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 16800
 			}
 		}
 	}

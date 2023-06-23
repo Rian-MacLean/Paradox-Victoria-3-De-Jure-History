@@ -388,7 +388,7 @@
 		}
 	}
 	s:STATE_KASHMIR={
-		region_state:PAN={
+		region_state:MGE={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -428,7 +428,7 @@
 		}
 	}
 	s:STATE_PUNJAB={
-		region_state:PAN={
+		region_state:BIC={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -513,8 +513,6 @@
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:BIC={
 		}
 	}
 	s:STATE_NAGPUR={
@@ -664,7 +662,7 @@
 		}
 	}
 	s:STATE_SINDH={
-		region_state:SIN={
+		region_state:BIC={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -978,20 +976,6 @@
 		}
 	}
 	s:STATE_MADRAS={
-		region_state:FRA={
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}			
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
 		region_state:BIC={
 			create_building={
 				building="building_government_administration"
@@ -1037,7 +1021,7 @@
 			}
 			create_building={
 				building="building_dye_plantation"
-				level=10
+				level=12
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
@@ -1061,7 +1045,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -1108,20 +1092,6 @@
 		}
 	}
 	s:STATE_BOMBAY={
-		region_state:SPA={
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
 		region_state:BIC={
 			create_building={
 				building="building_government_administration"
@@ -1146,6 +1116,12 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_cannons" "pm_merchant_guilds_building_arms_industry" }
+			}
+			create_building={
+				building="building_dye_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -1173,7 +1149,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}

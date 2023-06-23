@@ -629,6 +629,8 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
+		region_state:TRI={
+		}
 	}
 	s:STATE_LIBYA={
 		region_state:PAP={

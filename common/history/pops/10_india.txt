@@ -419,7 +419,7 @@
 		}
 	}
 	s:STATE_KASHMIR = {
-		region_state:PAN = {
+		region_state:MGE = {
 			create_pop = {
 				culture = kashmiri
 				size = 1328002
@@ -445,16 +445,20 @@
 		}
 	}
 	s:STATE_PUNJAB = {
-		region_state:PAN = {
+		region_state:BIC = {
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 9033705
+				size = 9067572
+			}
+			create_pop = {
+				culture = nepali
+				size = 405027
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 386485
+				size = 712668
 			}
 			create_pop = {
 				culture = panjabi
@@ -464,22 +468,6 @@
 				culture = panjabi
 				religion = hindu
 				size = 2656912
-			}
-		}
-		region_state:BIC = {
-			create_pop = {
-				culture = nepali
-				size = 405027
-			}
-			create_pop = {
-				culture = panjabi
-				religion = sunni
-				size = 33867
-			}
-			create_pop = {
-				culture = avadhi
-				religion = hindu
-				size = 326183
 			}
 			create_pop = {
 				culture = british
@@ -652,7 +640,7 @@
 		}
 	}
 	s:STATE_SINDH = {
-		region_state:SIN = {
+		region_state:BIC = {
 			create_pop = {
 				culture = sindi
 				size = 1644600
@@ -1024,13 +1012,13 @@
 		}
 	}
 	s:STATE_MADRAS = {
-		region_state:FRA = {
+		region_state:BIC = {
 			create_pop = {
 				culture = tamil
 				size = 182284
 			}
 			create_pop = {
-				culture = french
+				culture = british
 				size = 450
 			}
 			create_pop = {
@@ -1038,8 +1026,6 @@
 				religion = catholic
 				size = 17773
 			}
-		}
-		region_state:BIC = {
 			create_pop = {
 				culture = tamil
 				size = 12479910
@@ -1126,7 +1112,7 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:SPA = {
+		region_state:BIC = {
 			create_pop = {
 				culture = marathi
 				religion = catholic
@@ -1137,11 +1123,9 @@
 				size = 75852
 			}
 			create_pop = {
-				culture = portuguese
+				culture = british
 				size = 5681
 			}
-		}
-		region_state:BIC = {
 			create_pop = {
 				culture = marathi
 				size = 10312854
