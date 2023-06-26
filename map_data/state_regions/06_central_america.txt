@@ -49,11 +49,7 @@ STATE_HONDURAS = {
     capped_resources = {
         bg_logging = 13
         bg_fishing = 8
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 7
+        bg_gold_mining = 7
     }
     naval_exit_id = 3026
 }
@@ -73,11 +69,7 @@ STATE_NICARAGUA = {
         bg_logging = 12
         bg_fishing = 5
         bg_iron_mining = 10
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 7
+        bg_gold_mining = 7
     }
     naval_exit_id = 3026
 }

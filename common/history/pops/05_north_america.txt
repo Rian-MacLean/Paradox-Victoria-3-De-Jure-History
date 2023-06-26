@@ -3,7 +3,7 @@
 		region_state:USA = {
 			create_pop = {
 				culture = yankee
-				size = 174000
+				size = 22000
 			}
 		}
 	}
@@ -546,6 +546,12 @@
 			create_pop = {
 				culture = yankee
 				size = 140000
+			}
+		}
+		region_state:USA = {
+			create_pop = {
+				culture = yankee
+				size = 152000
 			}
 		}
 	}

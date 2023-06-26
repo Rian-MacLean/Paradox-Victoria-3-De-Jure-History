@@ -1,9 +1,18 @@
 ﻿INTERESTS = {
 	c:USA = {
-		add_declared_interest = region_italy
-		add_declared_interest = region_anatolia
+		add_declared_interest = region_oceania
+		add_declared_interest = region_indonesia
+		add_declared_interest = region_east_siberia
 		add_declared_interest = region_japan
 		add_declared_interest = region_manchuria
+
+		add_declared_interest = region_niger
+		add_declared_interest = region_congo
+		add_declared_interest = region_southern_africa
+		add_declared_interest = region_zanj
+
+		add_declared_interest = region_arabic
+		add_declared_interest = region_persia
 	}
 	c:SWE = {
 		add_declared_interest = region_rhine

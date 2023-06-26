@@ -41,7 +41,7 @@
 			birth_date = 1777.4.12
 			ig_leader = yes
 			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
+			ideology = ideology_jingoist_leader
 			traits = {
 				pious
 			}
@@ -66,7 +66,7 @@
 			birth_date = 1792.8.29
 			ig_leader = yes
 			interest_group = ig_devout
-			ideology = ideology_traditionalist
+			ideology = ideology_jingoist_leader
 			traits = {
 				cautious
 			}
@@ -91,7 +91,7 @@
 			is_general = yes
 			ig_leader = yes
 			interest_group = ig_armed_forces
-			ideology = ideology_jingoist_leader
+			ideology = ideology_traditionalist
 			hq = region_new_england
 			commander_rank = commander_rank_2
 			traits = {
@@ -105,7 +105,7 @@
 			birth_date = 1794.5.27
 			ig_leader = yes
 			interest_group = ig_industrialists
-			ideology = ideology_moderate
+			ideology = ideology_jingoist_leader
 			traits = {
 				meticulous
 			}

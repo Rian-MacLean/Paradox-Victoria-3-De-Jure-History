@@ -102,11 +102,7 @@ STATE_ALASKA = {
         bg_logging = 20
         bg_whaling = 8
         bg_fishing = 21
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
     naval_exit_id = 3119
 }
@@ -147,11 +143,7 @@ STATE_OREGON = {
     capped_resources = {
         bg_logging = 48
         bg_fishing = 6
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
     naval_exit_id = 3154
 }
@@ -170,11 +162,7 @@ STATE_IDAHO = {
     capped_resources = {
         bg_logging = 46
         bg_lead_mining = 37
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -195,11 +183,7 @@ STATE_COLORADO = {
         bg_lead_mining = 6
         bg_sulfur_mining = 15
         bg_logging = 12
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -217,15 +201,11 @@ STATE_WYOMING = {
     capped_resources = {
         bg_coal_mining = 16
         bg_logging = 10
+        bg_gold_mining = 5
     }
     resource = {
         type = "bg_oil_extraction"
         undiscovered_amount = 24
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
     }
 }
 
@@ -245,11 +225,7 @@ STATE_MONTANA = {
         bg_lead_mining = 6
         bg_sulfur_mining = 10
         bg_logging = 8
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -283,11 +259,7 @@ STATE_SOUTH_DAKOTA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -887,11 +859,7 @@ STATE_UTAH = {
         bg_lead_mining = 30
         bg_coal_mining = 12
         bg_logging = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -947,15 +915,11 @@ STATE_ONTARIO = {
         bg_iron_mining = 27
         bg_lead_mining = 4
         bg_logging = 62
+        bg_gold_mining = 9
     }
     resource = {
         type = "bg_oil_extraction"
         undiscovered_amount = 4
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 9
     }
 }
 
@@ -999,12 +963,7 @@ STATE_QUEBEC = {
         bg_logging = 58
         bg_whaling = 4
         bg_fishing = 8
-        bg_gold_mining = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 9
+        bg_gold_mining = 11
     }
     naval_exit_id = 3045
 }
@@ -1072,11 +1031,7 @@ STATE_BRITISH_COLUMBIA = {
         bg_logging = 50
         bg_whaling = 6
         bg_fishing = 9
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 10
+        bg_gold_mining = 10
     }
     naval_exit_id = 3154
 }
@@ -1129,11 +1084,7 @@ STATE_YUKON_TERRITORY = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 33
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 20
+        bg_gold_mining = 20
     }
 }
 
@@ -1224,11 +1175,7 @@ STATE_NEVADA = {
         bg_iron_mining = 5
         bg_lead_mining = 2
         bg_logging = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -1246,11 +1193,7 @@ STATE_ARIZONA = {
         bg_sulfur_mining = 12
         bg_lead_mining = 2
         bg_logging = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -1270,11 +1213,7 @@ STATE_NEW_MEXICO = {
         bg_coal_mining = 6
         bg_iron_mining = 4
         bg_lead_mining = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
 }
 
@@ -1293,11 +1232,7 @@ STATE_CALIFORNIA = {
     capped_resources = {
         bg_logging = 12
         bg_fishing = 12
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 27
+        bg_gold_mining = 27
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1320,11 +1255,7 @@ STATE_SONORA = {
     capped_resources = {
         bg_logging = 3
         bg_fishing = 7
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
+        bg_gold_mining = 4
     }
     naval_exit_id = 3153
 }
@@ -1343,11 +1274,7 @@ STATE_CHIHUAHUA = {
         bg_lead_mining = 70
         bg_coal_mining = 11
         bg_logging = 5
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
+        bg_gold_mining = 4
     }
 }
 
@@ -1386,11 +1313,7 @@ STATE_DURANGO = {
     capped_resources = {
         bg_logging = 9
         bg_fishing = 5
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
+        bg_gold_mining = 4
     }
 }
 
@@ -1408,11 +1331,7 @@ STATE_SINALOA = {
     capped_resources = {
         bg_logging = 7
         bg_fishing = 5
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
+        bg_gold_mining = 4
     }
     naval_exit_id = 3153
 }
@@ -1509,11 +1428,7 @@ STATE_GUERRERO = {
         bg_lead_mining = 10
         bg_logging = 7
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
+        bg_gold_mining = 4
     }
     naval_exit_id = 3155
 }
@@ -1568,12 +1483,7 @@ STATE_ZACATECAS = {
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_lead_mining = 20
-        bg_gold_mining = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
+        bg_gold_mining = 6
     }
 }
 

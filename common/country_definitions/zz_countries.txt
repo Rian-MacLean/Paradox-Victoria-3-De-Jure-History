@@ -8,7 +8,7 @@ USA = {
 	tier = hegemony
 	
 	cultures = { yankee }
-	capital = STATE_DISTRICT_OF_COLUMBIA
+	capital = STATE_ILLINOIS
 }
 
 

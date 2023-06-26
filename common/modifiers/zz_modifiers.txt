@@ -10,7 +10,7 @@ modifier_usa_capacity = {
 	# American stuff
 	state_expected_sol_from_literacy = -5
 	#country_legitimacy_base_add = 20
-	country_bureaucracy_investment_cost_factor_mult = -1.0
+	#country_bureaucracy_investment_cost_factor_mult = -1.0
 	#state_bureaucracy_population_base_cost_factor_mult = -1.0
 
 	#country_institution_colonial_affairs_max_investment_add = 5
