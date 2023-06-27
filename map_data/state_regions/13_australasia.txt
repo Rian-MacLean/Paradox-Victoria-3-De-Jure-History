@@ -16,11 +16,7 @@
         bg_logging = 10
         bg_whaling = 6
         bg_fishing = 5
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 11
+        bg_gold_mining = 11
     }
     naval_exit_id = 3122
 }
@@ -41,11 +37,7 @@ STATE_VICTORIA = {
         bg_logging = 12
         bg_whaling = 4
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 18
+        bg_gold_mining = 18
     }
     naval_exit_id = 3122
 }
@@ -67,11 +59,7 @@ STATE_TASMANIA = {
         bg_logging = 9
         bg_whaling = 4
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
     naval_exit_id = 3122
 }
@@ -95,11 +83,7 @@ STATE_QUEENSLAND = {
         bg_logging = 8
         bg_whaling = 5
         bg_fishing = 6
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 13
+        bg_gold_mining = 13
     }
     naval_exit_id = 3124
 }
@@ -121,11 +105,7 @@ STATE_SOUTH_AUSTRALIA = {
         bg_coal_mining = 8
         bg_whaling = 3
         bg_fishing = 3
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        bg_gold_mining = 5
     }
     naval_exit_id = 3121
 }
@@ -149,11 +129,7 @@ STATE_WESTERN_AUSTRALIA = {
         bg_logging = 5
         bg_whaling = 5
         bg_fishing = 8
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 38
+        bg_gold_mining = 38
     }
     naval_exit_id = 3123
 }
@@ -218,11 +194,7 @@ STATE_SOUTH_ISLAND = {
         bg_logging = 10
         bg_whaling = 4
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 21
+        bg_gold_mining = 21
     }
     naval_exit_id = 3122
 }

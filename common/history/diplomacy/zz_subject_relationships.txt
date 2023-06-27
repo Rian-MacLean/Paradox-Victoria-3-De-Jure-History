@@ -8,19 +8,11 @@ DIPLOMACY = {
 	c:GBR = {
 		create_diplomatic_pact = {
 			country = c:AST
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:ABU
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:BIC
 			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:SIL
-			type = puppet
 		}
 	}
 	c:SCA = {

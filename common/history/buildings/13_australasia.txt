@@ -2,105 +2,35 @@
 	s:STATE_NEW_SOUTH_WALES={
 		region_state:AST={
 			create_building={
-				building="building_wheat_farm"
-				level=1
+				building="building_construction_sector"
+				level=6
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
 			create_building={
-				building="building_livestock_ranch"
-				level=2
+				building="building_gold_mine"
+				level=11
 				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_privately_owned" "pm_standard_fences" "pm_unrefrigerated" "pm_butchering_tools" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_gold_mine" }
 			}
 			create_building={
-				building="building_barracks"
-				level=2
+				building="building_logging_camp"
+				level=10
 				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
-	}
-	s:STATE_VICTORIA={
-		region_state:AST={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
-			}			
-		}
-	}
-	s:STATE_TASMANIA={
-		region_state:AST={
-			create_building={
-				building="building_barracks"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
-			}		
-		}
-	}
-	s:STATE_QUEENSLAND={
-		region_state:AST={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-		}
-	}
-	s:STATE_SOUTH_AUSTRALIA={
-		region_state:AST={
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
 			}
 			create_building={
-				building="building_wheat_farm"
-				level=2
+				building="building_whaling_station"
+				level=6
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_wooden_whaling_ships" "pm_unrefrigerated" "pm_privately_owned_building_whaling_station" }
 			}
-			create_building={
-				building="building_barracks"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
-			}		
-		}
-	}
-	s:STATE_WESTERN_AUSTRALIA={
-		region_state:AST={
-			create_building={
-				building="building_barracks"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
-			}		
-		}
-	}
-	s:STATE_NORTHERN_TERRITORY={
-		region_state:AST={
-		}
-	}
-	s:STATE_NORTH_ISLAND={
-		region_state:AST={
 			create_building={
 				building="building_port"
 				level=1
@@ -108,115 +38,235 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_railway"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+		}
+	}
+	s:STATE_VICTORIA={
+		region_state:AST={
+			create_building={
+				building="building_coal_mine"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
+			}
+			create_building={
+				building="building_gold_mine"
+				level=18
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_gold_mine" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=12
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_whaling_station"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+				activate_production_methods={ "pm_wooden_whaling_ships" "pm_unrefrigerated" "pm_privately_owned_building_whaling_station" }
+			}
+			create_building={
+				building="building_railway"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+		}
+	}
+	s:STATE_TASMANIA={
+		region_state:AST={
+			create_building={
+				building="building_gold_mine"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_gold_mine" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=9
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+		}
+	}
+	s:STATE_QUEENSLAND={
+		region_state:AST={
+			create_building={
+				building="building_gold_mine"
+				level=13
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_gold_mine" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_railway"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+		}
+	}
+	s:STATE_SOUTH_AUSTRALIA={
+		region_state:AST={
+			create_building={
+				building="building_government_administration"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_coal_mine"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
+			}
+			create_building={
+				building="building_gold_mine"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_gold_mine" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_whaling_station"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_wooden_whaling_ships" "pm_unrefrigerated" "pm_privately_owned_building_whaling_station" }
+			}
+			create_building={
+				building="building_railway"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+		}
+	}
+	s:STATE_WESTERN_AUSTRALIA={
+		region_state:AST={
+			create_building={
+				building="building_gold_mine"
+				level=27
+				reserves=1
+				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
+			}
+			create_building={
+				building="building_railway"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}	
+		}
+	}
+	s:STATE_NORTHERN_TERRITORY={
+		region_state:AST={
+			create_building={
+				building="building_sulfur_mine"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_sulfur_mine" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+		}
+	}
+	s:STATE_NORTH_ISLAND={
+		region_state:AST={
+			create_building={
+				building="building_logging_camp"
+				level=16
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_whaling_station"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_wooden_whaling_ships" "pm_unrefrigerated" "pm_privately_owned_building_whaling_station" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_vineyards" "pm_tools" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
 	}
 	s:STATE_SOUTH_ISLAND={
 		region_state:AST={
+			create_building={
+				building="building_gold_mine"
+				level=21
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_gold_mine" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+			create_building={
+				building="building_railway"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
