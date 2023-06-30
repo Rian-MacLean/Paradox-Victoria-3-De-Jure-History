@@ -74,3 +74,29 @@ on_monthly_pulse_country = {
         }
 	}
 }
+
+on_acquired_technology = {
+	effect = {
+		if = {
+            limit = {
+                has_technology_researched = quinine
+                has_modifier = modifier_early_colonization_three
+            }
+            remove_modifier = modifier_early_colonization_three
+        }
+		if = {
+            limit = {
+                has_technology_researched = civilizing_mission
+                has_modifier = modifier_early_colonization_four
+            }
+            remove_modifier = modifier_early_colonization_four
+        }
+		if = {
+            limit = {
+                has_technology_researched = malaria_prevention
+                has_modifier = modifier_early_colonization_five
+            }
+            remove_modifier = modifier_early_colonization_five
+        }
+    }
+}
