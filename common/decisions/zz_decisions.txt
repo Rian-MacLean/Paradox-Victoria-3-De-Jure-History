@@ -1,0 +1,82 @@
+free_unemployed_slaves = {
+
+	is_shown = { has_law = law_type:law_slave_trade }
+
+	possible = {
+		any_scope_pop = {
+			is_pop_type = slaves
+			is_employed = no
+		}
+	}
+
+	when_taken = {
+        every_scope_pop = {
+			limit = {
+				is_pop_type = slaves
+				is_employed = no
+			}
+			change_poptype = pop_type:laborers
+		}
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
+
+enslave_decriniated_workers = {
+
+	is_shown = { has_law = law_type:law_slave_trade }
+
+	possible = {
+		any_scope_pop = {
+			pop_is_discriminated = yes
+			OR = {
+				is_pop_type = laborers
+				is_pop_type = peasants
+			}
+			OR = {
+				pop_employment_building_group = bg_agriculture
+				pop_employment_building_group = bg_ranching
+				pop_employment_building_group = bg_plantations
+				pop_employment_building = bg_gold_mining
+				pop_employment_building = bg_coal_mining
+				pop_employment_building = bg_iron_mining
+				pop_employment_building = bg_lead_mining
+				pop_employment_building = bg_sulfur_mining
+				pop_employment_building = bg_logging
+				pop_employment_building = bg_construction
+			}
+
+		}
+	}
+
+	when_taken = {
+        every_scope_pop = {
+			limit = {
+				pop_is_discriminated = yes
+				OR = {
+					is_pop_type = laborers
+					is_pop_type = peasants
+				}
+				OR = {
+					pop_employment_building_group = bg_agriculture
+					pop_employment_building_group = bg_ranching
+					pop_employment_building_group = bg_plantations
+					pop_employment_building_group = bg_gold_mining
+					pop_employment_building_group = bg_coal_mining
+					pop_employment_building_group = bg_iron_mining
+					pop_employment_building_group = bg_lead_mining
+					pop_employment_building_group = bg_sulfur_mining
+					pop_employment_building_group = bg_logging
+					pop_employment_building_group = bg_construction
+				}
+			}
+			change_poptype = pop_type:slaves
+		}
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
