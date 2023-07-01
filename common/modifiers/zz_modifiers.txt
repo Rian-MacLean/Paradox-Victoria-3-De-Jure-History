@@ -53,3 +53,15 @@ modifier_early_colonization_four = {
 modifier_early_colonization_five = {
 	country_institution_colonial_affairs_max_investment_add = 1
 }
+
+modifier_local_police = {
+	country_institution_police_max_investment_add = 2
+}
+
+modifier_early_security_four = {
+	country_institution_home_affairs_max_investment_add = 1
+}
+
+modifier_early_security_five = {
+	country_institution_home_affairs_max_investment_add = 1
+}

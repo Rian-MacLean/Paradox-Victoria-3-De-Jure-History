@@ -65,3 +65,6 @@
 modifier_early_colonization_three:0 "Early Colonization 3"
 modifier_early_colonization_four:0 "Early Colonization 4"
 modifier_early_colonization_five:0 "Early Colonization 5"
+modifier_local_police:0 "Local Police"
+modifier_early_security_four:0 "Early Home Affairs 4"
+modifier_early_security_five:0 "Early Home Affairs 5"

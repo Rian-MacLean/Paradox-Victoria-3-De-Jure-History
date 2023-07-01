@@ -69,14 +69,6 @@ DIPLOMACY = {
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:POL
-			type = rivalry
-		}
-		create_diplomatic_pact = {
-			country = c:UKR
-			type = rivalry
-		}
-		create_diplomatic_pact = {
 			country = c:GLH
 			type = rivalry
 		}
@@ -134,6 +126,12 @@ DIPLOMACY = {
 		}
 		create_diplomatic_pact = {
 			country = c:BIC
+			type = rivalry
+		}
+	}
+	c:SAF = {
+		create_diplomatic_pact = {
+			country = c:ZUL
 			type = rivalry
 		}
 	}

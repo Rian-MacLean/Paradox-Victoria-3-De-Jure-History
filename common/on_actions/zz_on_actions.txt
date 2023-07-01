@@ -98,5 +98,32 @@ on_acquired_technology = {
             }
             remove_modifier = modifier_early_colonization_five
         }
+		if = {
+            limit = {
+                exists = c:LIB
+                root = c:LIB
+                has_law = law_type:law_local_police
+                NOT = { has_modifier = modifier_local_police } 
+            }
+            add_modifier = modifier_local_police
+        }
+        else_if = {
+            limit = { has_modifier = modifier_local_police }
+            remove_modifier = modifier_local_police
+        }
+		if = {
+            limit = {
+                has_technology_researched = central_archives
+                has_modifier = modifier_early_security_four
+            }
+            remove_modifier = modifier_early_security_four
+        }
+		if = {
+            limit = {
+                has_technology_researched = identification_documents
+                has_modifier = modifier_early_security_five
+            }
+            remove_modifier = modifier_early_security_five
+        }
     }
 }
