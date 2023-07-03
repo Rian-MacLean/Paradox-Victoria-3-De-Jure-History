@@ -1,6 +1,9 @@
 ﻿COUNTRIES = {
 	c:LIB = {
 		effect_starting_technology_tier_3_tech = yes
+		add_technology_researched = railways
+		add_technology_researched = central_archives
+
 		activate_law = law_type:law_presidential_republic # Liberia did not declare independence until 1847; until then, the American Colonization Society ran the show
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_national_supremacy
@@ -9,7 +12,7 @@
 
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_free_trade
-		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_local_police
 
@@ -19,8 +22,19 @@
 
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
-			level = 2
+			level = 5
 		}
+		
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 5
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 5
+		}
+
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
@@ -33,6 +47,22 @@
 		add_modifier = {
 			name = antireligious_policies
 			months = long_modifier_time
+		}
+
+		add_modifier = {
+			name = modifier_early_colonization_three
+		}
+		add_modifier = {
+			name = modifier_early_colonization_four
+		}
+		add_modifier = {
+			name = modifier_early_colonization_five
+		}
+		add_modifier = {
+			name = modifier_local_police
+		}
+		add_modifier = {
+			name = modifier_early_security_five
 		}
 	}
 }
