@@ -17,6 +17,18 @@ DIPLOMACY = {
 	}
 	c:SCA = {
 		create_diplomatic_pact = {
+			country = c:HOL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MEC	
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:POM	
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:UBD
 			type = puppet
 		}
@@ -48,6 +60,30 @@ DIPLOMACY = {
 		}
 	}
 	c:AUS = {
+		create_diplomatic_pact = {
+			country = c:PRU	
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:ANH	
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BRA	
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HES	
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:RHE	
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:WES	
+			type = puppet
+		}
 		create_diplomatic_pact = {
 			country = c:SWI	
 			type = defensive_pact
@@ -92,10 +128,10 @@ DIPLOMACY = {
 		}
 		create_diplomatic_pact = {
 			country = c:UKR
-			type = protectorate
+			type = customs_union
 		}
 		create_diplomatic_pact = {
-			country = c:DON
+			country = c:CIR
 			type = puppet
 		}
 		create_diplomatic_pact = {

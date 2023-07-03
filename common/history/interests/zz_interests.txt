@@ -72,11 +72,19 @@
 		add_declared_interest = region_baltic
 		add_declared_interest = region_france	
 	}
+	c:RUS = {
+		add_declared_interest = region_dnieper
+		add_declared_interest = region_baltic
+		add_declared_interest = region_west_siberia
+	}
 	c:ISR = {
 		add_declared_interest = region_dixie
 		add_declared_interest = region_italy
 		add_declared_interest = region_rhine
 		add_declared_interest = region_north_china
+	}
+	c:LIB = {
+		add_declared_interest = region_niger
 	}
 }	
 

@@ -2762,7 +2762,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:AUS={
+		region_state:POM={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -2802,7 +2802,7 @@
 		}
 	}
 	s:STATE_ELBE={
-		region_state:HAM={
+		region_state:HAN={
 			create_building={
 				building="building_paper_mills"
 				level=1
@@ -2928,7 +2928,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA={
-		region_state:AUS={
+		region_state:WES={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2968,7 +2968,7 @@
 		}		
 	}
 	s:STATE_ANHALT={
-		region_state:AUS={
+		region_state:ANH={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -3088,7 +3088,7 @@
 		}
 	}
 	s:STATE_RUHR={
-		region_state:AUS={
+		region_state:RHE={
 			create_building={
 				building="building_arms_industry"
 				level=6
@@ -3122,7 +3122,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:AUS={
+		region_state:PRU={
 			create_building={
 				building="building_government_administration"
 				level=13
@@ -3194,7 +3194,7 @@
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
-		region_state:AUS={
+		region_state:HOL={
 			create_building={
 				building="building_rye_farm"
 				level=1
@@ -3332,7 +3332,7 @@
 		}
 	}
 	s:STATE_HANNOVER={
-		region_state:AUS={
+		region_state:HAN={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -3378,7 +3378,7 @@
 		}
 	}
 	s:STATE_BRUNSWICK={
-		region_state:AUS={
+		region_state:BRA={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -3562,7 +3562,7 @@
 		}		
 	}
 	s:STATE_HESSE={
-		region_state:AUS={
+		region_state:HES={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -3620,7 +3620,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG={
-		region_state:AUS={
+		region_state:MEC={
 			create_building={
 				building="building_rye_farm"
 				level=3

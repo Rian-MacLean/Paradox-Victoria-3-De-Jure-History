@@ -545,7 +545,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
-		region_state:AUS = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				size = 452400
@@ -566,7 +566,7 @@
 		}
 	}
 	s:STATE_EAST_PRUSSIA = {
-		region_state:AUS = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				size = 629796
@@ -587,7 +587,7 @@
 		}
 	}
 	s:STATE_POSEN = {
-		region_state:AUS = {
+		region_state:POL = {
 			create_pop = {
 				culture = north_german
 				size = 540400

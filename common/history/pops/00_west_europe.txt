@@ -730,7 +730,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:AUS = {
+		region_state:POM = {
 			create_pop = {
 				culture = north_german
 				size = 1018800
@@ -747,7 +747,7 @@
 		}
 	}
 	s:STATE_ELBE = {
-		region_state:AUS = {
+		region_state:HAN = {
 			create_pop = {
 				culture = north_german
 				size = 761196
@@ -806,7 +806,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA = {
-		region_state:AUS = {
+		region_state:WES = {
 			create_pop = {
 				culture = north_german
 				size = 1379192
@@ -814,7 +814,7 @@
 		}		
 	}
 	s:STATE_ANHALT = {
-		region_state:AUS = {
+		region_state:ANH = {
 			create_pop = {
 				culture = north_german
 				size = 1576404
@@ -865,7 +865,7 @@
 	}
 
 	s:STATE_RUHR = {
-		region_state:AUS = {
+		region_state:RHE = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -878,7 +878,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:AUS = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				size = 1558704
@@ -905,7 +905,7 @@
 				size = 156404
 			}
 		}
-		region_state:AUS = {
+		region_state:HOL = {
 			create_pop = {
 				culture = north_german
 				size = 467000
@@ -942,7 +942,7 @@
 		}
 	}
 	s:STATE_HANNOVER = {
-		region_state:AUS = {
+		region_state:HAN = {
 			create_pop = {
 				culture = north_german
 				size = 1399904
@@ -950,7 +950,7 @@
 		}
 	}
 	s:STATE_BRUNSWICK = {
-		region_state:AUS = {
+		region_state:BRA = {
 			create_pop = {
 				culture = north_german
 				size = 520400
@@ -990,7 +990,7 @@
 		}	
 	}
 	s:STATE_HESSE = {
-		region_state:AUS = {
+		region_state:HES = {
 			create_pop = {
 				culture = north_german
 				size = 1918329
@@ -998,7 +998,7 @@
 		}	
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:AUS = {
+		region_state:MEC = {
 			create_pop = {
 				culture = north_german
 				size = 575004
