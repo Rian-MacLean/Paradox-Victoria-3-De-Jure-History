@@ -3,17 +3,20 @@
 		region_state:LIB = {
 			create_pop = {
 				culture = afro_american
-				size = 1000000
+				size = 703000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = akan
 				size = 259204
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = senufo
 				size = 96000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = dyula
 				size = 64004
 			}
@@ -28,21 +31,25 @@
 		region_state:LIB = {
 			create_pop = {
 				culture = afro_american
-				size = 1400000
+				size = 1075000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = kru
 				size = 215004
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = akan
 				size = 99994
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mande
 				size = 81100
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = dyula
 				size = 27000
 			}
@@ -67,29 +74,22 @@
 		region_state:LIB = {
 			create_pop = {
 				culture = afro_american
-				size = 1200000
+				size = 812000
 			}
 			create_pop = {
-				culture = fulbe
-				size = 175996
-			}
-			create_pop = {
+				pop_type = slaves
 				culture = bidan
 				size = 12400
 			}
 			create_pop = {
-				culture = wolof
-				size = 227996
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = fulbe
-				size = 8000
+				size = 183996
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = wolof
-				size = 20000
+				size = 247996
 			}
 		}
 	}
@@ -97,48 +97,38 @@
 		region_state:LIB = {
 			create_pop = {
 				culture = afro_american
-				size = 2000000
+				size = 1556000
 			}
 			create_pop = {
-				culture = fulbe
-				size = 552304
-			}
-			create_pop = {
-				culture = fulbe
-				size = 38000
-			}
-			create_pop = {
-				culture = mande
-				size = 315536
-			}
-			create_pop = {
+				pop_type = slaves
 				culture = bambara
-				size = 34000
+				size = 44000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mande
 				religion = animist
-				size = 288400
+				size = 290400
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = wolof
 				size = 87260
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = bambara
-				size = 10000
+				culture = mande
+				size = 113840
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fulbe
+				size = 590304
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = mande
-				size = 8000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = mande
-				religion = animist
-				size = 2000
+				size = 209696
 			}
 		}
 	}
@@ -146,46 +136,64 @@
 		region_state:LIB = {
 			create_pop = {
 				culture = afro_american
-				size = 1400000
+				size = 1047000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = kissi
 				size = 25320
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mande
-				size = 653672
+				size = 13672
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mossi
 				size = 47996
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = fulbe
 				size = 135000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mande
+				size = 640000
 			}
 		}
 	}
 	s:STATE_VOLTA = {
-		region_state:MOS = {
+		region_state:LIB = {
 			create_pop = {
+				culture = afro_american
+				size = 810000
+			}
+			create_pop = {
+				pop_type = slaves
 				culture = mossi
 				size = 828400
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mande
 				religion = animist
 				size = 170000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = fulbe
 				size = 88000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mande
 				size = 242396
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = bambara
 				size = 80400
 			}
@@ -195,17 +203,18 @@
 				religion = animist
 				size = 18000
 			}
-		}
-		region_state:KNG = {
 			create_pop = {
+				pop_type = slaves
 				culture = dyula
 				size = 19996
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mande
 				size = 44000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = mande
 				religion = animist
 				size = 33000
@@ -222,19 +231,38 @@
 		region_state:LIB = {
 			create_pop = {
 				culture = afro_american
-				size = 1724173
+				size = 1240173
 			}
 			create_pop = {
+				pop_type = slaves
+				culture = bassa
+				size = 48900
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kissi
+				size = 79200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kru
+				religion = catholic
+				size = 16400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bassa
+				size = 71100
+			}
+			create_pop = {
+				pop_type = slaves
 				culture = kru
 				size = 414200
 			}
 			create_pop = {
-				culture = bassa
-				size = 120000
-			}
-			create_pop = {
-				culture = kissi
-				size = 79200
+				pop_type = slaves
+				culture = mande
+				size = 170000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -245,15 +273,6 @@
 				pop_type = slaves
 				culture = kissi
 				size = 8800
-			}
-			create_pop = {
-				culture = mande
-				size = 170000
-			}
-			create_pop = {
-				culture = kru
-				religion = catholic
-				size = 16400
 			}
 		}
 	}
@@ -609,19 +628,22 @@
 		region_state:LIB = {
 			create_pop = {
 				culture = afro_american
-				size = 1600000
+				size = 1670000
 			}
 			create_pop = {
-				culture = mande
-				size = 574836
-			}
-			create_pop = {
+				pop_type = slaves
 				culture = dyula
 				size = 41000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = fulbe
-				size = 308360
+				size = 277196
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mande
+				size = 594836
 			}
 			create_pop = {
 				pop_type = slaves
@@ -631,12 +653,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = fulbe
-				size = 5000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = mande
-				size = 20000
+				size = 36164
 			}
 		}
 	}
@@ -2649,7 +2666,7 @@
 				size = 184400
 			}
 			create_pop = {
-				culture = british
+				culture = boer
 				size = 48000
 			}
 			create_pop = {
@@ -2678,7 +2695,7 @@
 				size = 108000
 			}
 			create_pop = {
-				culture = british
+				culture = boer
 				size = 44100
 			}
 			create_pop = {
@@ -2694,7 +2711,7 @@
 				size = 32000
 			}
 			create_pop = {
-				culture = british
+				culture = boer
 				size = 4000
 			}
 			create_pop = {

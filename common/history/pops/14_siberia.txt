@@ -18,7 +18,7 @@
 	s:STATE_TOMSK = {
 		region_state:GLH = {
 			create_pop = {
-				culture = russian
+				culture = mongol
 				size = 1170008
 			}
 			create_pop = {
@@ -42,20 +42,15 @@
 		}
 		region_state:MGE = {
 			create_pop = {
-				culture = tatar
-				size = 36000
-			}
-			create_pop = {
-				culture = tatar
-				religion = gelugpa
-				size = 16000
+				culture = mongol
+				size = 52000
 			}
 		}
 	}
 	s:STATE_TOBOLSK = {
 		region_state:GLH = {
 			create_pop = {
-				culture = russian
+				culture = mongol
 				size = 252000
 			}
 			create_pop = {

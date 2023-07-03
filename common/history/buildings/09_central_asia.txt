@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DAGESTAN={
-		region_state:DON={
+		region_state:CIR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -42,7 +42,7 @@
 		}
 	}
 	s:STATE_KUBAN={
-		region_state:DON={
+		region_state:CIR={
 			create_building={
 				building="building_wheat_farm"
 				level=1

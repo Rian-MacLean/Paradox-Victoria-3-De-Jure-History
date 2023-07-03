@@ -340,7 +340,7 @@
 		}
 	}
 	s:STATE_ROSTOV = {
-		region_state:DON = {
+		region_state:UKR = {
 			create_pop = {
 				culture = ukrainian
 				size = 356600

@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_DAGESTAN = {
-		region_state:DON = {
+		region_state:CIR = {
 			create_pop = {
 				culture = north_caucasian
 				size = 271100
@@ -27,7 +27,7 @@
 		}
 	}
 	s:STATE_KUBAN = {
-		region_state:DON = {
+		region_state:CIR = {
 			create_pop = {
 				culture = circassian
 				size = 328804
@@ -459,7 +459,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = russian
+				culture = mongol
 				size = 3700
 			}
 		}
@@ -488,7 +488,7 @@
 				size = 256000
 			}
 			create_pop = {
-				culture = russian
+				culture = mongol
 				size = 13992
 			}
 			create_pop = {

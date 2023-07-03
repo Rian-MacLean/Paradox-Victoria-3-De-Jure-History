@@ -590,7 +590,7 @@
 		}
 	}
 	s:STATE_ROSTOV={
-		region_state:DON={
+		region_state:UKR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
