@@ -50,6 +50,44 @@ MGE = {
 	}
 }
 
+GLH = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.330 0.565 } scale = { 0.050 0.420 }  }
+		instance = { position = { 0.670 0.565 } scale = { 0.050 0.420 }  }
+		instance = { position = { 0.500 0.380 } scale = { 0.380 0.050 }  }
+		instance = { position = { 0.500 0.350 } scale = { 0.050 0.100 }  }
+	}
+	colored_emblem = {
+		texture = "ce_circle_mask.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.500 0.210 } scale = { 0.250 0.250 }  }
+	}
+	colored_emblem = {
+		texture = "ce_circle_mask.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.500 0.210 } scale = { 0.150 0.150 }  }
+	}
+	colored_emblem = {
+		texture = "ce_block_04.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.647 0.802 } rotation = 135 scale = { 0.6 0.6 }  }
+	}
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.670 0.925 } scale = { 0.5 0.3 }  }
+	}
+}
+
 PEE_flag = {
 	pattern = "pattern_solid.tga"
 	color1 = white
