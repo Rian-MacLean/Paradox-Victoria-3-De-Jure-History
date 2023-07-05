@@ -6,7 +6,7 @@ CHARACTERS = {
 			last_name = "Kjarr"
 			ruler = yes
 			birth_date = 1790.7.12
-			interest_group = ig_armed_forces
+			interest_group = ig_devout
 			ideology = ideology_jingoist_leader
 			traits = {
 				innovative 
@@ -22,7 +22,7 @@ CHARACTERS = {
 			last_name = "Kjarr"
 			heir = yes
 			birth_date=1815.9.23
-			interest_group = ig_devout
+			interest_group = ig_armed_forces
 			ideology = ideology_traditionalist
 			traits = {
 				meticulous
@@ -53,7 +53,7 @@ CHARACTERS = {
 			birth_date = 1768.6.16
 			ig_leader = yes
 			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
+			ideology = ideology_authoritarian
 			traits = {
 				innovative
 			}
@@ -82,7 +82,7 @@ CHARACTERS = {
 			birth_date = 1798.3.18
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
-			ideology = ideology_moderate
+			ideology = ideology_jingoist_leader
 			traits = {
 				direct
 				tactful
@@ -111,7 +111,7 @@ CHARACTERS = {
 			birth_date = 1801.1.12
 			ig_leader = yes
 			interest_group = ig_industrialists
-			ideology = ideology_market_liberal
+			ideology = ideology_protectionist
 			traits = {
 				meticulous
 				inspirational_orator
@@ -125,7 +125,7 @@ CHARACTERS = {
 			birth_date = 1781.9.26
 			ig_leader = yes
 			interest_group = ig_devout
-			ideology = ideology_traditionalist
+			ideology = ideology_royalist
 			traits = {
 				arrogant
 			}

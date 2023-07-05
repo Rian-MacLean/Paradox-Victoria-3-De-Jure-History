@@ -2,24 +2,24 @@
 	c:SCA = {
 		set_ruling_interest_groups = {
 			ig_devout
-			ig_armed_forces
 		}
 
-		set_tax_level = very_low
+		set_tax_level = very_high
 		set_tariff_level = very_high
 		
 		effect_starting_technology_tier_1_tech = yes
-		add_technology_researched = fractional_distillation
-		add_technology_researched = canneries
-		add_technology_researched = baking_powder
-		add_technology_researched = mechanized_workshops
-		add_technology_researched = baking_powder
 		add_technology_researched = crystal_glass
 		add_technology_researched = chemical_bleaching
+		add_technology_researched = rifling
 		add_technology_researched = pharmaceuticals
 		
-		#add_taxed_goods = g:liquor
-		#add_taxed_goods = g:fish
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:clothes
+		add_taxed_goods = g:services
+		add_taxed_goods = g:fish
+		add_taxed_goods = g:tobacco
+		add_taxed_goods = g:porcelain
+		add_taxed_goods = g:luxury_furniture
 		
 		# Laws
 		activate_law = law_type:law_monarchy
@@ -40,16 +40,16 @@
 		activate_law = law_type:law_charitable_health_system
 		
 		activate_law = law_type:law_outlawed_dissent
-		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_worker_protections
 		activate_law = law_type:law_compulsory_primary_school
 		activate_law = law_type:law_poor_laws
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_migration_controls
-		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_slavery_banned
 		
 		set_institution_investment_level = {
 			institution = institution_social_security
-			level = 2
+			level = 1
 		}
 		
 		set_institution_investment_level = {
@@ -64,16 +64,20 @@
 		
 		set_institution_investment_level = {
 			institution = institution_health_system
-			level = 2
+			level = 4
 		}
 		
 		set_institution_investment_level = {
 			institution = institution_home_affairs
-			level = 2
+			level = 5
 		}
 		
 		ig:ig_devout = { 
 			set_interest_group_name = ig_catholic_church 
+		}
+
+		add_modifier = {
+			name = modifier_early_security_five
 		}
 	}
 }

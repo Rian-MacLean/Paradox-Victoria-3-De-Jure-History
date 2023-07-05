@@ -28,6 +28,7 @@ DIPLOMACY = {
 		set_relations = { country = c:RUS value = -30 }
 		set_relations = { country = c:AUS value = -10 }
 		set_relations = { country = c:PAP value = 50 }
+		set_relations = { country = c:NET value = 50 }
 	}
 	c:SPA = {
 		set_relations = { country = c:PAP value = 50 }
@@ -45,6 +46,9 @@ DIPLOMACY = {
 		set_relations = { country = c:PAP value = 50 }
 		set_relations = { country = c:GLH value = -30 }
 		set_relations = { country = c:PER value = -30 }
+	}
+	c:JER = {
+		set_relations = { country = c:PAP value = 50 }
 	}
 	c:RUS = {
 		set_relations = { country = c:PRM value = 50 }

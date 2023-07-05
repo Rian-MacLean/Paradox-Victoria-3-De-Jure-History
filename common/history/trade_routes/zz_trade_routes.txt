@@ -1,4 +1,12 @@
 TRADE_ROUTES = {
+	c:SCA = {
+		create_trade_route = {
+			goods = silk
+			level = 5
+			direction = import
+			target = c:BYZ.market
+		}
+	}
 	c:BYZ = {
 		create_trade_route = {
 			goods = dye

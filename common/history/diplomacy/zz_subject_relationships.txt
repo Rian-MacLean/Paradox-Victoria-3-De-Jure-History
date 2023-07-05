@@ -30,7 +30,11 @@ DIPLOMACY = {
 		}
 		create_diplomatic_pact = {
 			country = c:UBD
-			type = puppet
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = customs_union
 		}
 	}
 	c:NET = {
