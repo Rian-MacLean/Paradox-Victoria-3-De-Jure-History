@@ -80,3 +80,190 @@ enslave_decriniated_workers = {
 		base = 10
 	}
 }
+
+liberian_claim_niger = {
+
+	is_shown = {
+		exists = c:LIB
+		root = c:LIB
+		NOT = { has_variable = claimed_niger }
+	}
+
+	possible = {
+		has_technology_researched = colonization
+		has_interest_marker_in_region = region_niger
+		owns_entire_state_region = STATE_SENEGAL
+		owns_entire_state_region = STATE_GAMBIA
+		owns_entire_state_region = STATE_GUINEA
+		owns_entire_state_region = STATE_SIERRA_LEONE
+		owns_entire_state_region = STATE_LIBERIA
+		owns_entire_state_region = STATE_WINDWARD_COAST
+		owns_entire_state_region = STATE_IVORY_COAST
+		owns_entire_state_region = STATE_WESTERN_MALI
+		owns_entire_state_region = STATE_EASTERN_MALI
+		owns_entire_state_region = STATE_VOLTA
+	}
+
+	when_taken = {
+		# Add Claims
+       s:STATE_TOGO = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						 NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_DAHOMEY = {  
+			if = {
+				add_homeland = afro_american
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_YORUBA_STATES = { 
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_HAUSALAND = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_OUTER_HAUSALAND = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_EAST_HAUSALAND = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_BENIN = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_NIGER_DELTA = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_NIGERIA = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_BORNU = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_NORTH_CAMEROON = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_WADDAI = {
+			add_homeland = afro_american
+			if = {
+				limit = {
+					any_scope_state = {
+						NOT = {
+							owner = ROOT
+						}
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		set_variable = claimed_niger
+	}
+
+	ai_chance = { base = 10 }
+}

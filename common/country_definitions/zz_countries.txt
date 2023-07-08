@@ -167,6 +167,17 @@ NNV = { # Nunavut
 
 ### Africa
 
+SAF = {
+	color = { 180  158  127 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { boer }
+	capital = STATE_TRANSVAAL
+}
+
 ISR = {
 	color = { 150  212  214 }
 	
@@ -212,15 +223,4 @@ TRI = {
 	cultures = { maghrebi }
 	capital = STATE_TRIPOLI
 	is_named_from_capital = yes
-}
-
-SAF = {
-	color = { 180  158  127 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-	
-	cultures = { boer }
-	capital = STATE_CAPE_COLONY
 }

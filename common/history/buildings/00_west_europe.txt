@@ -9,7 +9,7 @@
 			}
 			create_building={
 				building="building_government_administration"
-				level=41
+				level=42
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
@@ -27,7 +27,7 @@
 			}
 			create_building={
 				building="building_rye_farm"
-				level=17
+				level=16
 				reserves=1
 				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -131,7 +131,7 @@
 				building="building_iron_mine"
 				level=16
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_rail_transport_mine" "pm_privately_owned_building_iron_mine" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -201,21 +201,15 @@
 		region_state:SCA={	
 			create_building={
 				building="building_tooling_workshops"
-				level=15
+				level=26
 				reserves=1
 				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
 				building="building_steel_mills"
-				level=14
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=8
-				reserves=1
-				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -231,7 +225,7 @@
 			}
 			create_building={
 				building="building_railway"
-				level=4
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
@@ -246,10 +240,10 @@
 				activate_production_methods={ "pm_complex_shipbuilding" "pm_military_shipbuilding_wooden" "pm_privately_owned_building_shipyards" }
 			}
 			create_building={
-				building="building_motor_industry"
-				level=8
+				building="building_logging_camp"
+				level=9
 				reserves=1
-				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -265,7 +259,7 @@
 			}
 			create_building={
 				building="building_railway"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
@@ -303,7 +297,7 @@
 			}
 			create_building={
 				building="building_chemical_plants"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_artificial_fertilizers" "pm_leblanc_process" "pm_privately_owned_industry" }
 			}
@@ -321,7 +315,7 @@
 			}
 			create_building={
 				building="building_rye_farm"
-				level=15
+				level=14
 				reserves=1
 				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -377,7 +371,7 @@
 				building="building_logging_camp"
 				level=30
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -402,6 +396,12 @@
 	s:STATE_WEST_KARELIA={
 		region_state:SCA={
 			create_building={
+				building="building_logging_camp"
+				level=11
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				level=10
 				reserves=1
@@ -412,6 +412,12 @@
 				level=20
 				reserves=1
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
+				building="building_port"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -428,10 +434,10 @@
 	s:STATE_OSTROBOTHNIA={
 		region_state:SCA={
 			create_building={
-				building="building_rye_farm"
-				level=14
+				building="building_motor_industry"
+				level=12
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_apple_orchards" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_barracks"
@@ -441,7 +447,7 @@
 			}
 			create_building={
 				building="building_railway"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}

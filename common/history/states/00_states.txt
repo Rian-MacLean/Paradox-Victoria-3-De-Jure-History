@@ -1245,6 +1245,7 @@ STATES = {
 			owned_provinces = { x6C8064 x8504E6 x1472E7 xDE4D17 xB99E19 x4B8CBE x111F0C xBC1F14 xE63565 x61C0D0 x6A6B14 xB9D107 xDBB653 x14F486 x364DF5 x6B5943 x6C9759 xA624EE x589734 x6FFF10 xE0C0D0 xE9F5E6 x801552 xE0CF6C x946D4E x76AA0B xE797D7 xFBC3B8 xE80D2D xAAFDFC xD14671 x925167 xD845A1 x15B10C x961786 xEC0AF9 xF02A4B xC2E0C0 }
 		}
 		
+		add_homeland = afro_american
 		add_homeland = akan
 		add_homeland = mossi
 		add_homeland = ewe
@@ -2417,8 +2418,8 @@ STATES = {
 		}
 		
 		add_homeland = boer
-		add_homeland = xhosa
-		add_homeland = khoisan
+		#add_homeland = xhosa
+		#add_homeland = khoisan
 	}
 	s:STATE_CAPE_COLONY = {
 		create_state = {
@@ -2427,8 +2428,8 @@ STATES = {
 		}
 		
 		add_homeland = boer
-		add_homeland = sotho
-		add_homeland = khoisan		
+		#add_homeland = sotho
+		#add_homeland = khoisan		
 	}
 	s:STATE_NORTHERN_CAPE = {
 		create_state = {
@@ -2445,10 +2446,10 @@ STATES = {
 		}
 		
 		add_homeland = boer
-		add_homeland = sotho
-		add_homeland = khoisan	
-		add_homeland = tswana
-		add_claim = c:SAF
+		#add_homeland = sotho
+		#add_homeland = khoisan	
+		#add_homeland = tswana
+		#add_claim = c:SAF
 	}
 	s:STATE_WALES = {
 		create_state = {
@@ -4413,19 +4414,17 @@ STATES = {
 	}
 	s:STATE_ZULULAND = {
 		create_state = {
-			country = c:ZUL
-			owned_provinces = { xBE6FEE x1A084B xBFA16B x9E9742 x88FAD4 x904EBE x41C070 xE882CE xE1E455 x85695F xBBCA32 xFF0EF1 xDE0EDE x552449 x279045 xE0EB02 xB1F868 x3CED3D x11A090 x5B124F x7ACC38 xCD31DB x3B4B19 xD121F1 xB6892A }
-		}
-		create_state = {
-			country = c:BST
-			owned_provinces = { xF06050 x6DB7E8 xE1EAA4 x8C39B6 }
+			country = c:SAF
+			owned_provinces = {
+				xBE6FEE x1A084B xBFA16B x9E9742 x88FAD4 x904EBE x41C070 xE882CE xE1E455 x85695F xBBCA32 xFF0EF1 xDE0EDE x552449 x279045 xE0EB02 xB1F868 x3CED3D x11A090 x5B124F x7ACC38 xCD31DB x3B4B19 xD121F1 xB6892A
+				xF06050 x6DB7E8 xE1EAA4 x8C39B6
+			}
 		}
 		
 		add_homeland = boer
-		add_homeland = sotho
-		add_homeland = zulu
-		add_homeland = xhosa
-		add_claim = c:SAF
+		#add_homeland = sotho
+		#add_homeland = zulu
+		#add_homeland = xhosa
 	}
 	s:STATE_VRYSTAAT = {
 		create_state = {
@@ -4434,8 +4433,8 @@ STATES = {
 		}
 		
 		add_homeland = boer
-		add_homeland = sotho
-		add_homeland = nguni
+		#add_homeland = sotho
+		#add_homeland = nguni
 	}
 	s:STATE_TRANSVAAL = {
 		create_state = {
@@ -4444,10 +4443,10 @@ STATES = {
 		}
 		
 		add_homeland = boer
-		add_homeland = sotho
-		add_homeland = nguni
-		add_homeland = tswana
-		add_homeland = zulu
+		#add_homeland = sotho
+		#add_homeland = nguni
+		#add_homeland = tswana
+		#add_homeland = zulu
 	}
 	s:STATE_EASTERN_NEW_GUINEA = {
 		create_state = {

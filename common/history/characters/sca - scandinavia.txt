@@ -2,8 +2,8 @@ CHARACTERS = {
 	c:SCA = {
 		create_character = {
 			# Charles XX Caesar of Scandinavia
-			first_name = "Charles"
-			last_name = "Kjarr"
+			first_name = Charles
+			last_name = Kjarr
 			ruler = yes
 			birth_date = 1790.7.12
 			interest_group = ig_devout
@@ -18,8 +18,8 @@ CHARACTERS = {
 
 		create_character = {
 			# Gustavus X of Scandinavia
-			first_name = "Gustav"
-			last_name = "Kjarr"
+			first_name = Gustavus
+			last_name = Kjarr
 			heir = yes
 			birth_date=1815.9.23
 			interest_group = ig_armed_forces

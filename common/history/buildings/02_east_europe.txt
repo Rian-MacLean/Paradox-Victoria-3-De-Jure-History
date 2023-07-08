@@ -294,10 +294,16 @@
 	s:STATE_EAST_KARELIA={
 		region_state:SCA={
 			create_building={
-				building="building_livestock_ranch"
-				level=8
+				building="building_logging_camp"
+				level=10
 				reserves=1
-				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_rail_transport_building_logging_camp" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
 	}

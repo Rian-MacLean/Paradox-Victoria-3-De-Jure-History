@@ -1,0 +1,45 @@
+CHARACTERS = {
+	c:SAF = {
+		create_character = {
+			ig_leader = yes
+			ruler = yes
+			interest_group = ig_industrialists
+			ideology = ideology_traditionalist
+		}
+		create_character = {
+			ig_leader = yes
+			interest_group = ig_devout
+			ideology = ideology_slaver
+		}
+		create_character = {
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+		}
+		create_character = {
+			first_name = "Andries"
+			last_name = "Pretorius"
+			historical = yes
+			ig_leader = yes
+			age = 38
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				direct
+			}
+		}
+		create_character = {
+			# Piet Retief, governor of the "United Laagers" in 1837
+			first_name = "Piet"
+			last_name = "Retief"
+			historical = yes
+			ig_leader = yes
+			age = 56
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_moderate
+			traits = {
+				direct
+			}
+		}
+	}
+}
