@@ -39,8 +39,13 @@
 			add_ruling_interest_group = yes
 		}
 
+		ig:ig_intelligentsia = {
+			add_ideology = ideology_pro_slavery
+		}
+
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
+			add_ideology = ideology_anti_slavery
 		}
 
 		set_state_religion = rel:atheist
