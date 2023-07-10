@@ -13,6 +13,9 @@
  ai_strategy_absolutist_agenda_desc:0 "[COUNTRY.GetName] bold absolutist agend enacting the will of its ruler by the Grace of God."
  
  party_america_party:0 "America Party"
+
+ ideology_jewish_moralist:0 "Jewish Moralist"
+ ideology_jewish_moralist_desc:0 "#lore This group has a strong belief in a religious moral order and views diversity of opinion and cultures as a threat to this order.#!"
  
  ideology_american_moralist:0 "American Moralist"
  ideology_american_moralist_desc:0 "#lore This group has a strong belief in a religious moral order and views diversity of opinion and cultures as a threat to this order.#!"

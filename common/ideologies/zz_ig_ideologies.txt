@@ -97,12 +97,37 @@ ideology_plutocratic = {
 	}
 }
 
-ideology_republican_paternalistic = {
-	icon = "gfx/interface/icons/ideology_icons/republican_paternalistic.dds"
+ideology_jewish_moralist = {
+	icon = "gfx/interface/icons/ideology_icons/moralist.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = disapprove
+		law_theocracy = strongly_approve
+		law_presidential_republic = neutral
+		law_parliamentary_republic = neutral
+		law_council_republic = strongly_disapprove
+	}
+
+	lawgroup_church_and_state = {
+		law_state_religion = strongly_approve
+		law_freedom_of_conscience = neutral
+		law_total_separation = strongly_disapprove
+		law_state_atheism = strongly_disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_ethnostate = strongly_approve
+		law_national_supremacy = approve
+		law_racial_segregation = neutral
+		law_cultural_exclusion = disapprove
+		law_multicultural = strongly_disapprove	
+	}
 }
 
 ideology_american_moralist = {
 	icon = "gfx/interface/icons/ideology_icons/republican_paternalistic.dds"
+
+	priority = 100 # Overrides other non-leader ideologies with a lower prio
 	
 	lawgroup_governance_principles = {
 		law_theocracy = approve	
@@ -142,6 +167,8 @@ ideology_american_moralist = {
 ideology_american_patriotic = {
 	icon = "gfx/interface/icons/ideology_icons/patriotic.dds"
 
+	priority = 100 # Overrides other non-leader ideologies with a lower prio
+
 	lawgroup_policing = {
 		law_militarized_police = strongly_approve
 		law_dedicated_police = approve
@@ -166,6 +193,8 @@ ideology_american_patriotic = {
 
 ideology_american_populist = {
 	icon = "gfx/interface/icons/ideology_icons/populist.dds"
+
+	priority = 100 # Overrides other non-leader ideologies with a lower prio
 	
 	lawgroup_distribution_of_power = {
 		law_autocracy = strongly_disapprove	
@@ -201,6 +230,8 @@ ideology_american_populist = {
 
 ideology_american_paternalist = {
 	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
+
+	priority = 100 # Overrides other non-leader ideologies with a lower prio
 	
 	lawgroup_labor_rights = {
 		law_no_workers_rights = strongly_disapprove

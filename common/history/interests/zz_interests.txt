@@ -21,18 +21,24 @@
 		add_declared_interest = region_balkans
 	}
 	c:GBR = {
-		add_declared_interest = region_baltic
 		add_declared_interest = region_rhine
-		add_declared_interest = region_france
-		add_declared_interest = region_south_china
-		add_declared_interest = region_north_china
-		add_declared_interest = region_nile_basin
-		add_declared_interest = region_north_africa
-		add_declared_interest = region_occitania
+		add_declared_interest = region_baltic
 		add_declared_interest = region_poland
 		add_declared_interest = region_russia
-		add_declared_interest = region_anatolia
+		add_declared_interest = region_senegal
+		add_declared_interest = region_niger
+		add_declared_interest = region_congo
+		add_declared_interest = region_southern_africa
+		add_declared_interest = region_zanj
+		add_declared_interest = region_ethiopia
+		add_declared_interest = region_nile_basin
+		add_declared_interest = region_arabic
 		add_declared_interest = region_persia
+		add_declared_interest = region_indonesia
+		add_declared_interest = region_himalayas
+		add_declared_interest = region_south_china
+		add_declared_interest = region_north_china
+		add_declared_interest = region_manchuria
 	}
 	c:RUS = {
 		add_declared_interest = region_dnieper
@@ -79,10 +85,11 @@
 		add_declared_interest = region_west_siberia
 	}
 	c:ISR = {
+		add_declared_interest = region_ethiopia
 		add_declared_interest = region_dixie
 		add_declared_interest = region_italy
 		add_declared_interest = region_rhine
-		add_declared_interest = region_north_china
+		add_declared_interest = region_manchuria
 	}
 	c:LIB = {
 		add_declared_interest = region_niger

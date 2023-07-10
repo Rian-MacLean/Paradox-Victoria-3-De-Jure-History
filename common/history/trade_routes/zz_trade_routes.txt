@@ -48,21 +48,51 @@ TRADE_ROUTES = {
 		}
 		create_trade_route = {
 			goods = sulfur
+			level = 1
+			direction = import
+			target = c:SCA.market
+		}
+		create_trade_route = {
+			goods = sulfur
+			level = 1
+			direction = import
+			target = c:AUS.market
+		}
+		create_trade_route = {
+			goods = sulfur
 			level = 2
 			direction = import
 			target = c:USA.market
 		}
 		create_trade_route = {
 			goods = iron
-			level = 7
+			level = 1
 			direction = import
 			target = c:GBR.market
 		}
 		create_trade_route = {
 			goods = iron
-			level = 3
+			level = 5
 			direction = import
 			target = c:MGE.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 3
+			direction = import
+			target = c:SPA.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 2
+			direction = import
+			target = c:AUS.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 4
+			direction = import
+			target = c:USA.market
 		}
 		create_trade_route = {
 			goods = ammunition
@@ -96,7 +126,7 @@ TRADE_ROUTES = {
 		}
 		create_trade_route = {
 			goods = hardwood
-			level = 14
+			level = 9
 			direction = export
 			target = c:GBR.market
 		}
@@ -109,6 +139,12 @@ TRADE_ROUTES = {
 		create_trade_route = {
 			goods = tea
 			level = 9
+			direction = export
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = meat
+			level = 4
 			direction = export
 			target = c:GBR.market
 		}
@@ -129,6 +165,18 @@ TRADE_ROUTES = {
 			level = 10
 			direction = export
 			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = meat
+			level = 6
+			direction = export
+			target = c:MGE.market
+		}
+		create_trade_route = {
+			goods = oil
+			level = 1
+			direction = export
+			target = c:JAP.market
 		}
     }
 }

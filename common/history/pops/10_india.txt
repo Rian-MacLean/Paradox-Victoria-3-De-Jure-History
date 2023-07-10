@@ -832,7 +832,7 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 350000
+				size = 500000
 			}
 			create_pop = {
 				pop_type = slaves

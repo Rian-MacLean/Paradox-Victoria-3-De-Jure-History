@@ -1,0 +1,15 @@
+CHARACTERS = {
+	c:LIB = {
+		create_character = {
+			ig_leader = yes
+			ruler = yes
+			interest_group = ig_landowners
+			ideology = ideology_atheist
+		}
+		create_character = {
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_feminist
+		}
+	}
+}

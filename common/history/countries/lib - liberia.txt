@@ -37,9 +37,12 @@
 
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
+			remove_ideology = ideology_patriarchal
+			add_ideology = ideology_feminist_ig
 		}
 
 		ig:ig_intelligentsia = {
+			remove_ideology = ideology_anti_slavery
 			add_ideology = ideology_pro_slavery
 		}
 

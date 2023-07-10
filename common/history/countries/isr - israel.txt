@@ -2,11 +2,7 @@ COUNTRIES = {
 	c:ISR = {
 		
 		effect_starting_technology_tier_1_tech = yes
-		add_technology_researched = fractional_distillation
-		add_technology_researched = canneries
-		add_technology_researched = baking_powder
-		add_technology_researched = mechanized_workshops
-		add_technology_researched = baking_powder
+		add_technology_researched = watertube_boiler
 		add_technology_researched = crystal_glass
 		add_technology_researched = chemical_bleaching
 		add_technology_researched = pharmaceuticals
@@ -23,12 +19,12 @@ COUNTRIES = {
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_mass_conscription
-		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_national_guard
 		
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_free_trade
 		activate_law = law_type:law_graduated_taxation
-		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_colonial_exploitation
 		activate_law = law_type:law_militarized_police
 		activate_law = law_type:law_religious_schools
@@ -37,10 +33,10 @@ COUNTRIES = {
 		activate_law = law_type:law_outlawed_dissent
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_compulsory_primary_school
-		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_migration_controls
-		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_debt_slavery
 
 		add_taxed_goods = g:tobacco
 		add_taxed_goods = g:luxury_clothes
@@ -50,15 +46,46 @@ COUNTRIES = {
 
 		set_institution_investment_level = {
 			institution = institution_schools
-			level = 3
+			level = 5
 		}
 		
 		set_institution_investment_level = {
 			institution = institution_police
-			level = 1
+			level = 5
 		}
+		
+		set_institution_investment_level = {
+			institution = institution_health_system
+			level = 4
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 5
+		}
+
 		ig:ig_devout = {
+			set_interest_group_name = ig_rabbinical_council 
 			add_ruling_interest_group = yes
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_jewish_moralist
+			add_ideology = ideology_pro_slavery
+		}
+
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+			remove_ideology = ideology_particularist
+			remove_ideology = ideology_isolationist
+			add_ideology = ideology_isolationist_expansionism
+			add_ideology = ideology_jewish_moralist
+		}
+
+		ig:ig_intelligentsia = { 
+			set_ig_suppression = yes
+		}
+
+		add_modifier = {
+			name = modifier_early_security_five
 		}
 	}
 }

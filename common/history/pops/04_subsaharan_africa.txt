@@ -868,7 +868,7 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 939255
+				size = 1000000
 			}
 			create_pop = {
 				culture = swahili
@@ -1474,11 +1474,11 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 1042055
+				size = 500000
 			}
 			create_pop = {
 				culture = sephardic
-				size = 412039
+				size = 1000000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1491,7 +1491,7 @@
 		region_state:ISR = {
 			create_pop = {
 				culture = ashkenazi
-				size = 1454094
+				size = 1500000
 			}
 			create_pop = {
 				pop_type = slaves

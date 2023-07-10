@@ -1,0 +1,20 @@
+CHARACTERS = {
+	c:ISR = {
+		create_character = {
+			ig_leader = yes
+			ruler = yes
+			interest_group = ig_devout
+			ideology = ideology_jingoist_leader
+		}
+		create_character = {
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+		}
+		create_character = {
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_traditionalist
+		}
+	}
+}

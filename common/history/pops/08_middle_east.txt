@@ -61,11 +61,6 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 400
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = sudanese
 				religion = animist
@@ -111,11 +106,6 @@
 				religion = shiite
 				size = 230
 			}
-			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 120
-			}
 		}
 	}
 	s:STATE_YEMEN = {
@@ -141,11 +131,6 @@
 				religion = sunni
 				size = 48000
 			}
-			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 16000
-			}
 		}
 		region_state:JER = {
 			create_pop = {
@@ -168,11 +153,6 @@
 				culture = yemenite
 				religion = shiite
 				size = 17000
-			}
-			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 4000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -373,10 +353,6 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = sephardic
-				size = 16004
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = north_caucasian
 				size = 5000
@@ -491,17 +467,8 @@
 				size = 476096
 			}
 			create_pop = {
-				culture = sephardic
-				size = 1004
-			}
-			create_pop = {
 				culture = baluchi
 				size = 36000
-			}
-			create_pop = {
-				culture = sephardic
-				size = 25650
-				pop_type = slaves
 			}
 		}
 	}
@@ -551,17 +518,8 @@
 				size = 480104
 			}
 			create_pop = {
-				culture = sephardic
-				size = 1004
-			}
-			create_pop = {
 				culture = turkmen
 				size = 79996
-			}
-			create_pop = {
-				culture = sephardic
-				size = 22444
-				pop_type = slaves
 			}
 		}
 	}
@@ -572,17 +530,8 @@
 				size = 183996
 			}
 			create_pop = {
-				culture = sephardic
-				size = 1004
-			}
-			create_pop = {
 				culture = mashriqi
 				size = 94996
-			}
-			create_pop = {
-				culture = sephardic
-				size = 20400
-				pop_type = slaves
 			}
 		}
 	}
@@ -591,10 +540,6 @@
 			create_pop = {
 				culture = persian
 				size = 643804
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2996
 			}
 			create_pop = {
 				culture = armenian
@@ -631,21 +576,12 @@
 				size = 639196
 			}
 			create_pop = {
-				culture = sephardic
-				size = 2000
-			}
-			create_pop = {
 				culture = armenian
 				size = 5996
 			}
 			create_pop = {
 				culture = armenian
 				size = 25887
-				pop_type = slaves
-			}
-			create_pop = {
-				culture = sephardic
-				size = 12943
 				pop_type = slaves
 			}
 		}
@@ -670,10 +606,6 @@
 				culture = kurdish
 				religion = shiite
 				size = 79900
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2000
 			}
 		}
 		region_state:PER = {
@@ -701,10 +633,6 @@
 				culture = kurdish
 				religion = shiite
 				size = 52000
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2996
 			}
 			create_pop = {
 				culture = armenian

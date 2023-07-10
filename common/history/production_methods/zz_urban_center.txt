@@ -26,10 +26,6 @@
 	c:ISR = {
 		activate_production_method = {
 			building_type = building_urban_center
-			production_method = pm_gas_streetlights
-		}
-		activate_production_method = {
-			building_type = building_urban_center
 			production_method = pm_public_trams
 		}
 	}

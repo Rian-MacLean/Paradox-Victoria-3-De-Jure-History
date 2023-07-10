@@ -301,10 +301,6 @@
 				religion = sunni
 				size = 36000
 			}
-			create_pop = {
-				culture = sephardic
-				size = 8000
-			}
 		}
 	}
 	s:STATE_TAJIKISTAN = {
