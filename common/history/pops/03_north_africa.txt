@@ -24,7 +24,7 @@
 				size = 871
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = circassian
 				size = 34888
 			}
 			create_pop = {

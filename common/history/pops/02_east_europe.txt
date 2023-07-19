@@ -294,11 +294,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 7996
-			}
-			create_pop = {
-				culture = bulgarian
-				size = 12000
+				size = 19996
 			}
 		}
 	}
@@ -639,46 +635,30 @@
 		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
-				size = 989200
-			}
-			create_pop = {
-				culture = hungarian
-				size = 932400
+				size = 1953596
 			}
 			create_pop = {
 				culture = south_german
 				size = 149596
-			}
-			create_pop = {
-				culture = slovak
-				size = 31996
 			}
 		}
 	}
 	s:STATE_BEKES = {
 		region_state:HUN = {
 			create_pop = {
-				culture = hungarian
-				size = 189292
+				culture = romanian
+				size = 730400
 			}
 			create_pop = {
 				culture = hungarian
-				size = 288000
+				size = 594296
 			}
 			create_pop = {
 				culture = south_german
 				size = 144796
 			}
 			create_pop = {
-				culture = romanian
-				size = 730400
-			}
-			create_pop = {
-				culture = serb
-				size = 117004
-			}
-			create_pop = {
-				culture = croat
+				culture = north_italian
 				size = 20000
 			}
 		}
@@ -687,54 +667,30 @@
 		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
-				size = 1375796
+				size = 1820196
 			}
 			create_pop = {
-				culture = croat
+				culture = north_italian
 				size = 60000
 			}
 			create_pop = {
-				culture = hungarian
-				size = 316400
-			}
-			create_pop = {
 				culture = south_german
-				size = 379204
-			}
-			create_pop = {
-				culture = south_german
-				size = 1100
-			}
-			create_pop = {
-				culture = slovak
-				size = 128000
-			}
-			create_pop = {
-				culture = slovene
-				size = 59996
+				size = 440300
 			}
 		}
 	}
 	s:STATE_DELVIDEK = {
 		region_state:HUN = {
 			create_pop = {
+				culture = hungarian
+				size = 484196
+			}
+			create_pop = {
 				culture = south_german
 				size = 197200
 			}
 			create_pop = {
-				culture = hungarian
-				size = 160000
-			}
-			create_pop = {
-				culture = slovak
-				size = 40000
-			}
-			create_pop = {
-				culture = serb
-				size = 284196
-			}
-			create_pop = {
-				culture = croat
+				culture = north_italian
 				size = 36000
 			}
 			create_pop = {
@@ -755,19 +711,11 @@
 			}
 			create_pop = {
 				culture = hungarian
-				size = 57228
+				size = 367440
 			}
 			create_pop = {
-				culture = croat
+				culture = north_italian
 				size = 62296
-			}
-			create_pop = {
-				culture = serb
-				size = 245256
-			}
-			create_pop = {
-				culture = hungarian
-				size = 64956
 			}
 		}
 	}
@@ -775,23 +723,15 @@
 		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
-				size = 237000
+				size = 1590102
 			}
 			create_pop = {
 				culture = south_german
 				size = 152800
 			}
 			create_pop = {
-				culture = slovak
-				size = 1140796
-			}
-			create_pop = {
 				culture = ukrainian
 				size = 244000
-			}
-			create_pop = {
-				culture = hungarian
-				size = 212396
 			}
 			create_pop = {
 				culture = polish
@@ -803,11 +743,7 @@
 		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
-				size = 150848
-			}
-			create_pop = {
-				culture = slovak
-				size = 606000
+				size = 925300
 			}
 			create_pop = {
 				culture = polish
@@ -816,10 +752,6 @@
 			create_pop = {
 				culture = ukrainian
 				size = 164000
-			}
-			create_pop = {
-				culture = hungarian
-				size = 168452
 			}
 			create_pop = {
 				culture = romanian
@@ -932,7 +864,7 @@
 				size = 1128396
 			}
 			create_pop = {
-				culture = bulgarian
+				culture = greek
 				size = 12000
 			}
 			create_pop = {

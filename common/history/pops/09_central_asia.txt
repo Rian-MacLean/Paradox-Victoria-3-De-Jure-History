@@ -2,13 +2,8 @@
 	s:STATE_DAGESTAN = {
 		region_state:CIR = {
 			create_pop = {
-				culture = north_caucasian
-				size = 271100
-			}
-			create_pop = {
-				culture = north_caucasian
-				religion = catholic
-				size = 72200
+				culture = circassian
+				size = 343300
 			}
 			create_pop = {
 				culture = russian
@@ -21,7 +16,7 @@
 				size = 32000
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = circassian
 				size = 92200
 			}
 		}
@@ -30,11 +25,7 @@
 		region_state:CIR = {
 			create_pop = {
 				culture = circassian
-				size = 328804
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 246944
+				size = 886748
 			}
 			create_pop = {
 				culture = russian
@@ -52,7 +43,7 @@
 		region_state:BYZ = {
 			create_pop = {
 				culture = circassian
-				size = 531000
+				size = 220000
 			}
 			create_pop = {
 				culture = greek
@@ -83,7 +74,7 @@
 				size = 306704
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = circassian
 				size = 27600
 			}
 			create_pop = {
@@ -103,16 +94,12 @@
 				size = 491996
 			}
 			create_pop = {
-				culture = north_caucasian
-				size = 72000
+				culture = circassian
+				size = 91996
 			}
 			create_pop = {
 				culture = armenian
 				size = 60008
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 19996
 			}
 			create_pop = {
 				culture = greek
@@ -199,7 +186,7 @@
 				size = 316000
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = circassian
 				size = 72000
 			}
 		}
@@ -211,7 +198,7 @@
 				size = 77500
 			}
 			create_pop = {
-				culture = russian
+				culture = mongol
 				size = 8996
 			}
 			create_pop = {
@@ -227,22 +214,17 @@
 				size = 276396
 			}
 			create_pop = {
-				culture = russian
-				size = 7400
+				culture = mongol
+				size = 12400
 			}
 			create_pop = {
 				culture = kazak
-				size = 50500
+				size = 45500
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = kazak
-				size = 42000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = russian
-				size = 5000
+				size = 47000
 			}
 			create_pop = {
 				culture = turkmen
@@ -350,8 +332,7 @@
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = russian
+				culture = mongol
 				size = 3500
 			}
 			create_pop = {
@@ -416,8 +397,7 @@
 				size = 54000
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = russian
+				culture = mongol
 				size = 6000
 			}
 			create_pop = {

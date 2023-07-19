@@ -360,16 +360,22 @@
 	s:STATE_CRIMEA={
 		region_state:BYZ={
 			create_building={
+				building="building_fishing_wharf"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_privately_owned_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
 				building="building_naval_base"
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_port"

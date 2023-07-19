@@ -5,15 +5,16 @@
 			ig_armed_forces
 		}
 
-		set_tax_level = very_low
+		set_tax_level = very_high
 		set_tariff_level = very_high
 		
 		effect_starting_technology_tier_1_tech = yes
+		add_technology_researched = rifling
 		
 		# Laws 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy
-		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_professional_army
@@ -28,16 +29,35 @@
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
 		
-		activate_law = law_type:law_censorship
+		activate_law = law_type:law_outlawed_dissent
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_compulsory_primary_school
-		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_slavery_banned
 		
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:luxury_clothes
+		add_taxed_goods = g:services
+		add_taxed_goods = g:wine
+		add_taxed_goods = g:luxury_furniture
+		add_taxed_goods = g:porcelain
+		#add_taxed_goods = g:clothes
+
+		
 		set_institution_investment_level = {
 			institution = institution_schools
+			level = 5
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 5
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_health_system
 			level = 3
 		}
 		
